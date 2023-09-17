@@ -8,6 +8,8 @@ Did you start making a map only to find that someone else already made a map for
 This mod will help you find out if a cell already has a map mod on it or not.
 
 
+It's easier to just find the mods folder (the id in the URL) and open it, go mods > Over the River - Secondary Route > media > maps > Over The River Secondary Route and just look at the numbers on the lotheader files.
+
 ## Version 0.4  work in progress
 
 Add support when hovered over the cell it shows cell location and maps that occupy that cell.
