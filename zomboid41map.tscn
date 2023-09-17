@@ -5274,6 +5274,12 @@ tile_set = SubResource("TileSet_0gd0p")
 format = 2
 layer_0/tile_data = PackedInt32Array(1507344, 917504, 0, 1572880, 917504, 0, 1638416, 917504, 0, 1703952, 917504, 0, 1703953, 917504, 0, 1703954, 917504, 0, 1703955, 917504, 0, 1703956, 917504, 0, 1703957, 917504, 0, 1703958, 917504, 0, 1638422, 917504, 0, 1572886, 917504, 0, 1507350, 917504, 0, 1507349, 917504, 0, 1507348, 917504, 0, 1507347, 917504, 0, 1507346, 917504, 0, 1507345, 917504, 0, 1572881, 917504, 0, 1638417, 917504, 0, 1638418, 917504, 0, 1638419, 917504, 0, 1638420, 917504, 0, 1572884, 917504, 0, 1572885, 917504, 0, 1572883, 917504, 0, 1572882, 917504, 0, 1638421, 917504, 0)
 
+[node name="Trelai_4x4 Riverside Expansion" type="TileMap" parent="Big Bear Lake"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1507353, 131072, 0, 1507352, 131072, 0, 1507351, 131072, 0, 1507350, 131072, 0, 1572886, 131072, 0, 1638422, 131072, 0, 1703958, 131072, 0, 1703959, 131072, 0, 1638423, 131072, 0, 1572887, 131072, 0, 1572888, 131072, 0, 1638424, 131072, 0, 1703960, 131072, 0, 1703961, 131072, 0, 1638425, 131072, 0, 1572889, 131072, 0)
+
 [node name="Rosewood VHS & Gun Stores" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_serfd")
 format = 2
@@ -5343,3 +5349,48 @@ layer_0/tile_data = PackedInt32Array(2031656, 393216, 0, 2031657, 393216, 0, 209
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2490406, 851968, 0, 2424870, 851968, 0)
+
+[node name="Safe house Center manor house" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097179, 327680, 0)
+
+[node name="Weyhausen, KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2031633, 393216, 1)
+
+[node name="Chinatown Expansion, KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835044, 0, 1, 1900580, 0, 1)
+
+[node name="Elysium Island" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1376291, 393216, 0, 1441827, 393216, 0)
+
+[node name="Louisville Quarantine Zone" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(852012, 196608, 0, 852013, 196608, 0, 852014, 196608, 0)
+
+[node name="Fort Waterfront" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359330, 851968, 0)
+
+[node name="Hyrule County" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1703967, 131072, 0, 1769503, 131072, 0)
+
+[node name="Hopewell, KY (English)" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(589873, 196608, 0, 655409, 196608, 0, 720945, 196608, 0, 589874, 196608, 0, 589875, 196608, 0)
+
+[node name="Xonic\'s Mega Mall (New Expansion has arrived!!!)" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835045, 720896, 0, 1835046, 720896, 0, 1900581, 720896, 0)
