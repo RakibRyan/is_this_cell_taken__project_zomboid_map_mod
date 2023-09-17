@@ -11,7 +11,7 @@ This mod will help you find out if a cell already has a map mod on it or not.
 ## Version 0.4  work in progress
 
 Add support when hovered over the cell it shows cell location and maps that occupy that cell.
-
+Add more maps
 
 ## Version 0.3 Date: 17/09/2023
 
