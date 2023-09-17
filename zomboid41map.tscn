@@ -4116,44 +4116,6 @@ texture = ExtResource("2_jmvn4")
 [sub_resource type="TileSet" id="TileSet_ghykv"]
 sources/0 = SubResource("TileSetAtlasSource_h4h6q")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_libti"]
-texture = ExtResource("2_jmvn4")
-0:0/0 = 0
-1:0/0 = 0
-2:0/0 = 0
-3:0/0 = 0
-4:0/0 = 0
-5:0/0 = 0
-6:0/0 = 0
-7:0/0 = 0
-8:0/0 = 0
-9:0/0 = 0
-10:0/0 = 0
-11:0/0 = 0
-12:0/0 = 0
-13:0/0 = 0
-14:0/0 = 0
-15:0/0 = 0
-0:1/0 = 0
-1:1/0 = 0
-2:1/0 = 0
-3:1/0 = 0
-4:1/0 = 0
-5:1/0 = 0
-6:1/0 = 0
-7:1/0 = 0
-8:1/0 = 0
-9:1/0 = 0
-10:1/0 = 0
-11:1/0 = 0
-12:1/0 = 0
-13:1/0 = 0
-14:1/0 = 0
-15:1/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_7buls"]
-sources/0 = SubResource("TileSetAtlasSource_libti")
-
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1myxm"]
 texture = ExtResource("2_jmvn4")
 0:0/0 = 0
@@ -5066,6 +5028,44 @@ texture = ExtResource("2_jmvn4")
 [sub_resource type="TileSet" id="TileSet_yajp8"]
 sources/0 = SubResource("TileSetAtlasSource_dt60y")
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_libti"]
+texture = ExtResource("2_jmvn4")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_7buls"]
+sources/0 = SubResource("TileSetAtlasSource_libti")
+
 [node name="world map" type="TileMap"]
 tile_set = SubResource("TileSet_qebat")
 format = 2
@@ -5149,6 +5149,12 @@ tile_set = SubResource("TileSet_wiotu")
 format = 2
 layer_0/tile_data = PackedInt32Array(1572891, 458752, 1, 1572892, 458752, 1, 1638427, 458752, 1, 1638428, 458752, 1)
 
+[node name="Riverside House" type="TileMap" parent="Greenport, KY"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1638427, 851968, 0, 1703963, 851968, 0)
+
 [node name="Trimble County Power Station & La Grange" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_d58oj")
 format = 2
@@ -5159,11 +5165,6 @@ visible = false
 tile_set = SubResource("TileSet_ghykv")
 format = 2
 layer_0/tile_data = PackedInt32Array(655410, 131072, 0, 720946, 131072, 0, 786482, 131072, 0, 852018, 131072, 0, 852019, 131072, 0, 852020, 131072, 0, 852021, 131072, 0, 852022, 131072, 0, 852023, 131072, 0, 852024, 131072, 0, 852025, 131072, 0, 852026, 131072, 0, 852027, 131072, 0, 852028, 131072, 0, 852029, 131072, 0, 852030, 131072, 0, 786494, 131072, 0, 720958, 131072, 0, 655422, 131072, 0, 655421, 131072, 0, 655420, 131072, 0, 655419, 131072, 0, 655418, 131072, 0, 655417, 131072, 0, 720952, 131072, 0, 720951, 131072, 0, 720950, 131072, 0, 655414, 131072, 0, 655413, 131072, 0, 655412, 131072, 0, 655411, 131072, 0, 655415, 131072, 0, 655416, 131072, 0, 720955, 131072, 0, 720956, 131072, 0, 720957, 131072, 0, 786492, 131072, 0, 786491, 131072, 0, 786490, 131072, 0, 786489, 131072, 0, 786488, 131072, 0, 786487, 131072, 0, 786486, 131072, 0, 786485, 131072, 0, 720949, 131072, 0, 720948, 131072, 0, 720947, 131072, 0, 786483, 131072, 0, 786484, 131072, 0, 720953, 131072, 0, 720954, 131072, 0, 786493, 131072, 0)
-
-[node name="LittleCreek" type="TileMap" parent="."]
-tile_set = SubResource("TileSet_7buls")
-format = 2
-layer_0/tile_data = PackedInt32Array(2097182, 262144, 1)
 
 [node name="Betsys Farm" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_jkugc")
@@ -5248,6 +5249,12 @@ visible = false
 tile_set = SubResource("TileSet_wi1wy")
 format = 2
 layer_0/tile_data = PackedInt32Array(1376300, 983040, 0)
+
+[node name="Dead in Hong Kong" type="TileMap" parent="Lake Cumberland New Location"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1310764, 65536, 0, 1310765, 65536, 0, 1376300, 65536, 0, 1376301, 65536, 0)
 
 [node name="Daisy County" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_nesir")
@@ -5394,3 +5401,34 @@ layer_0/tile_data = PackedInt32Array(589873, 196608, 0, 655409, 196608, 0, 72094
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(1835045, 720896, 0, 1835046, 720896, 0, 1900581, 720896, 0)
+
+[node name="Riverside Mansion" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1114130, 131072, 0)
+
+[node name="March Ridge Expansion" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2752544, 0, 1)
+
+[node name="CON Research & Testing Facility" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2752543, 196608, 0)
+
+[node name="Lake Ivy Township" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097181, 262144, 0, 2097182, 262144, 0, 2097183, 262144, 0, 2162717, 262144, 0, 2162718, 262144, 0, 2162719, 262144, 0, 2228253, 262144, 0, 2228254, 262144, 0, 2228255, 262144, 0)
+
+[node name="LittleCreek" type="TileMap" parent="Lake Ivy Township"]
+visible = false
+tile_set = SubResource("TileSet_7buls")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097182, 262144, 1)
+
+[node name="Addams Family Mansion" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2031653, 851968, 0)
