@@ -5299,6 +5299,12 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(1310764, 65536, 0, 1310765, 65536, 0, 1376300, 65536, 0, 1376301, 65536, 0)
 
+[node name="Overfield Lane Bunker" type="TileMap" parent="Lake Cumberland New Location"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1376300, 393216, 0)
+
 [node name="Daisy County" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_nesir")
 format = 2
@@ -5678,6 +5684,6 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097184, 786432, 0)
 
-[node name="duplicate8" type="TileMap" parent="."]
+[node name="duplicate9" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
