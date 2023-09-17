@@ -5113,6 +5113,12 @@ tile_set = SubResource("TileSet_r2ek7")
 format = 2
 layer_0/tile_data = PackedInt32Array(2686994, 655360, 0, 2686995, 655360, 0, 2752531, 655360, 0, 2752530, 655360, 0)
 
+[node name="The Access Road V2" type="TileMap" parent="Research Facility"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424852, 131072, 0, 2490388, 131072, 0, 2555924, 131072, 0, 2621460, 131072, 0, 2686996, 131072, 0, 2686995, 131072, 0)
+
 [node name="Research facility access road" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_6njeb")
 format = 2
@@ -5146,6 +5152,12 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2031629, 851968, 0, 2031630, 851968, 0, 2097166, 851968, 0, 2097165, 851968, 0)
 
+[node name="Lincoln Regional Airport" type="TileMap" parent="St Paulo\'s Hammer"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966093, 262144, 1)
+
 [node name="Elliot Pond" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_kklgw")
 format = 2
@@ -5161,6 +5173,12 @@ visible = false
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(1638427, 851968, 0, 1703963, 851968, 0)
+
+[node name="Riverwood" type="TileMap" parent="Greenport, KY"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1572890, 589824, 1, 1638426, 589824, 1, 1572891, 589824, 1, 1638427, 589824, 1)
 
 [node name="Trimble County Power Station & La Grange" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_d58oj")
@@ -5358,6 +5376,12 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(1441799, 131072, 0, 1507335, 131072, 0, 1572871, 131072, 0, 1638407, 131072, 0, 1703943, 131072, 0, 1769479, 131072, 0, 1835015, 131072, 0, 1835016, 131072, 0, 1835017, 131072, 0, 1835018, 131072, 0, 1835019, 131072, 0, 1835020, 131072, 0, 1835021, 131072, 0, 1769485, 131072, 0, 1703949, 131072, 0, 1638413, 131072, 0, 1572877, 131072, 0, 1507341, 131072, 0, 1441805, 131072, 0, 1441804, 131072, 0, 1441803, 131072, 0, 1441802, 131072, 0, 1441801, 131072, 0, 1441800, 131072, 0, 1769480, 131072, 0, 1703944, 131072, 0, 1638408, 131072, 0, 1572872, 131072, 0, 1507336, 131072, 0, 1507337, 131072, 0, 1572873, 131072, 0, 1638409, 131072, 0, 1703945, 131072, 0, 1769481, 131072, 0, 1769482, 131072, 0, 1703946, 131072, 0, 1638410, 131072, 0, 1572874, 131072, 0, 1507338, 131072, 0, 1507339, 131072, 0, 1572875, 131072, 0, 1638411, 131072, 0, 1703947, 131072, 0, 1769483, 131072, 0, 1769484, 131072, 0, 1703948, 131072, 0, 1638412, 131072, 0, 1572876, 131072, 0, 1507340, 131072, 0)
 
+[node name="Klin - Russian City" type="TileMap" parent="Winchester, KY"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245186, 65536, 0, 1310722, 65536, 0, 1376258, 65536, 0, 1441794, 65536, 0, 1507330, 65536, 0, 1245187, 65536, 0, 1245188, 65536, 0, 1245189, 65536, 0, 1245190, 65536, 0, 1245191, 65536, 0, 1245192, 65536, 0, 1245193, 65536, 0, 1310726, 65536, 0, 1310727, 65536, 0, 1310728, 65536, 0, 1638402, 65536, 0, 1572866, 65536, 0, 1638403, 65536, 0, 1638404, 65536, 0, 1638405, 65536, 0, 1638406, 65536, 0, 1638407, 65536, 0, 1638408, 65536, 0, 1638409, 65536, 0, 1572873, 65536, 0, 1507337, 65536, 0, 1441801, 65536, 0, 1376265, 65536, 0, 1310729, 65536, 0, 1310725, 65536, 0, 1310724, 65536, 0, 1310723, 65536, 0, 1376259, 65536, 0, 1441795, 65536, 0, 1507331, 65536, 0, 1572867, 65536, 0, 1572868, 65536, 0, 1572869, 65536, 0, 1572870, 65536, 0, 1572871, 65536, 0, 1507335, 65536, 0, 1507336, 65536, 0, 1572872, 65536, 0, 1441800, 65536, 0, 1376264, 65536, 0, 1376263, 65536, 0, 1376262, 65536, 0, 1376261, 65536, 0, 1376260, 65536, 0, 1441796, 65536, 0, 1507332, 65536, 0, 1507333, 65536, 0, 1507334, 65536, 0, 1441798, 65536, 0, 1441797, 65536, 0, 1441799, 65536, 0)
+
 [node name="East Riverside" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
@@ -5478,7 +5502,7 @@ layer_0/tile_data = PackedInt32Array(2293786, 131072, 0)
 [node name="Bedford Falls" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
-layer_0/tile_data = PackedInt32Array(2359338, 720896, 0, 2424874, 720896, 0, 2359339, 720896, 0, 2424875, 720896, 0, 2293803, 720896, 0, 2228267, 720896, 0, 2162731, 720896, 0, 2424876, 720896, 0, 2359340, 720896, 0, 2293804, 720896, 0, 2228268, 720896, 0, 2162732, 720896, 0, 2424877, 720896, 0, 2359341, 720896, 0, 2293805, 720896, 0, 2228269, 720896, 0, 2162733, 720896, 0, 2097197, 720896, 0, 2031661, 720896, 0, 1966125, 720896, 0, 1900589, 720896, 0, 1835053, 720896, 0, 1769517, 720896, 0, 2490413, 720896, 0, 2555949, 0, 0, 2490415, 720896, 0, 2424879, 720896, 0, 2359343, 720896, 0, 2293807, 720896, 0, 2228271, 720896, 0, 2162735, 720896, 0, 2097199, 720896, 0, 2097198, 720896, 0, 2162734, 720896, 0, 2228270, 720896, 0, 2293806, 720896, 0, 2359342, 720896, 0, 2424878, 720896, 0, 2490414, 720896, 0, 1703981, 720896, 0, 1703982, 720896, 0, 1703983, 720896, 0, 1769519, 720896, 0, 1835055, 720896, 0, 1900591, 720896, 0, 1966127, 720896, 0, 2031663, 720896, 0, 2031662, 720896, 0, 1966126, 720896, 0, 1900590, 720896, 0, 1835054, 720896, 0, 1769518, 720896, 0)
+layer_0/tile_data = PackedInt32Array(2359338, 720896, 0, 2424874, 720896, 0, 2359339, 720896, 0, 2424875, 720896, 0, 2293803, 720896, 0, 2228267, 720896, 0, 2162731, 720896, 0, 2424876, 720896, 0, 2359340, 720896, 0, 2293804, 720896, 0, 2228268, 720896, 0, 2162732, 720896, 0, 2424877, 720896, 0, 2359341, 720896, 0, 2293805, 720896, 0, 2228269, 720896, 0, 2162733, 720896, 0, 2097197, 720896, 0, 2031661, 720896, 0, 1966125, 720896, 0, 1900589, 720896, 0, 1835053, 720896, 0, 1769517, 720896, 0, 2555949, 0, 0, 2424879, 720896, 0, 2359343, 720896, 0, 2293807, 720896, 0, 2228271, 720896, 0, 2162735, 720896, 0, 2097199, 720896, 0, 2097198, 720896, 0, 2162734, 720896, 0, 2228270, 720896, 0, 2293806, 720896, 0, 2359342, 720896, 0, 2424878, 720896, 0, 1703981, 720896, 0, 1703982, 720896, 0, 1703983, 720896, 0, 1769519, 720896, 0, 1835055, 720896, 0, 1900591, 720896, 0, 1966127, 720896, 0, 2031663, 720896, 0, 2031662, 720896, 0, 1966126, 720896, 0, 1900590, 720896, 0, 1835054, 720896, 0, 1769518, 720896, 0)
 
 [node name="Bunker Last Minute Prepper" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
@@ -5517,6 +5541,12 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(917548, 0, 1, 917549, 0, 1, 917550, 0, 1)
 
+[node name="McCoy\'s Bunker" type="TileMap" parent="Film Studio In Knox County"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(917548, 65536, 0)
+
 [node name="Maldraugh Cottages" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
@@ -5551,7 +5581,7 @@ layer_0/tile_data = PackedInt32Array(2949152, 786432, 0, 3014688, 786432, 0, 301
 [node name="Road between Fort Knox and Bedford Falls" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
-layer_0/tile_data = PackedInt32Array(2818093, 786432, 0, 2752557, 786432, 0, 2687021, 786432, 0, 2621485, 786432, 0, 2555949, 786432, 0)
+layer_0/tile_data = PackedInt32Array(2818093, 851968, 0, 2752557, 851968, 0, 2687021, 851968, 0, 2621485, 851968, 0, 2555949, 851968, 0, 2490413, 851968, 0)
 
 [node name="South Muldraugh" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
@@ -5577,3 +5607,77 @@ layer_0/tile_data = PackedInt32Array(1835037, 65536, 0)
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2424862, 393216, 0, 2424863, 393216, 0)
+
+[node name="Little Farmstead" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769497, 262144, 1)
+
+[node name="Western Scrap Car Yard" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966109, 196608, 0)
+
+[node name="West Point\'s Lighthouse [REBORN]" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1376292, 0, 1)
+
+[node name="Zhukoniy Lighthouse Base V2" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(196656, 851968, 0)
+
+[node name="Kingsmouth, KY (buggy)" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(917514, 851968, 0, 983050, 851968, 0, 1114125, 851968, 0, 1114124, 851968, 0, 1114123, 851968, 0, 1114122, 851968, 0, 1048586, 851968, 0, 917515, 851968, 0, 917516, 851968, 0, 917517, 851968, 0, 983053, 851968, 0, 1048589, 851968, 0, 1048588, 851968, 0, 1048587, 851968, 0, 983051, 851968, 0, 983052, 851968, 0)
+
+[node name="Fort Rock Ridge" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1310742, 196608, 0, 1376278, 196608, 0, 1310743, 196608, 0, 1376279, 196608, 0)
+
+[node name="Jeffersonville, Mansion" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(65575, 65536, 0, 65576, 65536, 0, 65577, 65536, 0, 131113, 65536, 0, 131114, 65536, 0, 131115, 65536, 0, 131116, 65536, 0, 131117, 65536, 0, 131118, 65536, 0, 131119, 65536, 0, 131120, 65536, 0, 65584, 65536, 0, 65583, 65536, 0, 65582, 65536, 0, 65581, 65536, 0, 65580, 65536, 0, 65579, 65536, 0, 65578, 65536, 0, 131111, 65536, 0, 131112, 65536, 0)
+
+[node name="Riverside Expansion Maukport" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(65575, 65536, 0, 65576, 65536, 0, 65577, 65536, 0, 131113, 65536, 0, 131114, 65536, 0, 131115, 65536, 0, 131116, 65536, 0, 131117, 65536, 0, 131118, 65536, 0, 131119, 65536, 0, 131120, 65536, 0, 65584, 65536, 0, 65583, 65536, 0, 65582, 65536, 0, 65581, 65536, 0, 65580, 65536, 0, 65579, 65536, 0, 65578, 65536, 0, 131111, 65536, 0, 131112, 65536, 0, 1179672, 851968, 0, 1179673, 851968, 0, 1179674, 851968, 0)
+
+[node name="OldPark Town" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1900573, 327680, 0, 1900574, 327680, 0)
+
+[node name="Cedar Hill" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245200, 262144, 1)
+
+[node name="Rabbit Hash, KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1572894, 327680, 0, 1572895, 327680, 0)
+
+[node name="West Point Trailer Park & VHS Store" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1572902, 983040, 1)
+
+[node name="The Museum" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769507, 196608, 0)
+
+[node name="Muldraugh - West outskirts Shipping Company" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097184, 786432, 0)
+
+[node name="duplicate8" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2

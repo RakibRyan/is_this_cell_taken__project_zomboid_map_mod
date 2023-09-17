@@ -18,7 +18,7 @@ Add more maps
 ## Version 0.3 Date: 17/09/2023
 
 Added about 100 maps along with some that conflict
-
+Thanks to ammo pack for various coordinates
 
 ## Version 0.2 Date: 16/09/2023
 
