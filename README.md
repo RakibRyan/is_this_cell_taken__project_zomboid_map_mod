@@ -18,8 +18,8 @@ Add support when hovered over the cell it shows cell location and maps that occu
 Added about 100 maps along with some that conflict
 
 
-# Version 0.2
-## Date: 16/09/2023
+# Version 0.2 ## Date: 16/09/2023
+
 Added 60 map 
 
 
