@@ -5325,6 +5325,12 @@ tile_set = SubResource("TileSet_6xjdt")
 format = 2
 layer_0/tile_data = PackedInt32Array(1769508, 458752, 0)
 
+[node name="Park Rangers HQ" type="TileMap" parent="Papaville"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769508, 851968, 0)
+
 [node name="Big Bear Lake" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_0gd0p")
 format = 2
@@ -5684,6 +5690,17 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097184, 786432, 0)
 
-[node name="duplicate9" type="TileMap" parent="."]
+[node name="Vault-Tec, KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359316, 0, 1, 1966121, 0, 1, 589872, 0, 1)
+
+[node name="TWD Prison working" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835049, 393216, 0, 1835050, 393216, 0, 1900586, 393216, 0)
+
+[node name="duplicate12" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
