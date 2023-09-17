@@ -5128,6 +5128,12 @@ tile_set = SubResource("TileSet_hoovi")
 format = 2
 layer_0/tile_data = PackedInt32Array(1966093, 786432, 0)
 
+[node name="Wilbore, KY" type="TileMap" parent="St Paulo\'s Hammer"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2162703, 131072, 0, 2162704, 131072, 0, 2228239, 131072, 0, 2228240, 131072, 0, 2293775, 131072, 0, 2293776, 131072, 0)
+
 [node name="Elliot Pond" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_kklgw")
 format = 2
@@ -5307,3 +5313,33 @@ layer_0/tile_data = PackedInt32Array(1835034, 589824, 1, 1769498, 589824, 1)
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(1441799, 131072, 0, 1507335, 131072, 0, 1572871, 131072, 0, 1638407, 131072, 0, 1703943, 131072, 0, 1769479, 131072, 0, 1835015, 131072, 0, 1835016, 131072, 0, 1835017, 131072, 0, 1835018, 131072, 0, 1835019, 131072, 0, 1835020, 131072, 0, 1835021, 131072, 0, 1769485, 131072, 0, 1703949, 131072, 0, 1638413, 131072, 0, 1572877, 131072, 0, 1507341, 131072, 0, 1441805, 131072, 0, 1441804, 131072, 0, 1441803, 131072, 0, 1441802, 131072, 0, 1441801, 131072, 0, 1441800, 131072, 0, 1769480, 131072, 0, 1703944, 131072, 0, 1638408, 131072, 0, 1572872, 131072, 0, 1507336, 131072, 0, 1507337, 131072, 0, 1572873, 131072, 0, 1638409, 131072, 0, 1703945, 131072, 0, 1769481, 131072, 0, 1769482, 131072, 0, 1703946, 131072, 0, 1638410, 131072, 0, 1572874, 131072, 0, 1507338, 131072, 0, 1507339, 131072, 0, 1572875, 131072, 0, 1638411, 131072, 0, 1703947, 131072, 0, 1769483, 131072, 0, 1769484, 131072, 0, 1703948, 131072, 0, 1638412, 131072, 0, 1572876, 131072, 0, 1507340, 131072, 0)
+
+[node name="East Riverside" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1114135, 262144, 0, 1114136, 262144, 0)
+
+[node name="Anthem, KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769509, 65536, 0)
+
+[node name="Crossroads Checkpoint" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424867, 65536, 1)
+
+[node name="Chestown" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441807, 393216, 0)
+
+[node name="Ztardew Valley" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2031656, 393216, 0, 2031657, 393216, 0, 2097192, 393216, 0, 2162728, 393216, 0, 2031658, 393216, 0, 2097194, 393216, 0, 2162730, 393216, 0, 2162729, 393216, 0, 2097193, 393216, 0)
+
+[node name="Ashenwood" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2490406, 851968, 0, 2424870, 851968, 0)
