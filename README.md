@@ -21,15 +21,25 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 • A gui for maps listed
 
 • A gui for adding new maps , coordinates and steam link
+
 • Support for importing coordinates and map names from a txt/ java file
+
 • Add steam link to all the maps
+
 • Auto subscribe all selected maps
+
 • A gui for auto subscribe
+
 • Top down maps for all of them so people who prefer can see the maps
+
 • Searchable maps
+
 • Polishing: a line with map name and highlighting
+
 • web extension
+
 • Auto conflict finder
+
 • Auto conflict gui
 
 
