@@ -31,11 +31,12 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 ## work in progress
 
-• Coordinates gui string formatting
+
 
 ## Version 0.5 Date: 18/09/2023
 
-Added all the map mods for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
+• Coordinates gui string formatting
+• Added all the map mods for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
 
 West Point Expansion
 West Point Expansion/Knox County Bar Crawl
