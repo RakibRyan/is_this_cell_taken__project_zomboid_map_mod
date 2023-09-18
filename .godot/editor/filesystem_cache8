@@ -1,37 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695041529
+::res://::1695042460
 icon.svg::CompressedTexture2D::1592611348606168692::1694895568::1694895626::1::::<><>::
+icon.webp::CompressedTexture2D::3064138797665056424::1695042460::1695042460::1::::<><>::
 map tiles.png::CompressedTexture2D::5090038210381052307::1694895568::1694895626::1::::<><>::
-map_tiles.tres::TileSet::4251207797486770047::1695040974::0::1::::<><>::uid://cerwgkvhughdb::::res://map tiles.png
+map_tiles.tres::TileSet::4251207797486770047::1695041627::0::1::::<><>::uid://cerwgkvhughdb::::res://map tiles.png
 project zomboid map.png::CompressedTexture2D::1467569291714667474::1694895568::1694895626::1::::<><>::
 README.md::TextFile::-1::1695041460::0::1::::<><>::
-world.gd::GDScript::-1::1695041226::0::1::::<>TileMap<>::
-zomboid41map.tscn::PackedScene::7926048527466112281::1695041519::0::1::::<><>::uid://u55wfrerlgl3::::res://project zomboid map.png<>res://world.gd<>uid://cerwgkvhughdb::::res://map tiles.png<>uid://b1tk1hv1rc8cx::::res://map_tiles.tres
-::res://addons/::1695041502
-::res://addons/godot-git-plugin/::1695041502
-git_plugin.gdextension::GDExtension::-1::1695041502::0::1::::<><>::
-plugin.cfg::TextFile::-1::1695041502::0::1::::<><>::
-THIRDPARTY.md::TextFile::-1::1695041502::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1695041502
-::res://addons/godot-git-plugin/macos/::1695041502
-::res://addons/godot-git-plugin/win64/::1695041502
-::res://addons/script_panel_plus/::1695040625
-plugin.cfg::TextFile::-1::1695040625::0::1::::<><>::
-plugin.gd::GDScript::-1::1695040625::0::1::::<>EditorPlugin<>::
-README.md::TextFile::-1::1695040625::0::1::::<><>::
-::res://addons/script_panel_plus/configs/::1695040625
-config.cfg::TextFile::-1::1695040625::0::1::::<><>::
-defaults.cfg::TextFile::-1::1695040625::0::1::::<><>::
-::res://addons/script_panel_plus/saves/::1695040625
-saves_are_stored_here.txt::TextFile::-1::1695040625::0::1::::<><>::
-::res://addons/script_panel_plus/script_panel/::1695040625
-script_list.gd::GDScript::-1::1695040625::0::1::::<>ItemList<>::
-script_panel.gd::GDScript::-1::1695040625::0::1::::<>HBoxContainer<>::
-script_panel.tscn::PackedScene::800954975379714777::1695040625::0::1::::<><>::res://addons/script_panel_plus/script_panel/script_panel.gd<>uid://d4n28x4moh2t7
-::res://addons/script_panel_plus/script_panel/icons/::1695040625
-docs.svg::CompressedTexture2D::1490746760304214698::1695040625::1695040625::1::::<><>::
-files.svg::CompressedTexture2D::645839513140260987::1695040625::1695040625::1::::<><>::
-menu.svg::CompressedTexture2D::8965418947033274852::1695040625::1695040625::1::::<><>::
-scripts.svg::CompressedTexture2D::8697622380271630815::1695040625::1695040625::1::::<><>::
-search.svg::CompressedTexture2D::5259829608137111041::1695040625::1695040625::1::::<><>::
-tests.svg::CompressedTexture2D::757086493829097110::1695040625::1695040625::1::::<><>::
+world.gd::GDScript::-1::1695041627::0::1::::<>TileMap<>::
+zomboid41map.tscn::PackedScene::7926048527466112281::1695041627::0::1::::<><>::uid://u55wfrerlgl3::::res://project zomboid map.png<>res://world.gd<>uid://cerwgkvhughdb::::res://map tiles.png<>uid://b1tk1hv1rc8cx::::res://map_tiles.tres
+::res://addons/::1695042246
+::res://addons/copilot/::1695042408
+Copilot.gd::GDScript::-1::1695042246::0::1::::<>Control<>::
+CopilotUI.tscn::PackedScene::1238389759737625994::1695042246::0::1::::<><>::res://addons/copilot/Copilot.gd<>res://addons/copilot/OpenAIChat.gd<>uid://cccmbprav6vgu::::res://addons/copilot/small_icon.tres<>res://addons/copilot/OpenAICompletion.gd<>uid://bl1rtf743e4l3::::res://addons/copilot/large_icon.tres
+icon.webp::CompressedTexture2D::2347276648479446889::1695042408::1695042361::1::::<><>::
+large_icon.tres::ShaderMaterial::3213238217683962246::1695042246::0::1::::<><>::
+LLM.gd::GDScript::-1::1695042246::0::1::::<>Node<>::
+OpenAIChat.gd::GDScript::-1::1695042246::0::1::::<>Node<>::
+OpenAICompletion.gd::GDScript::-1::1695042246::0::1::::<>Node<>::
+plugin.cfg::TextFile::-1::1695042246::0::1::::<><>::
+Plugin.gd::GDScript::-1::1695042246::0::1::::<>EditorPlugin<>::
+small_icon.tres::ShaderMaterial::4918079014018722108::1695042246::0::1::::<><>::
