@@ -45,6 +45,7 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 ## work in progress
 
+implement above features???
 
 
 ## Version 0.5 Date: 18/09/2023
