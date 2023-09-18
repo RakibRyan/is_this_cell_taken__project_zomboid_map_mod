@@ -22,4 +22,10 @@ func _input(event):
 		print(mouse_pos)
 		var tile_mouse_pos = world_map.local_to_map(mouse_pos)
 		print(tile_mouse_pos)
+		var str_test = var_to_str(tile_mouse_pos)
+		print(str_test)
+		
+		$coordinate.text = str_test
+		
+		
 		#print_tree()

@@ -5707,3 +5707,7 @@ layer_0/tile_data = PackedInt32Array(1835049, 393216, 0, 1835050, 393216, 0, 190
 [node name="duplicate12" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
+
+[node name="coordinate" type="RichTextLabel" parent="."]
+offset_right = 148.0
+offset_bottom = 97.0

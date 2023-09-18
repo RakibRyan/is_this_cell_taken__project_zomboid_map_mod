@@ -31,13 +31,13 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 ## work in progress
 
-• Coordinates gui
+• Coordinates gui string formatting
 
 
 ## Version 0.4 Date: 18/09/2023
 
 • Added more maps
-• Got the basic coordinate system working in console.
+• Got the basic coordinate system working in console and ui.
 
 ## Version 0.3 Date: 17/09/2023
 
