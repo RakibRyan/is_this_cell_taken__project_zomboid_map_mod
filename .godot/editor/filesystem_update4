@@ -1,5 +1,5 @@
 res://zomboid41map.tscn
-res://world.gd
-res://map_tiles.tres
 res://addons/copilot/small_icon.tres
 res://addons/copilot/large_icon.tres
+res://world.gd
+res://map_tiles.tres
