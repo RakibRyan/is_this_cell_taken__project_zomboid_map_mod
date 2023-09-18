@@ -13,9 +13,13 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 ## Future???
 
 • Add support when hovered over the cell it shows cell location and maps that occupy that cell.
+
 • Add more maps
+
 • Make a gui for coordinates
+
 • A gui for maps listed
+
 • A gui for adding new maps , coordinates and steam link
 • Support for importing coordinates and map names from a txt/ java file
 • Add steam link to all the maps
