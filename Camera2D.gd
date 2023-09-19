@@ -15,6 +15,13 @@ func _input(event):
 					zoom += zoom_speed
 	pass
 
+
+func _unhandled_input(event):
+	if event is InputEventMouseMotion:
+		if event.button_mask == MOUSE_BUTTON_MASK_MIDDLE:
+			position -= event.relative / zoom
+	pass
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.

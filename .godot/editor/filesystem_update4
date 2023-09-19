@@ -1,3 +1,4 @@
 res://zomboid41map.tscn
 res://map_tiles.tres
+res://Camera2D.gd
 res://README.md

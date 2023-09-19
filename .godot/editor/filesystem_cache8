@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695142823
+::res://::1695147105
 Camera2D.gd::GDScript::-1::1695133085::0::1::::<>Camera2D<>::
 coordinate.gd::GDScript::-1::1695142781::0::1::::<>RichTextLabel<>::
 coordinate.tscn::PackedScene::106179916827933740::1695138194::0::1::::<><>::res://coordinate.gd
 icon.svg::CompressedTexture2D::1592611348606168692::1695132907::1695132933::1::::<><>::
 icon.webp::CompressedTexture2D::3064138797665056424::1695132907::1695132933::1::::<><>::
 map tiles.png::CompressedTexture2D::5090038210381052307::1695132907::1695132907::1::::<><>::
-map_tiles.tres::TileSet::4251207797486770047::1695142781::0::1::::<><>::uid://cerwgkvhughdb::::res://map tiles.png
+map_tiles.tres::TileSet::4251207797486770047::1695142967::0::1::::<><>::uid://cerwgkvhughdb::::res://map tiles.png
 project zomboid map.png::CompressedTexture2D::1467569291714667474::1695132907::1695132907::1::::<><>::
-README.md::TextFile::-1::1695138687::0::1::::<><>::
+README.md::TextFile::-1::1695142967::0::1::::<><>::
 world.gd::GDScript::-1::1695135297::0::1::::<>TileMap<>::
-zomboid41map.tscn::PackedScene::7926048527466112281::1695142799::0::1::::<><>::uid://u55wfrerlgl3::::res://project zomboid map.png<>res://world.gd<>uid://cerwgkvhughdb::::res://map tiles.png<>uid://b1tk1hv1rc8cx::::res://map_tiles.tres<>res://Camera2D.gd<>uid://bro1dql74mfk::::res://coordinate.tscn
+zomboid41map.tscn::PackedScene::7926048527466112281::1695142992::0::1::::<><>::uid://u55wfrerlgl3::::res://project zomboid map.png<>res://world.gd<>uid://cerwgkvhughdb::::res://map tiles.png<>uid://b1tk1hv1rc8cx::::res://map_tiles.tres<>res://Camera2D.gd<>uid://bro1dql74mfk::::res://coordinate.tscn
