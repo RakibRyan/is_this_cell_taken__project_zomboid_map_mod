@@ -47,6 +47,10 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 implement above features???
 
+## Version 0.5.3 Date: 19/09/2023 
+
+• Yay, it works. just needed to put it on canvas layer.
+
 ## Version 0.5.2 Date: 19/09/2023 
 
 • Learned to reference scripts. It's way easier that unity. coordinate now a child of camera2d but the bug still remains. 

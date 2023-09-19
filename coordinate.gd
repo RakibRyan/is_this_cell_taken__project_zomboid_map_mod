@@ -1,5 +1,5 @@
 extends RichTextLabel
-@onready var world_map = $"../.."
+@onready var world_map = $"../../.."
 @onready var coordinate = $"."
 
 

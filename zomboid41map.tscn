@@ -5927,6 +5927,7 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 
 [node name="duplicate36" type="TileMap" parent="."]
+position = Vector2(-88, 673)
 tile_set = ExtResource("3_tpj45")
 format = 2
 
@@ -5934,4 +5935,10 @@ format = 2
 position = Vector2(518, 302)
 script = ExtResource("5_3xcao")
 
-[node name="coordinate" parent="Camera2D" instance=ExtResource("6_5kk0h")]
+[node name="CanvasLayer" type="CanvasLayer" parent="Camera2D"]
+
+[node name="coordinate" parent="Camera2D/CanvasLayer" instance=ExtResource("6_5kk0h")]
+offset_left = 13.0
+offset_top = 9.0
+offset_right = 161.0
+offset_bottom = 106.0
