@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bro1dql74mfk"]
+
+[ext_resource type="Script" path="res://coordinate.gd" id="1_rvb4v"]
+
+[node name="coordinate" type="RichTextLabel"]
+offset_left = -505.0
+offset_top = -293.0
+offset_right = -357.0
+offset_bottom = -196.0
+script = ExtResource("1_rvb4v")
