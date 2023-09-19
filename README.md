@@ -48,7 +48,7 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 implement above features???
 
 
-## Version 0.5 Date: 18/09/2023
+## Version 0.5 Date: 18/09/2023 160 maps
 
 • Coordinates gui string formatting
 
