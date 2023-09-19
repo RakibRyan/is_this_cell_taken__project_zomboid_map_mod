@@ -243,6 +243,7 @@ Lake Ivy Township/LittleCreek
 Lake Ivy Township/Ballincoolin Map
 
 Addams Family Mansion
+
 Blueberry
 
 Blackwood
@@ -375,11 +376,13 @@ Dirkerdam alpha 0.05
 ## Version 0.4 Date: 18/09/2023
 
 • Added more maps
+
 • Got the basic coordinate system working in console and ui.
 
 ## Version 0.3 Date: 17/09/2023
 
 • Added about 100 maps along with some that conflict
+
 • Thanks to ammo pack for various coordinates
 
 ## Version 0.2 Date: 16/09/2023
@@ -390,4 +393,5 @@ Dirkerdam alpha 0.05
 ## Version 0.1 Date: 15/09/2023
 
 • Initial project started in godot engine using tilemap.
+
 • Sketched up basic way the mod will work.
