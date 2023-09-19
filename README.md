@@ -47,6 +47,10 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 implement above features???
 
+## Version 0.5.5 Date: 20/09/2023
+
+• Got the zoom and panning working, cell coordinates display accurately aswell. Apparently it was mapping a local position. 
+
 ## Version 0.5.4 Date: 20/09/2023
  
 • Got the zoom and panning working however when dragging the map to another location it changes the cell location too.
