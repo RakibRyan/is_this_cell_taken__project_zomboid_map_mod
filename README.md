@@ -1,5 +1,4 @@
-# Is_this_cell_taken__project_zomboid_map_mod
-Is this cell taken project zomboid map mod
+# Is this cell taken - project zomboid map mod
 
 
 • Do you want to make the biggest map possible in the world of project zomboid but not sure which mods can you use/ which map mods overwrite others?
