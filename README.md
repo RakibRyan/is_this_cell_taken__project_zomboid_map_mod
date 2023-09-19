@@ -47,12 +47,17 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 implement above features???
 
+## Version 0.5.1 Date: 18/09/2023 
 
-## Version 0.5 Date: 18/09/2023 160 maps
+• Got the basic zoom feature working.  
+
+• Has a bug. The cell number is attached to the world. with the current setup making it as a child of camera2d causes error.
+
+## Version 0.5 Date: 18/09/2023 
 
 • Coordinates gui string formatting
 
-• Added all the map mods for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
+• Added all the map mods Total 160 maps, for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
 
 West Point Expansion
 
@@ -75,6 +80,8 @@ Research Facility/The Access Road V2
 Research facility access road
 
 Coryerdon
+
+Coryerdon/Dirkerdam alpha 0.05
 
 Coryerdon/Laconia
 
@@ -370,7 +377,6 @@ TeraMart
 
 Lethe's safe house
 
-Dirkerdam alpha 0.05
 
 
 ## Version 0.4 Date: 18/09/2023

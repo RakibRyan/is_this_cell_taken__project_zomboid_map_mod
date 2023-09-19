@@ -1,9 +1,10 @@
-[gd_scene load_steps=89 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=90 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://project zomboid map.png" id="1_e5c3t"]
 [ext_resource type="Script" path="res://world.gd" id="2_5ik24"]
 [ext_resource type="Texture2D" uid="uid://cerwgkvhughdb" path="res://map tiles.png" id="2_jmvn4"]
 [ext_resource type="TileSet" uid="uid://b1tk1hv1rc8cx" path="res://map_tiles.tres" id="3_tpj45"]
+[ext_resource type="Script" path="res://Camera2D.gd" id="5_3xcao"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_e5c3t")
@@ -5933,3 +5934,7 @@ format = 2
 [node name="duplicate36" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(518, 302)
+script = ExtResource("5_3xcao")

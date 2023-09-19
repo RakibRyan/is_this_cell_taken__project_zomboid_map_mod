@@ -22,7 +22,7 @@ project/assembly_name="Is This Cell Taken Project Zomboid Map Mod"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/copilot/plugin.cfg")
+enabled=PackedStringArray()
 
 [input]
 
