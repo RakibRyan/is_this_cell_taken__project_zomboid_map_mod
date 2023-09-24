@@ -6,6 +6,8 @@ var tile_mouse_pos
 @onready var coordinate = $"."
 @onready var camera2d = $"../"
 
+
+
 func cursor_coordinate():
 #	print(camera2d.scale) #Debug
 	var mouse_pos = get_global_mouse_position()
@@ -23,11 +25,10 @@ func hover_overlay(position: Vector2i):
 
 
 func _ready():
+
 	var data = world_map.get_cell_tile_data(0,Vector2(27,37))
 	print(data)
 	pass
-
-
 func _process(delta):
 #	print(get_global_mouse_position()) #Debug
 	cursor_coordinate()
