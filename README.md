@@ -47,6 +47,12 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 implement above features???
 
+## Version 0.5.6 Date: 24/09/2023
+
+• added 2 new maps 
+
+• learned about signals and got the basic hover working.
+
 ## Version 0.5.5 Date: 20/09/2023
 
 • Got the zoom and panning working, cell coordinates display accurately aswell. Apparently it was mapping a local position. 
@@ -97,11 +103,11 @@ Research facility access road
 
 Coryerdon
 
-Coryerdon/Dirkerdam alpha 0.05
-
 Coryerdon/Laconia
 
 Coryerdon/Laconia Expansion
+
+Coryerdon/Dirkerdam Alpha
 
 St Paulo's Hammer
 
@@ -197,10 +203,11 @@ Studio South Shore
 
 Studio South Shore/Fort Angel
 
+Studio South Shore/FlanHouseV2
+
 Little Aoi's safe house
 
 Coryerdon or Dirkerdam to OTR road
-
 Utopia
 
 The Compound
@@ -393,6 +400,7 @@ TeraMart
 
 Lethe's safe house
 
+Trailer House with Garage (Beta)
 
 
 ## Version 0.4 Date: 18/09/2023

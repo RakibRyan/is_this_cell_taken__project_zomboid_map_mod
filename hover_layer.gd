@@ -4,11 +4,16 @@ extends TileMap
 @onready var cursor_coordinate = $"../Camera2D/CanvasLayer/coordinate"
 
 
+
+
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
-		print("mouse movement")   #Debug
-		print(cursor_coordinate.tile_mouse_pos)
-	set_cell(0, cursor_coordinate.tile_mouse_pos, 1 ,Vector2i(0,0))
+#		print("mouse movement")   #Debug
+#		print(cursor_coordinate.tile_mouse_pos) #Debug
+		clear_layer(0)
+		if cursor_coordinate.tile_mouse_pos != null:
+			set_cell(0, cursor_coordinate.tile_mouse_pos, 1 ,Vector2i(0,0))
+		pass
 	pass
 	
 	if event is InputEventMouseMotion:
