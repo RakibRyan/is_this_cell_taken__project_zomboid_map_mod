@@ -14,7 +14,7 @@ config/name="Is This Cell Taken Project Zomboid Map Mod"
 config/description="Project zomboid map mod"
 run/main_scene="res://zomboid41map.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
-config/icon="res://icon.webp"
+config/icon="res://image0_0.jpg"
 
 [dotnet]
 
