@@ -1,6 +1,5 @@
 res://zomboid41map.tscn
 res://map_tiles.tres
-res://coordinate.gd
 res://Camera2D.gd
-res://world.gd
-res://README.md
+res://selected.tscn
+res://hover_layer.gd

@@ -1,4 +1,4 @@
-[gd_scene load_steps=91 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=95 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://project zomboid map.png" id="1_e5c3t"]
 [ext_resource type="Script" path="res://world.gd" id="2_5ik24"]
@@ -6,6 +6,8 @@
 [ext_resource type="TileSet" uid="uid://b1tk1hv1rc8cx" path="res://map_tiles.tres" id="3_tpj45"]
 [ext_resource type="Script" path="res://Camera2D.gd" id="5_3xcao"]
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://coordinate.tscn" id="6_5kk0h"]
+[ext_resource type="Texture2D" uid="uid://brxhldarijtu0" path="res://selected.png" id="7_ei60u"]
+[ext_resource type="Script" path="res://hover_layer.gd" id="8_se1gh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_e5c3t")
@@ -5069,6 +5071,13 @@ texture = ExtResource("2_jmvn4")
 [sub_resource type="TileSet" id="TileSet_r4dhh"]
 sources/0 = SubResource("TileSetAtlasSource_lea1w")
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cqiv0"]
+texture = ExtResource("7_ei60u")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_c23ui"]
+sources/1 = SubResource("TileSetAtlasSource_cqiv0")
+
 [node name="world_map" type="TileMap"]
 tile_set = SubResource("TileSet_qebat")
 format = 2
@@ -5409,6 +5418,12 @@ visible = false
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(1769506, 393216, 0)
+
+[node name="FlanHouseV2" type="TileMap" parent="Studio South Shore"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1703971, 0, 1)
 
 [node name="Little Aoi\'s safe house" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
@@ -5922,11 +5937,17 @@ layer_0/tile_data = PackedInt32Array(2424866, 65536, 0)
 tile_set = ExtResource("3_tpj45")
 format = 2
 
-[node name="duplicate35" type="TileMap" parent="."]
+[node name="Trailer House with Garage (Beta)" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2555931, 458752, 0)
+
+[node name="duplicate37" type="TileMap" parent="."]
+position = Vector2(-88, 673)
 tile_set = ExtResource("3_tpj45")
 format = 2
 
-[node name="duplicate36" type="TileMap" parent="."]
+[node name="duplicate38" type="TileMap" parent="."]
 position = Vector2(-88, 673)
 tile_set = ExtResource("3_tpj45")
 format = 2
@@ -5942,3 +5963,10 @@ offset_left = 13.0
 offset_top = 9.0
 offset_right = 161.0
 offset_bottom = 106.0
+
+[node name="hover_layer" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_c23ui")
+format = 2
+layer_0/z_index = 5
+layer_0/tile_data = PackedInt32Array(0, 1, 0, 65536, 1, 0, 65537, 1, 0, 1, 1, 0, 2, 1, 0, 65538, 1, 0, 65539, 1, 0, 3, 1, 0, 131075, 1, 0, 131074, 1, 0, 131073, 1, 0, 131072, 1, 0, 196608, 1, 0, 196609, 1, 0, 196610, 1, 0, 196611, 1, 0)
+script = ExtResource("8_se1gh")

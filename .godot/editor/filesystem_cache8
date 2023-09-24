@@ -1,13 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695163520
-Camera2D.gd::GDScript::-1::1695151588::0::1::::<>Camera2D<>::
-coordinate.gd::GDScript::-1::1695151697::0::1::::<>RichTextLabel<>::
+::res://::1695550586
+Camera2D.gd::GDScript::-1::1695381752::0::1::::<>Camera2D<>::
+coordinate.gd::GDScript::-1::1695384572::0::1::::<>RichTextLabel<>::
 coordinate.tscn::PackedScene::106179916827933740::1695138194::0::1::::<><>::res://coordinate.gd
 icon.svg::CompressedTexture2D::1592611348606168692::1695132907::1695132933::1::::<><>::
 icon.webp::CompressedTexture2D::3064138797665056424::1695132907::1695132933::1::::<><>::
 map tiles.png::CompressedTexture2D::5090038210381052307::1695132907::1695132907::1::::<><>::
-map_tiles.tres::TileSet::4251207797486770047::1695151363::0::1::::<><>::uid://cerwgkvhughdb::::res://map tiles.png
+map_tiles.tres::TileSet::4251207797486770047::1695549323::0::1::::<><>::uid://cerwgkvhughdb::::res://map tiles.png
 project zomboid map.png::CompressedTexture2D::1467569291714667474::1695132907::1695132907::1::::<><>::
-README.md::TextFile::-1::1695149317::0::1::::<><>::
-world.gd::GDScript::-1::1695135297::0::1::::<>TileMap<>::
-zomboid41map.tscn::PackedScene::7926048527466112281::1695151772::0::1::::<><>::uid://u55wfrerlgl3::::res://project zomboid map.png<>res://world.gd<>uid://cerwgkvhughdb::::res://map tiles.png<>uid://b1tk1hv1rc8cx::::res://map_tiles.tres<>res://Camera2D.gd<>uid://bro1dql74mfk::::res://coordinate.tscn
+README.md::TextFile::-1::1695163972::0::1::::<><>::
+selected.png::CompressedTexture2D::3627556534918865269::1695382412::1695382412::1::::<><>::
+selected.tscn::PackedScene::1975548855824371590::1695384572::0::1::::<><>::uid://brxhldarijtu0
+world.gd::GDScript::-1::1695381752::0::1::::<>TileMap<>::
+zomboid41map.tscn::PackedScene::7926048527466112281::1695549323::0::1::::<><>::uid://u55wfrerlgl3::::res://project zomboid map.png<>res://world.gd<>uid://cerwgkvhughdb::::res://map tiles.png<>uid://b1tk1hv1rc8cx::::res://map_tiles.tres<>res://Camera2D.gd<>uid://bro1dql74mfk::::res://coordinate.tscn

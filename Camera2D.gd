@@ -4,6 +4,7 @@ var zoom_min = Vector2(.2,.2)
 var zoom_max = Vector2(2,2)
 var zoom_speed = Vector2(.2,.2)
 var current_zoom 
+
 func _input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed():
@@ -23,6 +24,10 @@ func _unhandled_input(event):
 		if event.button_mask == MOUSE_BUTTON_MASK_MIDDLE:
 			position -= event.relative / zoom
 	pass
+	
+	if event is InputEventMouseMotion:
+		#print("Mouse movement")  #Debug
+		pass
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
