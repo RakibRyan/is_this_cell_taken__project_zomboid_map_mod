@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=96 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://project zomboid map.png" id="1_e5c3t"]
 [ext_resource type="Script" path="res://world.gd" id="2_5ik24"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://coordinate.tscn" id="6_5kk0h"]
 [ext_resource type="Texture2D" uid="uid://brxhldarijtu0" path="res://selected.png" id="7_ei60u"]
 [ext_resource type="Script" path="res://hover_layer.gd" id="8_se1gh"]
+[ext_resource type="Script" path="res://Node.gd" id="9_j7ykq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_e5c3t")
@@ -5969,3 +5970,6 @@ tile_set = SubResource("TileSet_c23ui")
 format = 2
 layer_0/z_index = 5
 script = ExtResource("8_se1gh")
+
+[node name="map_data_processor" type="Node" parent="."]
+script = ExtResource("9_j7ykq")

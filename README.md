@@ -47,6 +47,13 @@ It's easier to just find the mods folder (the id in the URL) and open it, go mod
 
 implement above features???
 
+it is getting tedious. I really need a system that can read/write map data to a text file. For example
+
+"map 1" =  (4,3),(1,5),(2,6),(3,5),(2,4),(1,0),(-5,8),(-9,-9)
+"map 2" =  (-4,3),(1,-5),(2,2),(3,-5),(2,7),(1,5),(-4,8),(-3,-9),(-9,-9),(0,0)
+
+
+
 ## Version 0.5.6 Date: 24/09/2023
 
 • added 2 new maps 

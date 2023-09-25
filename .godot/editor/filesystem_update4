@@ -1,2 +1,8 @@
 res://zomboid41map.tscn
 res://map_tiles.tres
+res://world.gd
+res://Node.gd
+res://selected.tscn
+res://coordinate.tscn
+res://README.md
+res://map_data.txt

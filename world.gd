@@ -3,6 +3,11 @@ extends TileMap
 
 @export var world_map : TileMap
 
+
+
+
+
+
 var Build41map_layer = -1
 var hover_overlay = 1
 # Called when the node enters the scene tree for the first time.
