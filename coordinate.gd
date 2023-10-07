@@ -27,7 +27,7 @@ func hover_overlay(position: Vector2i):
 func _ready():
 
 	var data = world_map.get_cell_tile_data(0,Vector2(27,37))
-	print(data)
+#	print(data)
 	pass
 func _process(delta):
 #	print(get_global_mouse_position()) #Debug

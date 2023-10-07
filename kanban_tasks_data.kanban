@@ -1,0 +1,62 @@
+{
+	"categories": [
+		{
+			"uuid": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"title": "Task",
+			"color": "70bafa"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "4827a56b-2fef-49f3-86a8-110ef779467e",
+			"title": "Bugs",
+			"tasks": []
+		},
+		{
+			"uuid": "4fc9cb0f-006d-4958-9651-4fa90743df4f",
+			"title": "Todo",
+			"tasks": []
+		},
+		{
+			"uuid": "3bffc010-6b05-4caf-a583-bfac0aef029c",
+			"title": "Doing",
+			"tasks": []
+		},
+		{
+			"uuid": "4665c258-8982-4090-a6ba-6b6c5b4af3ed",
+			"title": "Done",
+			"tasks": []
+		},
+		{
+			"uuid": "5f02007f-0980-43f8-9580-0c35d7795dd1",
+			"title": "Features",
+			"tasks": []
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "f6c12516-7902-487f-8305-afede0901138",
+			"title": "New task",
+			"description": "",
+			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"steps": []
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"4827a56b-2fef-49f3-86a8-110ef779467e",
+				"5f02007f-0980-43f8-9580-0c35d7795dd1"
+			],
+			[
+				"4fc9cb0f-006d-4958-9651-4fa90743df4f"
+			],
+			[
+				"3bffc010-6b05-4caf-a583-bfac0aef029c"
+			],
+			[
+				"4665c258-8982-4090-a6ba-6b6c5b4af3ed"
+			]
+		]
+	}
+}

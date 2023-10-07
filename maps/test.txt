@@ -1,0 +1,6 @@
+map_name = "whatever_map_name" 
+tiles = [(-5.6),(2,3),(8-2),(7-,1)] 
+link = "www.whateverlink.com" 
+identifier_id = "626849632"  
+User_friendly_map_name = "whatever map name1"
+color = '225113'

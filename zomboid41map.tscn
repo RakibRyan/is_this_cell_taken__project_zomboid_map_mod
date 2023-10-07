@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://coordinate.tscn" id="6_5kk0h"]
 [ext_resource type="Texture2D" uid="uid://brxhldarijtu0" path="res://selected.png" id="7_ei60u"]
 [ext_resource type="Script" path="res://hover_layer.gd" id="8_se1gh"]
-[ext_resource type="Script" path="res://Node.gd" id="9_j7ykq"]
+[ext_resource type="Script" path="res://map_data.gd" id="9_y2bow"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_e5c3t")
@@ -5601,7 +5601,7 @@ tile_set = SubResource("TileSet_7buls")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097182, 262144, 1)
 
-[node name="Ballincoolin Map" type="TileMap" parent="Lake Ivy Township"]
+[node name="Ballincoolin" type="TileMap" parent="Lake Ivy Township"]
 visible = false
 tile_set = ExtResource("3_tpj45")
 format = 2
@@ -5687,6 +5687,12 @@ visible = false
 tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(917548, 65536, 0)
+
+[node name="LV International Airport" type="TileMap" parent="Film Studio In Knox County"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(983082, 851968, 0, 917547, 851968, 0, 983083, 851968, 0, 917548, 851968, 0, 983084, 851968, 0)
 
 [node name="Maldraugh Cottages" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
@@ -5943,13 +5949,7 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2555931, 458752, 0)
 
-[node name="duplicate37" type="TileMap" parent="."]
-position = Vector2(-88, 673)
-tile_set = ExtResource("3_tpj45")
-format = 2
-
-[node name="duplicate38" type="TileMap" parent="."]
-position = Vector2(-88, 673)
+[node name="map2" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
 
@@ -5971,5 +5971,5 @@ format = 2
 layer_0/z_index = 5
 script = ExtResource("8_se1gh")
 
-[node name="map_data_processor" type="Node" parent="."]
-script = ExtResource("9_j7ykq")
+[node name="map_data" type="Node" parent="."]
+script = ExtResource("9_y2bow")
