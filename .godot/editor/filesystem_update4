@@ -1,2 +1,4 @@
 res://zomboid41map.tscn
 res://map_tiles.tres
+res://coordinate.tscn
+res://coordinate.gd
