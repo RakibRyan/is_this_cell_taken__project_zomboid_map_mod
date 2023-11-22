@@ -53,9 +53,9 @@ it is getting tedious. I really need a system that can read/write map data to a 
 "map 2" =  (-4,3),(1,-5),(2,2),(3,-5),(2,7),(1,5),(-4,8),(-3,-9),(-9,-9),(0,0)
 
 
-## Version 0.5.7 Date: 22/1/2023 Total:164
+## Version 0.5.7 Date: 22/1/2023 Total:165
 
-• added 3 new maps 
+• added 4 new maps 
 
 ## Version 0.5.6 Date: 24/09/2023
 
@@ -90,6 +90,8 @@ it is getting tedious. I really need a system that can read/write map data to a 
 • Coordinates gui string formatting
 
 • Added all the map mods Total 161 maps, for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
+
+Ekron Mansion
 
 The Oasis
 

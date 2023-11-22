@@ -5970,7 +5970,12 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097168, 131072, 0)
 
-[node name="new maps4" type="TileMap" parent="."]
+[node name="Ekron Mansion" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835033, 0, 1)
+
+[node name="new maps5" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
 
