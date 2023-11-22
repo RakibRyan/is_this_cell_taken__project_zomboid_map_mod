@@ -89,7 +89,7 @@ it is getting tedious. I really need a system that can read/write map data to a 
 
 • Coordinates gui string formatting
 
-• Added all the map mods Total 160 maps, for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
+• Added all the map mods Total 161 maps, for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
 
 The Oasis
 
