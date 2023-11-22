@@ -5735,6 +5735,12 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2752547, 0, 0, 2883621, 0, 0, 2883620, 0, 0, 2883619, 0, 0, 2818083, 0, 0, 2752548, 0, 0, 2752549, 0, 0, 2818085, 0, 0, 2818084, 0, 0)
 
+[node name="Military Fuel Depot" type="TileMap" parent="South Muldraugh"]
+visible = false
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2818082, 65536, 0, 2883618, 65536, 0, 2883619, 65536, 0, 2818083, 65536, 0)
+
 [node name="Valley Station Town" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
@@ -5949,7 +5955,22 @@ tile_set = ExtResource("3_tpj45")
 format = 2
 layer_0/tile_data = PackedInt32Array(2555931, 458752, 0)
 
-[node name="map2" type="TileMap" parent="."]
+[node name="Leavenburg" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1048592, 0, 1, 1048593, 0, 1, 1048594, 0, 1, 1048595, 0, 1, 1048596, 0, 1, 1048597, 0, 1, 1048598, 0, 1, 1048599, 0, 1, 1048600, 0, 1, 983064, 0, 1, 917528, 0, 1, 851992, 0, 1, 786456, 0, 1, 720920, 0, 1, 720919, 0, 1, 720918, 0, 1, 720917, 0, 1, 720916, 0, 1, 720915, 0, 1, 720914, 0, 1, 720913, 0, 1, 720912, 0, 1, 786448, 0, 1, 851984, 0, 1, 917520, 0, 1, 983056, 0, 1, 983057, 0, 1, 917521, 0, 1, 917522, 0, 1, 917523, 0, 1, 851987, 0, 1, 851988, 0, 1, 786452, 0, 1, 786451, 0, 1, 786450, 0, 1, 786449, 0, 1, 851985, 0, 1, 851986, 0, 1, 786453, 0, 1, 786454, 0, 1, 786455, 0, 1, 851991, 0, 1, 917527, 0, 1, 983063, 0, 1, 983062, 0, 1, 983061, 0, 1, 983060, 0, 1, 983059, 0, 1, 983058, 0, 1, 917524, 0, 1, 917525, 0, 1, 851989, 0, 1, 851990, 0, 1, 917526, 0, 1)
+
+[node name="Leavenburg-RiversideBridge" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(1114132, 327680, 0)
+
+[node name="The Oasis" type="TileMap" parent="."]
+tile_set = ExtResource("3_tpj45")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097168, 131072, 0)
+
+[node name="new maps4" type="TileMap" parent="."]
 tile_set = ExtResource("3_tpj45")
 format = 2
 

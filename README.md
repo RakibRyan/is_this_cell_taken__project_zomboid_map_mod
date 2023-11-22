@@ -53,6 +53,9 @@ it is getting tedious. I really need a system that can read/write map data to a 
 "map 2" =  (-4,3),(1,-5),(2,2),(3,-5),(2,7),(1,5),(-4,8),(-3,-9),(-9,-9),(0,0)
 
 
+## Version 0.5.7 Date: 22/1/2023 Total:164
+
+• added 3 new maps 
 
 ## Version 0.5.6 Date: 24/09/2023
 
@@ -87,6 +90,12 @@ it is getting tedious. I really need a system that can read/write map data to a 
 • Coordinates gui string formatting
 
 • Added all the map mods Total 160 maps, for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
+
+The Oasis
+
+Leavenburg
+
+Leavenburg-RiversideBridge
 
 West Point Expansion
 
@@ -324,6 +333,8 @@ Eerie Country/Fort Knox
 Road between Fort Knox and Bedford Falls
 
 South Muldraugh
+
+South Muldraugh/Military Fuel Depot
 
 Valley Station Town
 
