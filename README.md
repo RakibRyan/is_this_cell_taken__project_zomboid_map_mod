@@ -53,9 +53,9 @@ it is getting tedious. I really need a system that can read/write map data to a 
 "map 2" =  (-4,3),(1,-5),(2,2),(3,-5),(2,7),(1,5),(-4,8),(-3,-9),(-9,-9),(0,0)
 
 
-## Version 0.5.7 Date: 22/1/2023 Total:165
+## Version 0.5.7 Date: 22/1/2023 Total:171
 
-• added 4 new maps 
+• added 10 new maps 
 
 ## Version 0.5.6 Date: 24/09/2023
 
@@ -91,7 +91,19 @@ it is getting tedious. I really need a system that can read/write map data to a 
 
 • Added all the map mods Total 161 maps, for build 41 till date 18/09/2023 with only a few exception which were impossible to determine the cell coordinate.
 
+Train Base near MD
+
+Hunter's Base
+
+Base BBS
+
+Epidemic Westside Map
+
 Ekron Mansion
+
+Bunker: Day of the Dead
+
+Ranger's Homestead
 
 The Oasis
 
