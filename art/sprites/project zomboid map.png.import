@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u55wfrerlgl3"
-path="res://.godot/imported/project zomboid map.png-749616cbf8c19fe44f99aa3b87b8fded.ctex"
+path="res://.godot/imported/project zomboid map.png-4e05d63860562c1bbc8bac35adf0fc98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://project zomboid map.png"
-dest_files=["res://.godot/imported/project zomboid map.png-749616cbf8c19fe44f99aa3b87b8fded.ctex"]
+source_file="res://art/sprites/project zomboid map.png"
+dest_files=["res://.godot/imported/project zomboid map.png-4e05d63860562c1bbc8bac35adf0fc98.ctex"]
 
 [params]
 

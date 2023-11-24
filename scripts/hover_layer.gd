@@ -2,7 +2,7 @@ extends TileMap
 
 @onready var hover_layer = $"."
 @onready var cursor_coordinate = $"../Camera2D/CanvasLayer/coordinate"
-
+@onready var selected = $"../selected"
 
 
 
@@ -16,9 +16,6 @@ func _unhandled_input(event):
 		pass
 	pass
 	
-	if event is InputEventMouseMotion:
-		#print("Mouse movement")  #Debug
-		pass
 
 
 

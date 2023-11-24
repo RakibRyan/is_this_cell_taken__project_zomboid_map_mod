@@ -16,9 +16,9 @@ instance_dock/scenes=[]
 
 config/name="Is This Cell Taken Project Zomboid Map Mod"
 config/description="Project zomboid map mod"
-run/main_scene="res://zomboid41map.tscn"
+run/main_scene="res://scenes/zomboid41map.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
-config/icon="res://image0_0.jpg"
+config/icon="res://art/icons/icon.jpg"
 
 [autoload]
 
@@ -54,5 +54,6 @@ click={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
