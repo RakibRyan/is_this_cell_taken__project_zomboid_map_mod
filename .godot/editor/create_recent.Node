@@ -1,6 +1,10 @@
+GridContainer
+GridMap
+TextEdit
+Node
+Node2D
 AnimatedSprite2D
 CollisionShape2D
-Node
 TileMap
 CanvasLayer
 Camera2D

@@ -17,12 +17,13 @@ instance_dock/scenes=[]
 config/name="Is This Cell Taken Project Zomboid Map Mod"
 config/description="Project zomboid map mod"
 run/main_scene="res://scenes/zomboid41map.tscn"
-config/features=PackedStringArray("4.1", "GL Compatibility")
+config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://art/icons/icon.jpg"
 
 [autoload]
 
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+ProjectTimeTraker="*res://project_time_traker.json"
 
 [debug]
 
@@ -38,7 +39,7 @@ project/assembly_name="Is This Cell Taken Project Zomboid Map Mod"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/InstanceDock/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/donut_collision_polygon2D/plugin.cfg", "res://addons/godot-idea-board/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/project_time_tracker/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg")
+enabled=PackedStringArray("res://addons/InstanceDock/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/donut_collision_polygon2D/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg")
 
 [godot_idea_board]
 
