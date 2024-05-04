@@ -1,12 +1,13 @@
+RichTextLabel
+CanvasLayer
+Button
+Node2D
 Node
 GridContainer
 GridMap
 TextEdit
-Node2D
 AnimatedSprite2D
 CollisionShape2D
 TileMap
-CanvasLayer
 Camera2D
-RichTextLabel
 Label

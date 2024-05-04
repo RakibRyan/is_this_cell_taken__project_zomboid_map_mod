@@ -2,3 +2,6 @@ res://scenes/zomboid41map.tscn
 res://Tileset/map_tiles.tres
 res://scenes/selected.tscn
 res://scenes/coordinate.tscn
+res://scripts/world.gd
+res://scenes/Button.gd
+res://scripts/coordinate.gd

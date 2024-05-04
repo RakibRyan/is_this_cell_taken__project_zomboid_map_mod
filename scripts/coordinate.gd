@@ -14,7 +14,7 @@ func cursor_coordinate():
 #	print(mouse_pos) #Debug
 	tile_mouse_pos = world_map.local_to_map(world_map.get_local_mouse_position())  #world_map.local_to_map(mouse_pos )
 #	print(tile_mouse_pos) #Debug
-	coordinate.text = "Cell: " + str(tile_mouse_pos.x) + ", " + str(tile_mouse_pos.y)
+	coordinate.text = "Cell: " + str(tile_mouse_pos.x) + ", " + str(tile_mouse_pos.y) 
 	pass
 
 # working

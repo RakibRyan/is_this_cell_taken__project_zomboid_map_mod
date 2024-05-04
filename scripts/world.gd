@@ -10,6 +10,13 @@ var testing
 var Build41map_layer = -1
 var hover_overlay = 1
 # Called when the node enters the scene tree for the first time.
+
+
+
+
+
+
+
 func _ready():
 	print("ready") #Debug
 	print_tree()
