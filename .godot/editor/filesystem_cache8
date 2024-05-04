@@ -1,5 +1,5 @@
 1b68385e458f39b50782b41f7e95c77f
-::res://::1714834583
+::res://::1714841794
 export_presets.cfg::TextFile::-1::1714813453::0::1::::<><>::
 project_time_traker.json::JSON::-1::1714813484::0::1::::<><>::
 README.md::TextFile::-1::1700710882::0::1::::<><>::
@@ -153,7 +153,7 @@ THIRDPARTY.txt::TextFile::-1::1714728841::0::1::::<><>::
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1714728841
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1714728841
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1714728841
-::res://addons/godot-jolt/windows/::1714834571
+::res://addons/godot-jolt/windows/::1714841788
 ::res://addons/InstanceDock/::1698756561
 InstanceDock.gd::GDScript::-1::1696083801::0::1::::<>PanelContainer<>::
 InstanceDock.tscn::PackedScene::268425406949137734::1696083801::0::1::::<><>::res://addons/InstanceDock/InstanceDock.gd
@@ -423,10 +423,10 @@ DropdownItem.gd::GDScript::-1::1695906052::0::1::::DropdownItem<>Object<>::
 ::res://art/::1700743242
 ::res://art/icons/::1700743229
 icon.jpg::CompressedTexture2D::5032443740916338662::1695848196::1700743229::1::::<><>::
-::res://art/sprites/::1714840663
+::res://art/sprites/::1714841780
 map tiles not available.png::CompressedTexture2D::1197362459019608391::1714840663::1714840680::1::::<><>::
 map tiles work in progress.png::CompressedTexture2D::7181736431202240120::1714840348::1714840680::1::::<><>::
-map tiles.png::CompressedTexture2D::5090038210381052307::1714834565::1714834578::1::::<><>::
+map tiles.png::CompressedTexture2D::5090038210381052307::1714841780::1714841795::1::::<><>::
 project zomboid map.png::CompressedTexture2D::1467569291714667474::1714836299::1714836305::1::::<><>::
 selected sprites.png::CompressedTexture2D::8055832772562521281::1700739646::1700743467::1::::<><>::
 selected.png::CompressedTexture2D::3627556534918865269::1695848196::1700743483::1::::<><>::
@@ -434,11 +434,11 @@ selected.png::CompressedTexture2D::3627556534918865269::1695848196::1700743483::
 map_data.txt::TextFile::-1::1695848196::0::1::::<><>::
 test2.txt::TextFile::-1::1696415707::0::1::::<><>::
 test.txt::TextFile::-1::1696414924::0::1::::<><>::
-::res://scenes/::1714837593
+::res://scenes/::1714840802
 coordinate.tscn::PackedScene::106179916827933740::1714837116::0::1::::<><>::res://scripts/coordinate.gd
 selected.tscn::PackedScene::1975548855824371590::1714837116::0::1::::<><>::uid://dm1knhpda1bnt::::res://art/sprites/selected sprites.png
 testmap.gd::GDScript::-1::1714809340::0::1::::<>TileMap<>::
-zomboid41map.tscn::PackedScene::7926048527466112281::1714837593::0::1::::<><>::uid://u55wfrerlgl3::::res://art/sprites/project zomboid map.png<>res://scripts/world.gd<>uid://b1tk1hv1rc8cx::::res://Tileset/map_tiles.tres<>uid://cerwgkvhughdb::::res://art/sprites/map tiles.png<>res://scripts/Camera2D.gd<>res://scenes/testmap.gd<>uid://bro1dql74mfk::::res://scenes/coordinate.tscn<>uid://brxhldarijtu0::::res://art/sprites/selected.png<>res://scripts/hover_layer.gd<>res://scripts/map_data.gd<>uid://3e8abgitwo8m::::res://scenes/selected.tscn<>res://scripts/selected.gd<>res://scripts/intersected_tilemaps.gd
+zomboid41map.tscn::PackedScene::7926048527466112281::1714840802::0::1::::<><>::uid://u55wfrerlgl3::::res://art/sprites/project zomboid map.png<>res://scripts/world.gd<>uid://b1tk1hv1rc8cx::::res://Tileset/map_tiles.tres<>uid://cerwgkvhughdb::::res://art/sprites/map tiles.png<>res://scripts/Camera2D.gd<>res://scenes/testmap.gd<>uid://bro1dql74mfk::::res://scenes/coordinate.tscn<>uid://brxhldarijtu0::::res://art/sprites/selected.png<>res://scripts/hover_layer.gd<>res://scripts/map_data.gd<>uid://3e8abgitwo8m::::res://scenes/selected.tscn<>res://scripts/selected.gd<>res://scripts/intersected_tilemaps.gd
 ::res://scripts/::1714835535
 AnimatedSprite2D.gd::GDScript::-1::1714813453::0::1::::<>AnimatedSprite2D<>::
 Camera2D.gd::GDScript::-1::1714813453::0::1::::<>Camera2D<>::
