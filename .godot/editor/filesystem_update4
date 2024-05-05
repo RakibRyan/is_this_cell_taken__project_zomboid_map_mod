@@ -1,13 +1,3 @@
-res://scripts/AnimatedSprite2D.gd
-res://scenes/Button.gd
-res://scripts/Camera2D.gd
-res://scripts/coordinate.gd
-res://scripts/hover_layer.gd
-res://scripts/intersected_tilemaps.gd
-res://scripts/map_data.gd
-res://maps/map_data.txt
 res://scenes/zomboid41map.tscn
 res://Tileset/map_tiles.tres
 res://project_time_traker.json
-res://scenes/selected.tscn
-res://scenes/coordinate.tscn

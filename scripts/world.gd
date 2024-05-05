@@ -19,7 +19,6 @@ var hover_overlay = 1
 
 func _ready():
 	print("ready") #Debug
-	print_tree()
 	#testing = get_cell_atlas_coords(0, Vector2i(27,20)) 
 	#print(testing)
 	var hello = find_children("*", "TileMap")
