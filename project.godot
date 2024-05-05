@@ -20,18 +20,11 @@ run/main_scene="res://scenes/zomboid41map.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://art/icons/icon.jpg"
 
-[autoload]
-
-DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
-ProjectTimeTraker="*res://project_time_traker.json"
-
 [debug]
 
 multirun/number_of_windows=2
-multirun/window_distance=1270
 multirun/add_custom_args=true
-multirun/first_window_args="listen"
-multirun/other_window_args="join"
+multirun/window_args=["listen", "join"]
 
 [dotnet]
 
@@ -39,7 +32,7 @@ project/assembly_name="Is This Cell Taken Project Zomboid Map Mod"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/InstanceDock/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg", "res://addons/donut_collision_polygon2D/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg")
+enabled=PackedStringArray("res://addons/InstanceDock/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/donut_collision_polygon2D/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg")
 
 [godot_idea_board]
 

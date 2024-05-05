@@ -25,7 +25,11 @@
 		{
 			"uuid": "4665c258-8982-4090-a6ba-6b6c5b4af3ed",
 			"title": "Done",
-			"tasks": []
+			"tasks": [
+				"363125e8-cc4a-4a31-b172-697c8f4b4d57",
+				"1ede3d52-38bc-463a-b69a-73980bbeaed3",
+				"df188850-f756-460c-b4fc-5d8460a4c421"
+			]
 		},
 		{
 			"uuid": "5f02007f-0980-43f8-9580-0c35d7795dd1",
@@ -36,6 +40,34 @@
 	"tasks": [
 		{
 			"uuid": "f6c12516-7902-487f-8305-afede0901138",
+			"title": "New task",
+			"description": "",
+			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"steps": []
+		},
+		{
+			"uuid": "df188850-f756-460c-b4fc-5d8460a4c421",
+			"title": "Add dark map",
+			"description": "",
+			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"steps": []
+		},
+		{
+			"uuid": "1ede3d52-38bc-463a-b69a-73980bbeaed3",
+			"title": "Make tooltip",
+			"description": "",
+			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"steps": []
+		},
+		{
+			"uuid": "363125e8-cc4a-4a31-b172-697c8f4b4d57",
+			"title": "add new and prettier tiles",
+			"description": "",
+			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"steps": []
+		},
+		{
+			"uuid": "268b8652-3acc-4844-8038-1475abd23fe4",
 			"title": "New task",
 			"description": "",
 			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
