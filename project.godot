@@ -19,6 +19,7 @@ config/description="Project zomboid map mod"
 config/version="1"
 run/main_scene="res://scenes/zomboid41map.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
+boot_splash/image="res://art/splash screen/pink-dark.png"
 config/icon="res://art/icons/icon.jpg"
 
 [debug]
@@ -57,3 +58,5 @@ click={
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+viewport/hdr_2d=true
+anti_aliasing/quality/screen_space_aa=1
