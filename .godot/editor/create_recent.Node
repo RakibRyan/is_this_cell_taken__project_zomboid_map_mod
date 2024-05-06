@@ -1,7 +1,9 @@
-Node
 RichTextLabel
+TextureRect
+Sprite2D
 CanvasLayer
 Button
+Node
 Node2D
 GridContainer
 GridMap
@@ -10,4 +12,3 @@ AnimatedSprite2D
 CollisionShape2D
 TileMap
 Camera2D
-Label

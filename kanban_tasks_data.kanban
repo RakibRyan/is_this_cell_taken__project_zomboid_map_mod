@@ -15,7 +15,9 @@
 		{
 			"uuid": "4fc9cb0f-006d-4958-9651-4fa90743df4f",
 			"title": "Todo",
-			"tasks": []
+			"tasks": [
+				"73cee203-7379-41cd-b711-e16d650221b4"
+			]
 		},
 		{
 			"uuid": "3bffc010-6b05-4caf-a583-bfac0aef029c",
@@ -69,6 +71,13 @@
 		{
 			"uuid": "268b8652-3acc-4844-8038-1475abd23fe4",
 			"title": "New task",
+			"description": "",
+			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
+			"steps": []
+		},
+		{
+			"uuid": "73cee203-7379-41cd-b711-e16d650221b4",
+			"title": "Add support when hovered over the cell it shows the map that occupy that cell.",
 			"description": "",
 			"category": "e76a59e0-5908-46c8-84d7-c54de07c9cf0",
 			"steps": []

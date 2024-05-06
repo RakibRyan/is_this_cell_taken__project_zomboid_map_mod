@@ -2,14 +2,11 @@ extends Node2D
 var coord_test = Vector2i(27,20)
 var t
 
-func all_tilemap_func():
-	print("----------**********------------")
-	print(get_tree().get_nodes_in_group("TileMap"))
-	print(get_tree().get_nodes_in_group("tilemaps"))
+
 	
 	
 
-	pass
+
 
 func findTilemapsWithCoordinate(coordinate: Vector2) -> Array:
 	var tilemaps_with_coordinate = []
@@ -32,7 +29,6 @@ func tiles(address):
 
 
 func _ready():
-	all_tilemap_func()
 	#testing = get_cell_atlas_coords(0, Vector2i(27,20)) 
 	
 	pass

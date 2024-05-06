@@ -5,7 +5,7 @@ extends TileMap
 @onready var selected = $"../selected"
 
 
-
+#--------------------------------------------------
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
 #		print("mouse movement")   #Debug
@@ -16,7 +16,7 @@ func _unhandled_input(event):
 		pass
 	pass
 	
-
+#-------------------------------------------------------
 
 
 # Called when the node enters the scene tree for the first time.

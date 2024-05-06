@@ -21,16 +21,14 @@ func _ready():
 	print("ready") #Debug
 	#testing = get_cell_atlas_coords(0, Vector2i(27,20)) 
 	#print(testing)
-	var hello = find_children("*", "TileMap")
 	print("test------------------------------")
-	print(hello)
+	var hello = find_children("*", "TileMap")
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
  #cursor_coordinate()
-
 	pass
 
 

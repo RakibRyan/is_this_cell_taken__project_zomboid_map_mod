@@ -1,4 +1,4 @@
-[gd_scene load_steps=104 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=102 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -11,11 +11,9 @@
 [ext_resource type="Texture2D" uid="uid://brxhldarijtu0" path="res://art/sprites/selected.png" id="7_tcqlk"]
 [ext_resource type="Script" path="res://scripts/hover_layer.gd" id="8_ysg65"]
 [ext_resource type="Script" path="res://scripts/map_data.gd" id="9_d77c5"]
-[ext_resource type="Script" path="res://scenes/RichTextLabel.gd" id="9_yneyi"]
 [ext_resource type="PackedScene" uid="uid://3e8abgitwo8m" path="res://scenes/selected.tscn" id="10_slxo6"]
 [ext_resource type="Script" path="res://scripts/selected.gd" id="11_1741e"]
 [ext_resource type="Script" path="res://scripts/intersected_tilemaps.gd" id="12_66s5r"]
-[ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_rj743")
@@ -3977,6 +3975,44 @@ texture = ExtResource("4_oop71")
 [sub_resource type="TileSet" id="TileSet_lbek4"]
 sources/0 = SubResource("TileSetAtlasSource_a5jo3")
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t446q"]
+texture = ExtResource("4_oop71")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_mgtbb"]
+sources/0 = SubResource("TileSetAtlasSource_t446q")
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tlwhd"]
 texture = ExtResource("4_oop71")
 0:0/0 = 0
@@ -4338,44 +4374,6 @@ texture = ExtResource("4_oop71")
 
 [sub_resource type="TileSet" id="TileSet_r4dhh"]
 sources/0 = SubResource("TileSetAtlasSource_lea1w")
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t446q"]
-texture = ExtResource("4_oop71")
-0:0/0 = 0
-1:0/0 = 0
-2:0/0 = 0
-3:0/0 = 0
-4:0/0 = 0
-5:0/0 = 0
-6:0/0 = 0
-7:0/0 = 0
-8:0/0 = 0
-9:0/0 = 0
-10:0/0 = 0
-11:0/0 = 0
-12:0/0 = 0
-13:0/0 = 0
-14:0/0 = 0
-15:0/0 = 0
-0:1/0 = 0
-1:1/0 = 0
-2:1/0 = 0
-3:1/0 = 0
-4:1/0 = 0
-5:1/0 = 0
-6:1/0 = 0
-7:1/0 = 0
-8:1/0 = 0
-9:1/0 = 0
-10:1/0 = 0
-11:1/0 = 0
-12:1/0 = 0
-13:1/0 = 0
-14:1/0 = 0
-15:1/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_mgtbb"]
-sources/0 = SubResource("TileSetAtlasSource_t446q")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n2d0a"]
 texture = ExtResource("4_oop71")
@@ -5215,7 +5213,7 @@ layer_0/tile_data = PackedInt32Array(65576, 393216, 0, 65577, 393216, 0, 65578, 
 [node name="Louisville River Marina" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(196649, 327680, 1, 196648, 327680, 3)
+layer_0/tile_data = PackedInt32Array(196648, 131072, 1, 196649, 131072, 1)
 
 [node name="Louisville Docks" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -5251,6 +5249,17 @@ layer_0/tile_data = PackedInt32Array(327696, 393216, 0, 655384, 393216, 0, 65538
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(393262, 262144, 0, 393263, 262144, 0)
+
+[node name="Vault-Tec, KY" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359316, 0, 1, 1966121, 0, 1, 589872, 0, 1)
+
+[node name="Redbird Ranger Station - Forest Ranger Outpost" type="TileMap" parent="mod maps/Vault-Tec, KY"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359316, 262144, 0)
 
 [node name="Hopewell, KY (English)" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -5553,10 +5562,21 @@ tile_set = SubResource("TileSet_lbek4")
 format = 2
 layer_0/tile_data = PackedInt32Array(1441831, 851968, 1)
 
+[node name="West Point Expansion" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441832, 262144, 0, 1507368, 262144, 0, 1572904, 262144, 0, 1572905, 262144, 0, 1572906, 262144, 0, 1507370, 262144, 0, 1441834, 262144, 0, 1441833, 262144, 0, 1507369, 262144, 0, 1572907, 262144, 0, 1507371, 262144, 0, 1441835, 262144, 0)
+
+[node name="Knox County Bar Crawl" type="TileMap" parent="mod maps/West Point Expansion"]
+visible = false
+tile_set = SubResource("TileSet_mgtbb")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441813, 65536, 0, 1507368, 65536, 0, 2097186, 65536, 0)
+
 [node name="Shortrest (Mapjam Version)" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1441836, 0, 1, 1507372, 0, 1, 1572908, 0, 5, 1572909, 0, 5, 1572910, 0, 5, 1572911, 0, 5, 1572912, 0, 5, 1441840, 0, 5, 1507376, 0, 5, 1441839, 0, 5, 1507375, 0, 5, 1507374, 0, 5, 1507373, 0, 1)
+layer_0/tile_data = PackedInt32Array(1441836, 0, 1, 1507372, 0, 1, 1572908, 0, 1, 1572909, 0, 1, 1572910, 0, 1, 1572911, 0, 1, 1572912, 0, 1, 1441840, 0, 1, 1507376, 0, 1, 1441839, 0, 1, 1507375, 0, 1, 1507374, 0, 1, 1507373, 0, 1)
 
 [node name="TOWER 47 22" type="TileMap" parent="mod maps/Shortrest (Mapjam Version)"]
 visible = false
@@ -5650,23 +5670,17 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1638438, 196608, 0)
 
-[node name="Heavens Hill" type="TileMap" parent="mod maps"]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1703961, 262144, 0)
-
 [node name="Base ABS" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_vc2xy")
 format = 2
 layer_0/tile_data = PackedInt32Array(1703962, 0, 1)
 
-[node name="Homepie" type="TileMap" parent="mod maps"]
-visible = false
+[node name="Heavens Hill" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1703965, 393216, 0, 1703966, 393216, 0, 1769502, 393216, 0, 1769501, 393216, 0)
+layer_0/tile_data = PackedInt32Array(1703961, 262144, 0)
 
-[node name="Mys Community Center" type="TileMap" parent="mod maps/Homepie"]
+[node name="Mys Community Center" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_g1075")
 format = 2
 layer_0/tile_data = PackedInt32Array(1703965, 196608, 0)
@@ -5708,7 +5722,7 @@ layer_0/tile_data = PackedInt32Array(1703971, 0, 1)
 [node name="Monmouth County" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1703975, 851968, 0, 1703976, 851968, 0, 1703977, 851968, 0, 1703978, 851968, 0, 1769514, 851968, 0, 1769511, 851968, 0, 1835047, 851968, 0, 1900583, 851968, 0, 1900584, 851968, 0, 1900585, 851968, 0, 1900586, 851968, 0, 1835050, 851968, 0, 1769513, 851968, 0, 1769512, 851968, 0, 1835048, 851968, 0, 1835049, 851968, 0, 1572903, 851968, 4, 1572904, 851968, 4, 1572905, 851968, 4, 1572906, 851968, 4, 1638439, 851968, 4, 1638440, 851968, 4, 1638441, 851968, 4, 1638442, 851968, 4, 1638443, 851968, 4, 1638444, 851968, 4, 1703979, 851968, 4, 1703980, 851968, 4, 1769515, 851968, 4, 1769516, 851968, 4, 1835051, 851968, 4, 1769517, 851968, 4, 1769518, 851968, 4, 1703981, 851968, 4, 1703982, 851968, 4, 1638445, 851968, 4, 1638446, 851968, 4, 1835052, 851968, 4, 1835053, 851968, 4, 1835054, 851968, 4, 1900587, 851968, 4, 1900588, 851968, 4, 1900589, 851968, 4, 1900590, 851968, 4, 1966119, 851968, 4, 1966120, 851968, 4, 1966121, 851968, 4, 1966122, 851968, 4, 1966123, 851968, 4, 1966124, 851968, 4, 1966125, 851968, 4, 1966126, 851968, 4, 1572907, 851968, 4)
+layer_0/tile_data = PackedInt32Array(1703975, 851968, 0, 1703976, 851968, 0, 1703977, 851968, 0, 1703978, 851968, 0, 1769514, 851968, 0, 1769511, 851968, 0, 1835047, 851968, 0, 1900583, 851968, 0, 1900584, 851968, 0, 1900585, 851968, 0, 1900586, 851968, 0, 1835050, 851968, 0, 1769513, 851968, 0, 1769512, 851968, 0, 1835048, 851968, 0, 1835049, 851968, 0)
 
 [node name="Bourstrange" type="TileMap" parent="mod maps/Monmouth County"]
 visible = false
@@ -5727,36 +5741,6 @@ visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1703974, 131072, 0, 1703975, 131072, 0, 1703976, 131072, 0, 1703977, 131072, 0)
-
-[node name="Road from Monmouth County to Bedford Falls" type="TileMap" parent="mod maps/Monmouth County"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1769515, 196608, 0, 1769516, 196608, 0)
-
-[node name="Cooper\'s Peanut Packaging Plant" type="TileMap" parent="mod maps/Monmouth County"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1966119, 196608, 0)
-
-[node name="SHELTER 40 30" type="TileMap" parent="mod maps/Monmouth County"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1966120, 65536, 0)
-
-[node name="West Point Expansion" type="TileMap" parent="mod maps/Monmouth County"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1441832, 262144, 0, 1507368, 262144, 0, 1572904, 262144, 0, 1572905, 262144, 0, 1572906, 262144, 0, 1507370, 262144, 0, 1441834, 262144, 0, 1441833, 262144, 0, 1507369, 262144, 0, 1572907, 262144, 0, 1507371, 262144, 0, 1441835, 262144, 0)
-
-[node name="Knox County Bar Crawl" type="TileMap" parent="mod maps/Monmouth County/West Point Expansion"]
-visible = false
-tile_set = SubResource("TileSet_mgtbb")
-format = 2
-layer_0/tile_data = PackedInt32Array(1441813, 65536, 0, 1507368, 65536, 0, 2097186, 65536, 0)
 
 [node name="Bendy\'s Bunker Prepper v2" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -5812,10 +5796,15 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1769509, 983040, 0)
 
+[node name="Road from Monmouth County to Bedford Falls" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769515, 196608, 0, 1769516, 196608, 0)
+
 [node name="Bedford Falls" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2359339, 720896, 0, 2424875, 720896, 0, 2293803, 720896, 0, 2228267, 720896, 0, 2162731, 720896, 0, 2424876, 720896, 0, 2359340, 720896, 0, 2293804, 720896, 0, 2228268, 720896, 0, 2162732, 720896, 0, 2424877, 720896, 0, 2359341, 720896, 0, 2293805, 720896, 0, 2228269, 720896, 0, 2162733, 720896, 0, 2424879, 720896, 0, 2359343, 720896, 0, 2293807, 720896, 0, 2228271, 720896, 0, 2162735, 720896, 0, 2162734, 720896, 0, 2228270, 720896, 0, 2293806, 720896, 0, 2359342, 720896, 0, 2424878, 720896, 0, 2097197, 720896, 0, 2031661, 720896, 0, 2097198, 720896, 0, 2031662, 720896, 0, 2490413, 720896, 0, 2490414, 720896, 0)
+layer_0/tile_data = PackedInt32Array(2359339, 720896, 0, 2424875, 720896, 0, 2293803, 720896, 0, 2228267, 720896, 0, 2162731, 720896, 0, 2424876, 720896, 0, 2359340, 720896, 0, 2293804, 720896, 0, 2228268, 720896, 0, 2162732, 720896, 0, 2424877, 720896, 0, 2359341, 720896, 0, 2293805, 720896, 0, 2228269, 720896, 0, 2162733, 720896, 0, 2424879, 720896, 0, 2359343, 720896, 0, 2293807, 720896, 0, 2228271, 720896, 0, 2162735, 720896, 0, 2162734, 720896, 0, 2228270, 720896, 0, 2293806, 720896, 0, 2359342, 720896, 0, 2424878, 720896, 0, 2097197, 720896, 0, 2031661, 720896, 0, 1966125, 720896, 0, 1900589, 720896, 0, 1835053, 720896, 0, 1769517, 720896, 0, 2097198, 720896, 0, 2031662, 720896, 0, 2490413, 720896, 0, 2490414, 720896, 0)
 
 [node name="SHELTER 22 28" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -5956,6 +5945,16 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1966118, 0, 1)
 
+[node name="Cooper\'s Peanut Packaging Plant" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966119, 196608, 0)
+
+[node name="SHELTER 40 30" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966120, 65536, 0)
+
 [node name="Weyhausen, KY" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -6091,7 +6090,7 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2293794, 0, 0)
 
-[node name="Checkpoint South Muldraugh" type="TileMap" parent="mod maps"]
+[node name="Muldraugh Fire Department" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2293795, 262144, 1)
@@ -6105,11 +6104,6 @@ layer_0/tile_data = PackedInt32Array(2293797, 262144, 0)
 tile_set = SubResource("TileSet_vmokp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2293799, 0, 1)
-
-[node name="Redbird Ranger Station - Forest Ranger Outpost" type="TileMap" parent="mod maps"]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2359316, 262144, 0)
 
 [node name="Nature\'s Vengeance Township" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -6287,17 +6281,6 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2752544, 0, 1)
 
-[node name="South Muldraugh" type="TileMap" parent="mod maps"]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2752547, 0, 0, 2883621, 0, 0, 2883620, 0, 0, 2883619, 0, 0, 2818083, 0, 0, 2752548, 0, 0, 2752549, 0, 0, 2818085, 0, 0, 2818084, 0, 0)
-
-[node name="EP MFD" type="TileMap" parent="mod maps/South Muldraugh"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2818082, 65536, 0, 2883618, 65536, 0, 2883619, 65536, 0, 2818083, 65536, 0)
-
 [node name="Fort Knox linked to Eerie Country" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -6327,35 +6310,32 @@ tile_set = SubResource("TileSet_6njeb")
 format = 2
 layer_0/tile_data = PackedInt32Array(2686996, 262144, 0, 2686997, 262144, 0, 2686998, 262144, 0, 2686999, 262144, 0, 2687000, 262144, 0)
 
+[node name="South Muldraugh" type="TileMap" parent="mod maps/unsorted"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2752547, 0, 0, 2883621, 0, 0, 2883620, 0, 0, 2883619, 0, 0, 2818083, 0, 0, 2752548, 0, 0, 2752549, 0, 0, 2818085, 0, 0, 2818084, 0, 0)
+
+[node name="EP MFD" type="TileMap" parent="mod maps/unsorted/South Muldraugh"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2818082, 65536, 0, 2883618, 65536, 0, 2883619, 65536, 0, 2818083, 65536, 0)
+
 [node name="Kingsmouth, KY (buggy)" type="TileMap" parent="mod maps/unsorted"]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(917514, 851968, 0, 983050, 851968, 0, 1114125, 851968, 0, 1114124, 851968, 0, 1114123, 851968, 0, 1114122, 851968, 0, 1048586, 851968, 0, 917515, 851968, 0, 917516, 851968, 0, 917517, 851968, 0, 983053, 851968, 0, 1048589, 851968, 0, 1048588, 851968, 0, 1048587, 851968, 0, 983051, 851968, 0, 983052, 851968, 0)
 
-[node name="Diggertown" type="TileMap" parent="mod maps/unsorted"]
+[node name="duplicate32" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1507347, 196608, 0, 1507348, 196608, 0, 1507349, 196608, 0, 1507350, 196608, 0, 1572883, 196608, 0, 1572884, 196608, 0, 1572885, 196608, 0, 1572886, 196608, 0, 1638419, 196608, 0, 1638420, 196608, 0, 1638421, 196608, 0, 1638422, 196608, 0)
 
 [node name="duplicate33" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(3145699, 196608, 0)
-
-[node name="duplicate34" type="TileMap" parent="."]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(3145699, 196608, 0)
-
-[node name="duplicate35" type="TileMap" parent="."]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(3145699, 196608, 0)
 
 [node name="testmap" type="TileMap" parent="."]
 visible = false
@@ -6372,42 +6352,25 @@ script = ExtResource("5_5sici")
 [node name="CanvasLayer" type="CanvasLayer" parent="Camera2D"]
 
 [node name="coordinate" parent="Camera2D/CanvasLayer" instance=ExtResource("6_hp05k")]
-top_level = true
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -139.0
+offset_left = 0.0
 offset_top = 0.0
-offset_right = 0.0
-offset_bottom = 28.0
-grow_horizontal = 0
-mouse_filter = 2
+offset_right = 108.0
+offset_bottom = 32.0
 
-[node name="controls ui" type="CanvasLayer" parent="Camera2D"]
+[node name="CanvasLayer3" type="CanvasLayer" parent="Camera2D"]
 
-[node name="controls" type="RichTextLabel" parent="Camera2D/controls ui"]
-texture_filter = 1
+[node name="RichTextLabel" type="RichTextLabel" parent="Camera2D/CanvasLayer3"]
 offset_left = 410.0
 offset_right = 747.0
 offset_bottom = 30.0
 theme_override_fonts/normal_font = SubResource("FontVariation_jbl20")
 text = "Scroll to resize &  Left Click to move"
 
-[node name="map ui" type="CanvasLayer" parent="Camera2D"]
-offset = Vector2(5, 0)
-scale = Vector2(0.7, 0.7)
-transform = Transform2D(0.7, 0, 0, 0.7, 5, 0)
+[node name="CanvasLayer2" type="CanvasLayer" parent="Camera2D"]
 
-[node name="map names" type="RichTextLabel" parent="Camera2D/map ui"]
-visible = false
-texture_filter = 1
-anchors_preset = 9
-anchor_bottom = 1.0
-offset_left = 4.0
-offset_top = 233.0
-offset_right = 493.0
-offset_bottom = 278.0
-grow_vertical = 2
+[node name="RichTextLabel" type="RichTextLabel" parent="Camera2D/CanvasLayer2"]
+offset_right = 183.0
+offset_bottom = 812.0
 text = "Jeffersonville, Mansion
 Jeffersonville, Mansion/Christmas Village
 Jeffersonville, Mansion/McAlpine Locks and Dam
@@ -6617,117 +6580,6 @@ March Ridge Expansion
 Fort Knox linked to Eerie Country
 Elliot Pond
 Eerie Country"
-tab_size = 0
-script = ExtResource("9_yneyi")
-
-[node name="Toggle map names ui" type="CanvasLayer" parent="Camera2D"]
-
-[node name="toggle map names" type="Button" parent="Camera2D/Toggle map names ui"]
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -168.0
-offset_top = -45.0
-offset_right = -13.0
-offset_bottom = -7.0
-grow_horizontal = 0
-grow_vertical = 0
-tooltip_text = "Turn the map names ui on or off"
-toggle_mode = true
-action_mode = 0
-text = "Toggle Map Names"
-icon_alignment = 2
-
-[node name="toggle map overlays" type="Button" parent="Camera2D/Toggle map names ui"]
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -168.0
-offset_top = -97.0
-offset_right = -13.0
-offset_bottom = -59.0
-grow_horizontal = 0
-grow_vertical = 0
-tooltip_text = "Turn the map overlays on or off"
-toggle_mode = true
-action_mode = 0
-text = "Toggle overlays"
-icon_alignment = 2
-
-[node name="RichTextLabel" type="RichTextLabel" parent="Camera2D/Toggle map names ui"]
-visible = false
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -212.0
-offset_top = -58.0
-offset_right = -11.0
-offset_bottom = -12.0
-grow_horizontal = 0
-grow_vertical = 0
-
-[node name="MapLegendUI" type="CanvasLayer" parent="Camera2D"]
-
-[node name="MapLegend" type="TextureRect" parent="Camera2D/MapLegendUI"]
-offset_left = 5.0
-offset_top = 6.0
-offset_right = 30.0
-offset_bottom = 159.0
-texture = ExtResource("12_mrjk1")
-
-[node name="Already has a map" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 33.0
-offset_top = 5.0
-offset_right = 195.0
-offset_bottom = 28.0
-tooltip_text = "TIles shaped like this already have a reputable map mod in this cell"
-text = "Already has a map"
-
-[node name="Map at works" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 33.0
-offset_top = 32.0
-offset_right = 186.0
-offset_bottom = 55.0
-tooltip_text = "A modder is already working on a map involving this cell. Therefore not adviced to use"
-text = "Map at works"
-
-[node name="a small part used" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 33.0
-offset_top = 57.0
-offset_right = 225.0
-offset_bottom = 80.0
-tooltip_text = "Only a small part of the cell is used in a map therefore if you respect that part it can be safe to create a map for this cell without map conflicts"
-text = "A small part of cell used"
-
-[node name="will be free in future" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 33.0
-offset_top = 85.0
-offset_right = 218.0
-offset_bottom = 108.0
-tooltip_text = "If a modder decides to move his map this cell maybe open for future maps"
-text = "Will be free in future"
-
-[node name="multiple non conflict" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 33.0
-offset_top = 109.0
-offset_right = 262.0
-offset_bottom = 133.0
-tooltip_text = "This cell has multiple non conflicting maps. Check this mod's page  to see the map's order to use all."
-text = "Multiple non conflicting map"
-
-[node name="reserved symbol" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 32.0
-offset_top = 133.0
-offset_right = 259.0
-offset_bottom = 159.0
-tooltip_text = "for unforseen things"
-text = "( Symbol for futureproofing )"
 
 [node name="hover_layer" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_c23ui")
@@ -6745,7 +6597,4 @@ script = ExtResource("11_1741e")
 [node name="intersected_tilemaps" type="Node2D" parent="."]
 script = ExtResource("12_66s5r")
 
-[connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]
-[connection signal="mouse_exited" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_exited"]
-[connection signal="toggled" from="Camera2D/Toggle map names ui/toggle map names" to="Camera2D/map ui/map names" method="_on_button_toggled"]
-[connection signal="toggled" from="Camera2D/Toggle map names ui/toggle map overlays" to="mod maps" method="_on_toggle_map_overlays_toggled"]
+[connection signal="tree_entered" from="Camera2D/CanvasLayer2" to="Camera2D" method="_on_canvas_layer_2_tree_entered"]

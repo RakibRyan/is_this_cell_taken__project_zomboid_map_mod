@@ -26,6 +26,11 @@ multirun/number_of_windows=2
 multirun/add_custom_args=true
 multirun/window_args=["listen", "join"]
 
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [dotnet]
 
 project/assembly_name="Is This Cell Taken Project Zomboid Map Mod"
