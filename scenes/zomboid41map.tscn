@@ -9267,11 +9267,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1572882, 65536, 0)
 
-[node name="diggertown" type="TileMap" parent="mod maps/Big Bear Lake"]
+[node name="Diggertown" type="TileMap" parent="mod maps/Big Bear Lake"]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1507347, 327680, 0, 1572883, 327680, 0, 1638419, 327680, 0, 1638420, 327680, 0, 1638421, 327680, 0, 1638422, 327680, 0, 1572886, 327680, 0, 1507350, 327680, 0, 1507349, 327680, 0, 1572885, 327680, 0, 1572884, 327680, 0, 1507348, 327680, 0)
+layer_0/tile_data = PackedInt32Array(1507347, 196608, 0, 1507348, 196608, 0, 1507349, 196608, 0, 1507350, 196608, 0, 1572883, 196608, 0, 1572884, 196608, 0, 1572885, 196608, 0, 1572886, 196608, 0, 1638419, 196608, 0, 1638420, 196608, 0, 1638421, 196608, 0, 1638422, 196608, 0)
 
 [node name="Greenport, KY" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_wiotu")
@@ -9605,6 +9605,12 @@ visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2162702, 0, 1, 2162703, 0, 1, 2228239, 0, 1, 2228238, 0, 1, 2228240, 0, 1, 2162704, 0, 1)
+
+[node name="HavenRidge" type="TileMap" parent="mod maps/St Paulo\'s Hammer"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097166, 393216, 0, 2162702, 393216, 0, 2097167, 393216, 0, 2162703, 393216, 0)
 
 [node name="Nettle Township" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_qmyoj")
@@ -10013,29 +10019,16 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(917514, 851968, 0, 983050, 851968, 0, 1114125, 851968, 0, 1114124, 851968, 0, 1114123, 851968, 0, 1114122, 851968, 0, 1048586, 851968, 0, 917515, 851968, 0, 917516, 851968, 0, 917517, 851968, 0, 983053, 851968, 0, 1048589, 851968, 0, 1048588, 851968, 0, 1048587, 851968, 0, 983051, 851968, 0, 983052, 851968, 0)
 
-[node name="Diggertown" type="TileMap" parent="mod maps/unsorted"]
+[node name="Taylorsville" type="TileMap" parent="mod maps/unsorted"]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1507347, 196608, 0, 1507348, 196608, 0, 1507349, 196608, 0, 1507350, 196608, 0, 1572883, 196608, 0, 1572884, 196608, 0, 1572885, 196608, 0, 1572886, 196608, 0, 1638419, 196608, 0, 1638420, 196608, 0, 1638421, 196608, 0, 1638422, 196608, 0)
-
-[node name="duplicate33" type="TileMap" parent="."]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(3145699, 196608, 0)
-
-[node name="duplicate34" type="TileMap" parent="."]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(3145699, 196608, 0)
+layer_0/tile_data = PackedInt32Array(1376287, 131072, 0, 1376288, 131072, 0, 1376289, 131072, 0, 1376290, 131072, 0, 1441822, 131072, 0, 1441823, 131072, 0, 1441824, 131072, 0, 1441825, 131072, 0, 1441826, 131072, 0, 1507358, 131072, 0, 1507359, 131072, 0, 1507360, 131072, 0, 1507361, 131072, 0, 1507362, 131072, 0, 1572896, 131072, 0, 1572897, 131072, 0)
 
 [node name="duplicate35" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(3145699, 196608, 0)
 
 [node name="testmap" type="TileMap" parent="."]
 visible = false
