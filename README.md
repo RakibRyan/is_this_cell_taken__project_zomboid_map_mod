@@ -1,6 +1,10 @@
 # Is this cell taken - project zomboid map mod
 
 
+![preview](https://github.com/RakibRyan/is_this_cell_taken__project_zomboid_map_mod/assets/85598032/4913896f-2934-4a41-aa9b-c2b481b3ae33)
+
+
+
 • Do you want to make the biggest map possible in the world of project zomboid but not sure which mods can you use/ which map mods overwrite others?
 
 • Did you start making a map only to find that someone else already made a map for that cell; as a reasult your map is forgotten by the community?
