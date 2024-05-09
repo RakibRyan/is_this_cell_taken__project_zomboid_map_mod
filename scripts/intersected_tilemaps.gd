@@ -1,12 +1,5 @@
 extends Node2D
 var coord_test = Vector2i(27,20)
-var t
-
-
-	
-	
-
-
 
 func findTilemapsWithCoordinate(coordinate: Vector2) -> Array:
 	var tilemaps_with_coordinate = []
@@ -15,17 +8,9 @@ func findTilemapsWithCoordinate(coordinate: Vector2) -> Array:
 	print(get_tree().get_nodes_in_group("TileMap"))
 	for node in get_tree().get_nodes_in_group("tilemaps"):
 		var tilemap = node
-
-		# Check if the coordinate exists in the current tilemap
-		if tilemap.has_cell(coordinate.x, coordinate.y):
+		if tilemap.has_cell(coordinate.x, coordinate.y):  # Check if the coordinate exists in the current tilemap
 			tilemaps_with_coordinate.append(tilemap)
-
 	return tilemaps_with_coordinate
-
-func tiles(address):
-	var name = get_node(address)
-
-	pass
 
 
 func _ready():

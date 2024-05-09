@@ -1,11 +1,9 @@
 extends RichTextLabel
 
-var tile_mouse_pos
+@export var tile_mouse_pos:Vector2i
 
 @onready var world_map = $"../../.."
-@onready var coordinate = $"."
 @onready var camera2d = $"../"
-
 
 
 func cursor_coordinate():
@@ -13,9 +11,9 @@ func cursor_coordinate():
 	var mouse_pos = get_global_mouse_position()
 #	print(mouse_pos) #Debug
 	tile_mouse_pos = world_map.local_to_map(world_map.get_local_mouse_position())  #world_map.local_to_map(mouse_pos )
-#	print(tile_mouse_pos) #Debug
-	coordinate.text = "Cell: " + str(tile_mouse_pos.x) + ", " + str(tile_mouse_pos.y) 
-	pass
+	#print(tile_mouse_pos) #Debug
+	self.text = "Cell: " + str(tile_mouse_pos) 
+	return tile_mouse_pos
 
 # working
 func hover_overlay(position: Vector2i):

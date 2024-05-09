@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckmty2bxude4f"]
+
+[ext_resource type="Texture2D" uid="uid://brxhldarijtu0" path="res://art/sprites/selected.png" id="1_b43cq"]
+[ext_resource type="Script" path="res://scripts/hover_layer.gd" id="2_gwtjp"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cqiv0"]
+texture = ExtResource("1_b43cq")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_c23ui"]
+sources/1 = SubResource("TileSetAtlasSource_cqiv0")
+
+[node name="hover_layer" type="TileMap"]
+tile_set = SubResource("TileSet_c23ui")
+format = 2
+layer_0/z_index = 5
+script = ExtResource("2_gwtjp")

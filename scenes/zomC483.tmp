@@ -1,16 +1,17 @@
-[gd_scene load_steps=99 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=102 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
-[ext_resource type="Script" path="res://scripts/mod maps.gd" id="3_77yy7"]
+[ext_resource type="Script" path="res://scenes/mod maps.gd" id="3_77yy7"]
 [ext_resource type="TileSet" uid="uid://b1tk1hv1rc8cx" path="res://Tileset/map_tiles.tres" id="3_vwjdp"]
 [ext_resource type="Texture2D" uid="uid://cerwgkvhughdb" path="res://art/sprites/map tiles.png" id="4_oop71"]
 [ext_resource type="Script" path="res://scripts/Camera2D.gd" id="5_5sici"]
-[ext_resource type="Script" path="res://scripts/testmap.gd" id="5_dpybp"]
+[ext_resource type="Script" path="res://scenes/testmap.gd" id="5_dpybp"]
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://scenes/coordinate.tscn" id="6_hp05k"]
+[ext_resource type="Texture2D" uid="uid://brxhldarijtu0" path="res://art/sprites/selected.png" id="7_tcqlk"]
+[ext_resource type="Script" path="res://scripts/hover_layer.gd" id="8_ysg65"]
 [ext_resource type="Script" path="res://scripts/map_data.gd" id="9_d77c5"]
-[ext_resource type="Script" path="res://scripts/RichTextLabel.gd" id="9_yneyi"]
-[ext_resource type="Script" path="res://scripts/map_conflicts.gd" id="11_0bbie"]
+[ext_resource type="Script" path="res://scenes/RichTextLabel.gd" id="9_yneyi"]
 [ext_resource type="Script" path="res://scripts/intersected_tilemaps.gd" id="12_66s5r"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 
@@ -8854,6 +8855,13 @@ sources/0 = SubResource("TileSetAtlasSource_wlk3v")
 
 [sub_resource type="FontVariation" id="FontVariation_jbl20"]
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cqiv0"]
+texture = ExtResource("7_tcqlk")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_c23ui"]
+sources/1 = SubResource("TileSetAtlasSource_cqiv0")
+
 [node name="world_map" type="TileMap"]
 tile_set = SubResource("TileSet_qebat")
 format = 2
@@ -10392,21 +10400,11 @@ offset_bottom = 159.0
 tooltip_text = "for unforseen things"
 text = "( Symbol for futureproofing )"
 
-[node name="Maps_conflict_ui" type="CanvasLayer" parent="Camera2D"]
-
-[node name="map_conflicts" type="RichTextLabel" parent="Camera2D/Maps_conflict_ui"]
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -225.0
-offset_top = -114.0
-offset_right = 264.0
-grow_horizontal = 2
-grow_vertical = 0
-bbcode_enabled = true
-script = ExtResource("11_0bbie")
+[node name="hover_layer" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_c23ui")
+format = 2
+layer_0/z_index = 5
+script = ExtResource("8_ysg65")
 
 [node name="map_data" type="Node" parent="."]
 script = ExtResource("9_d77c5")
