@@ -10069,7 +10069,7 @@ anchor_bottom = 1.0
 offset_left = 4.0
 offset_top = 233.0
 offset_right = 493.0
-offset_bottom = 186.0
+offset_bottom = 278.0
 grow_vertical = 2
 text = "Jeffersonville, Mansion
 Jeffersonville, Mansion/Christmas Village
@@ -10283,14 +10283,6 @@ Eerie Country"
 tab_size = 0
 script = ExtResource("9_yneyi")
 
-[node name="ColorRect" type="ColorRect" parent="Camera2D/map ui"]
-visible = false
-offset_left = 4.0
-offset_top = 233.0
-offset_right = 44.0
-offset_bottom = 273.0
-color = Color(0, 0, 0, 1)
-
 [node name="Toggle map names ui" type="CanvasLayer" parent="Camera2D"]
 
 [node name="toggle map names" type="Button" parent="Camera2D/Toggle map names ui"]
@@ -10403,12 +10395,15 @@ text = "( Symbol for futureproofing )"
 [node name="Maps_conflict_ui" type="CanvasLayer" parent="Camera2D"]
 
 [node name="map_conflicts" type="RichTextLabel" parent="Camera2D/Maps_conflict_ui"]
-anchors_preset = 2
+anchors_preset = 7
+anchor_left = 0.5
 anchor_top = 1.0
+anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = 10.0
-offset_top = -31.0
-offset_right = 822.0
+offset_left = -225.0
+offset_top = -114.0
+offset_right = 264.0
+grow_horizontal = 2
 grow_vertical = 0
 bbcode_enabled = true
 script = ExtResource("11_0bbie")
