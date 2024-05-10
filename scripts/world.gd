@@ -30,7 +30,8 @@ func findTilemapsWithCoordinate() -> Array:
 		temp = temp.get_slice(":", 0)
 		extracted_names.append(temp)
 		
-	print(extracted_names)
+	extracted_names.remove_at(0)
+	#print(extracted_names)
 	if tilemaps_with_tiles_in_coord.size() == 0:
 		print("No Maps here")
 	else:
