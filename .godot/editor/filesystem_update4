@@ -1,5 +1,6 @@
 res://scenes/zomboid41map.tscn
 res://Tileset/map_tiles.tres
+res://scripts/map_conflicts.gd
 res://project_time_traker.json
 res://scenes/selected.tscn
 res://scenes/coordinate.tscn
@@ -8,6 +9,5 @@ res://scripts/Camera2D.gd
 res://scripts/coordinate.gd
 res://scripts/hover_layer.gd
 res://scripts/intersected_tilemaps.gd
-res://scripts/map_conflicts.gd
 res://scripts/map_data.gd
 res://maps/map_data.txt

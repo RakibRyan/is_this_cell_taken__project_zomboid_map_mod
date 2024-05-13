@@ -1,6 +1,6 @@
-ColorRect
 RichTextLabel
 CanvasLayer
+ColorRect
 TextureRect
 Sprite2D
 Button
@@ -12,4 +12,3 @@ TextEdit
 AnimatedSprite2D
 CollisionShape2D
 TileMap
-Camera2D

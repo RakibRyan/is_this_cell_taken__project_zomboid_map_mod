@@ -23,28 +23,30 @@ var all_tile_maps:Array
 func findTilemapsWithCoordinate() -> Array:
 	for tilemap in all_tile_maps:
 		if tilemap.get_cell_atlas_coords(0, cursor_coordinate.tile_mouse_pos) != Vector2i(-1,-1): #get_cell_atlas_coords(layer, tile_coord)
-			tilemaps_with_tiles_in_coord.append(tilemap)
-
+			#if tilemap.visible == false:
+				tilemaps_with_tiles_in_coord.append(tilemap)
+				#
+			#else: 
+				#tilemaps_with_tiles_in_coord.insert(1, tilemap)
+				#print(tilemaps_with_tiles_in_coord)
+			
 	for tile in tilemaps_with_tiles_in_coord:
 		var temp = str(tile)
 		temp = temp.get_slice(":", 0)
 		extracted_names.append(temp)
-		
 	extracted_names.remove_at(0)
-	#print(extracted_names)
-	if tilemaps_with_tiles_in_coord.size() == 0:
+	
+	if extracted_names.size() == 0:
 		print("No Maps here")
 	else:
-		#print(tilemaps_with_tiles_in_coord)
 		print(extracted_names)
+		
 	return extracted_names
 
 
 func _ready():
 	print("ready") #Debug
-	#print("get all tilemaps")
-	all_tile_maps = find_children("*", "TileMap") #print(all_tile_maps)
-	#print(all_tile_maps)
+	all_tile_maps = find_children("*", "TileMap") #Debug - print(all_tile_maps)
 	pass 
 
 

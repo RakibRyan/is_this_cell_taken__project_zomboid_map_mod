@@ -10414,12 +10414,29 @@ text = "( Symbol for futureproofing )"
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 10.0
-offset_top = -31.0
-offset_right = 822.0
+offset_left = 11.0
+offset_top = -59.0
+offset_right = 823.0
+offset_bottom = -28.0
 grow_vertical = 0
+tooltip_text = "White is active map, Red is hidden due to conflict"
 bbcode_enabled = true
 script = ExtResource("11_0bbie")
+
+[node name="version no ui" type="CanvasLayer" parent="Camera2D"]
+
+[node name="version no" type="RichTextLabel" parent="Camera2D/version no ui"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = -27.0
+offset_right = 364.0
+offset_bottom = -4.0
+grow_vertical = 0
+bbcode_enabled = true
+text = "Build:2.02 Maps: 213"
+fit_content = true
 
 [node name="map_data" type="Node" parent="."]
 script = ExtResource("9_d77c5")
