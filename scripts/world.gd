@@ -24,7 +24,7 @@ func findTilemapsWithCoordinate() -> Array:
 	for tilemap in all_tile_maps:
 		if tilemap.get_cell_atlas_coords(0, cursor_coordinate.tile_mouse_pos) != Vector2i(-1,-1): #get_cell_atlas_coords(layer, tile_coord)
 			#if tilemap.visible == false:
-				tilemaps_with_tiles_in_coord.append(tilemap)
+			tilemaps_with_tiles_in_coord.append(tilemap)
 				#
 			#else: 
 				#tilemaps_with_tiles_in_coord.insert(1, tilemap)

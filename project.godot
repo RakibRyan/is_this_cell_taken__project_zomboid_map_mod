@@ -39,7 +39,7 @@ project/assembly_name="Is This Cell Taken Project Zomboid Map Mod"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/InstanceDock/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg")
+enabled=PackedStringArray("res://addons/InstanceDock/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/godot-idea-board/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg")
 
 [godot_idea_board]
 

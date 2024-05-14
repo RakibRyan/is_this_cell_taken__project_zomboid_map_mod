@@ -10441,8 +10441,7 @@ fit_content = true
 [node name="map_data" type="Node" parent="."]
 script = ExtResource("9_d77c5")
 
-[node name="intersected_tilemaps" type="Node2D" parent="."]
-visible = false
+[node name="test" type="Node2D" parent="."]
 script = ExtResource("12_66s5r")
 
 [connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]
