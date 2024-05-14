@@ -50,6 +50,11 @@ This mod will help you find out if a cell already has a map mod on it or not.
 
 implement above features???
 
+
+## version 2.1 Date: 09/05/2024
+
+• added conflict finder
+
 ## version 1 Date: 03/05/2024
 
 • released initial version
