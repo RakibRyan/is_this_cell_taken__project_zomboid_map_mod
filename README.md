@@ -50,8 +50,9 @@ This mod will help you find out if a cell already has a map mod on it or not.
 
 implement above features???
 
+## version 2 Date: 07/05/2024
 
-
+• released initial version
 
 ## Version 0.13 Date: 22/1/2023 Total:173
 
