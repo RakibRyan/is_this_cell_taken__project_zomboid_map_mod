@@ -33,29 +33,15 @@ func _unhandled_input(event):
 		##print("Mouse movement")  #Debug
 		#pass
 
-
-
-
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
-
-
-
+#-------------Needs fixing as names changed-----------------
+# on ui cursor off
 func _on_rich_text_label_mouse_entered():
 	#print("ui")
 	cursor_in_world = false
 	pass # Replace with function body.
 
 
+#on ui cursor on
 func _on_rich_text_label_mouse_exited():
 	#print("world")
 	cursor_in_world = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=98 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=97 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -10,7 +10,6 @@
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://scenes/coordinate.tscn" id="6_hp05k"]
 [ext_resource type="Script" path="res://scripts/RichTextLabel.gd" id="9_yneyi"]
 [ext_resource type="Script" path="res://scripts/map_conflicts.gd" id="11_0bbie"]
-[ext_resource type="Script" path="res://scripts/scriptss - test features/intersected_tilemaps.gd" id="12_66s5r"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
@@ -10433,9 +10432,6 @@ grow_vertical = 0
 bbcode_enabled = true
 text = "Build:2.02 Maps: 213"
 fit_content = true
-
-[node name="test" type="Node2D" parent="."]
-script = ExtResource("12_66s5r")
 
 [connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]
 [connection signal="mouse_exited" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_exited"]

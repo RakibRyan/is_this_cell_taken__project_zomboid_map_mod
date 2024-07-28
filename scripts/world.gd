@@ -1,6 +1,8 @@
 extends TileMap
+
 @export var world_map : TileMap
 @export var extracted_names:Array = []
+
 @onready var cursor_coordinate = $"Camera2D/CanvasLayer/coordinate"
 
 var Build41map_layer = -1
@@ -8,6 +10,7 @@ var hover_overlay = 1
 var tilemaps_with_tiles_in_coord:Array = [] 
 var tile_map_names_with_tiles_in_coord:Array = []
 var all_tile_maps:Array 
+
 
 # Compare everymap for occupancy in the cell & Iterate through all tilemaps in the scene
 func findTilemapsWithCoordinate() -> Array:
@@ -29,10 +32,10 @@ func findTilemapsWithCoordinate() -> Array:
 	return extracted_names
 	
 
-func _ready(): # Called when the node enters the scene tree for the first time.
-	print("ready") #Debug
-	all_tile_maps = find_children("*", "TileMap") #Debug - print(all_tile_maps)
-	pass 
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	all_tile_maps = find_children("*", "TileMap") # print(all_tile_maps)
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

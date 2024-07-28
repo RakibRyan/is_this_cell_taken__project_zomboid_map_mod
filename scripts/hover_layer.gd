@@ -1,5 +1,7 @@
 extends TileMap
+
 @onready var cursor_coordinate = $"../Camera2D/CanvasLayer/coordinate"
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
