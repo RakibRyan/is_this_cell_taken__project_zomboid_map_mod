@@ -1,0 +1,13 @@
+#It's easier to just find the mods folder (the id in the URL) and open it, go mods > Over the River - Secondary Route > media > maps > Over The River Secondary Route and just look at the numbers on the lotheader files.
+
+##Map Notes
+Coryerdon - Taylorsville needs to be loaded BEFORE Coryerdon to work. Taylorsville will replace all parts of Coryerdon south of the river. 
+The west/north bridges from Taylorsville will not connect to any roads in Coryerdon. 
+You can use this mod if you want to connect Taylorsville and Coryerdon with a bridge on the east side.
+https://steamcommunity.com/sharedfiles/filedetails/?id=3137753538&searchtext=taylors
+
+#Taylorsville - Bridge to Coryerdon 
+This mod will connect Taylorsville and Coryerdon with a bridge on the east side. 
+#Daisy County - 
+Taylorsville needs to be loaded AFTER Daisy County to work. South road from Taylorsville will get cut off by Daisy
+County, but all other roads and parts of both maps will work.

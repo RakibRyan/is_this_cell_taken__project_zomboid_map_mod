@@ -1,4 +1,4 @@
-[gd_scene load_steps=100 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=98 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -7,12 +7,10 @@
 [ext_resource type="TileSet" uid="uid://b1tk1hv1rc8cx" path="res://Tileset/map_tiles.tres" id="3_vwjdp"]
 [ext_resource type="Texture2D" uid="uid://cerwgkvhughdb" path="res://art/sprites/map tiles.png" id="4_oop71"]
 [ext_resource type="Script" path="res://scripts/Camera2D.gd" id="5_5sici"]
-[ext_resource type="Script" path="res://scripts/testmap.gd" id="5_dpybp"]
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://scenes/coordinate.tscn" id="6_hp05k"]
-[ext_resource type="Script" path="res://scripts/map_data.gd" id="9_d77c5"]
 [ext_resource type="Script" path="res://scripts/RichTextLabel.gd" id="9_yneyi"]
 [ext_resource type="Script" path="res://scripts/map_conflicts.gd" id="11_0bbie"]
-[ext_resource type="Script" path="res://scripts/intersected_tilemaps.gd" id="12_66s5r"]
+[ext_resource type="Script" path="res://scripts/scriptss - test features/intersected_tilemaps.gd" id="12_66s5r"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
@@ -10028,12 +10026,10 @@ visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 
-[node name="testmap" type="TileMap" parent="."]
+[node name="duplicate37" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2293824, 65536, 0, 2293823, 65536, 0, 2359359, 65536, 0, 2359360, 65536, 0)
-script = ExtResource("5_dpybp")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(518, 402)
@@ -10437,9 +10433,6 @@ grow_vertical = 0
 bbcode_enabled = true
 text = "Build:2.02 Maps: 213"
 fit_content = true
-
-[node name="map_data" type="Node" parent="."]
-script = ExtResource("9_d77c5")
 
 [node name="test" type="Node2D" parent="."]
 script = ExtResource("12_66s5r")

@@ -7,9 +7,7 @@ var current_zoom
 var  cursor_in_world = true
 
 
-
-
-#--------------------------------------------
+# Button Input Handeled
 func _input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed():
@@ -22,19 +20,18 @@ func _input(event):
 					if zoom < zoom_max:
 	#					print(zoom) #Debug
 						zoom += zoom_speed
-	pass
-#----------------------------------------------------
 
 
+# Input Unhandeled
 func _unhandled_input(event):
 	if event is InputEventMouseMotion:
 		if event.button_mask == MOUSE_BUTTON_LEFT:
 			position -= event.relative / zoom
-	pass
 	
-	if event is InputEventMouseMotion:
-		#print("Mouse movement")  #Debug
-		pass
+	
+	#if event is InputEventMouseMotion:
+		##print("Mouse movement")  #Debug
+		#pass
 
 
 
