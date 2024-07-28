@@ -4,7 +4,7 @@ extends RichTextLabel
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	if world_map.extracted_names.size() == 0:
 		self.text = "No moddded Maps"
 	else:

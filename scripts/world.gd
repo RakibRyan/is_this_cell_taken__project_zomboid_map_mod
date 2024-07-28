@@ -38,7 +38,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	extracted_names.clear()
 	tilemaps_with_tiles_in_coord.clear()
 	findTilemapsWithCoordinate()
