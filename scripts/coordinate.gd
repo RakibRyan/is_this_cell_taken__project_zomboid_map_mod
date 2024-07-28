@@ -16,15 +16,15 @@ func cursor_coordinate():
 	return tile_mouse_pos
 
 # working
-func hover_overlay(position: Vector2i):
-	
-	pass
+#func hover_overlay(position: Vector2i):
+	#
+	#pass
 
 
 
 func _ready():
 
-	var data = world_map.get_cell_tile_data(0,Vector2(27,37))
+	var _data = world_map.get_cell_tile_data(0,Vector2(27,37))
 #	print(data)
 	pass
 func _process(delta):

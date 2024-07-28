@@ -1,21 +1,15 @@
-[gd_scene load_steps=7 format=3 uid="uid://3e8abgitwo8m"]
-
-[ext_resource type="Texture2D" uid="uid://dm1knhpda1bnt" path="res://art/sprites/selected sprites.png" id="1_2h818"]
+[gd_scene load_steps=6 format=3 uid="uid://3e8abgitwo8m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t0ity"]
-atlas = ExtResource("1_2h818")
 region = Rect2(16, 16, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dg8r4"]
-atlas = ExtResource("1_2h818")
 region = Rect2(0, 16, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jrxj5"]
-atlas = ExtResource("1_2h818")
 region = Rect2(0, 0, 16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_farg3"]
-atlas = ExtResource("1_2h818")
 region = Rect2(16, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_gk141"]

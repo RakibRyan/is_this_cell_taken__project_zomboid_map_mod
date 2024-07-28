@@ -1,10 +1,12 @@
 extends TileMap
 
 @onready var cursor_coordinate = $"../Camera2D/CanvasLayer/coordinate"
+@onready var maps_number = $".."
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+
+
+
 
 func _physics_process(delta):
 	clear_layer(0)

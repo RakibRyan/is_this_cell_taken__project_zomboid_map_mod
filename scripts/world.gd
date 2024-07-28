@@ -37,15 +37,16 @@ func findTilemapsWithCoordinate() -> Array:
 	extracted_names.remove_at(0)
 	
 	if extracted_names.size() == 0:
-		print("No Maps here")
+		#print("No Maps here")
+		pass
 	else:
-		print(extracted_names)
+		#print(extracted_names)
+		pass
 		
 	return extracted_names
 
 
 func _ready():
-	print("ready") #Debug
 	all_tile_maps = find_children("*", "TileMap") #Debug - print(all_tile_maps)
 	pass 
 
