@@ -37,6 +37,10 @@ window/stretch/aspect="expand"
 
 project/assembly_name="Is This Cell Taken Project Zomboid Map Mod"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/block_code/plugin.cfg", "res://addons/local_assets/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg")
+
 [godot_idea_board]
 
 directory_path="res://addons/godot-idea-board/savedata/"
