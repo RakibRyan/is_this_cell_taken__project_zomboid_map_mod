@@ -1,4 +1,4 @@
-[gd_scene load_steps=97 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=98 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://scenes/coordinate.tscn" id="6_hp05k"]
 [ext_resource type="Script" path="res://scripts/RichTextLabel.gd" id="9_yneyi"]
 [ext_resource type="Script" path="res://scripts/map_conflicts.gd" id="11_0bbie"]
+[ext_resource type="Script" path="res://addons/label_font_auto_sizer/rich_label_auto_sizer.gd" id="12_c1e04"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
@@ -8928,6 +8929,7 @@ format = 2
 layer_0/tile_data = PackedInt32Array(589873, 196608, 0, 655409, 196608, 0, 720945, 196608, 0, 589874, 196608, 0, 589875, 196608, 0)
 
 [node name="Trimble County Power Station & La Grange" type="TileMap" parent="mod maps"]
+visible = false
 tile_set = SubResource("TileSet_d58oj")
 format = 2
 layer_0/tile_data = PackedInt32Array(655410, 0, 1, 720946, 0, 1, 786482, 0, 1, 786483, 0, 1, 786494, 0, 1, 786493, 0, 1, 786492, 0, 1, 786491, 0, 1, 786490, 0, 1, 786489, 0, 1, 786488, 0, 1, 786487, 0, 1, 786486, 0, 1, 786485, 0, 1, 786484, 0, 1, 655411, 0, 1, 655412, 0, 1, 655413, 0, 1, 655414, 0, 1, 655415, 0, 1, 655416, 0, 1, 655417, 0, 1, 655418, 0, 1, 655419, 0, 1, 655420, 0, 1, 655421, 0, 1, 720957, 0, 1, 720958, 0, 1, 655422, 0, 1, 720956, 0, 1, 720955, 0, 1, 720954, 0, 1, 720953, 0, 1, 720952, 0, 1, 720951, 0, 1, 720950, 0, 1, 720949, 0, 1, 720948, 0, 1, 720947, 0, 1, 852018, 0, 1, 852019, 0, 1, 852021, 0, 1, 852020, 0, 1, 852022, 0, 1, 852024, 0, 1, 852023, 0, 1, 852025, 0, 1, 852026, 0, 1, 852027, 0, 1, 852029, 0, 1, 852028, 0, 1, 852030, 0, 1)
@@ -10395,6 +10397,13 @@ offset_right = 262.0
 offset_bottom = 133.0
 tooltip_text = "This cell has multiple non conflicting maps. Check this mod's page  to see the map's order to use all."
 text = "Multiple non conflicting map"
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 16
+_current_font_size = 16
+_last_size_state = 1
 
 [node name="reserved symbol" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 32.0
@@ -10403,6 +10412,13 @@ offset_right = 259.0
 offset_bottom = 159.0
 tooltip_text = "for unforseen things"
 text = "( Symbol for futureproofing )"
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 16
+_current_font_size = 16
+_last_size_state = 1
 
 [node name="Maps_conflict_ui" type="CanvasLayer" parent="Camera2D"]
 
@@ -10427,12 +10443,19 @@ anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = 10.0
 offset_top = -27.0
-offset_right = 364.0
-offset_bottom = -4.0
+offset_right = 160.0
+offset_bottom = -6.0
 grow_vertical = 0
+theme_override_font_sizes/normal_font_size = 14
 bbcode_enabled = true
 text = "Build:2.02 Maps: 213"
-fit_content = true
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 14
+_current_font_size = 14
+_last_size_state = 1
 
 [connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]
 [connection signal="mouse_exited" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_exited"]

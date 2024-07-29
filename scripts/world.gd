@@ -25,10 +25,10 @@ func findTilemapsWithCoordinate() -> Array:
 		extracted_names.append(temp)
 	extracted_names.remove_at(0)
 	
-	if extracted_names.size() == 0:
-		print("No Maps here")
-	else:
-		print(extracted_names)
+	#if extracted_names.size() == 0:
+		#print("No Maps here")
+	#else:
+		#print(extracted_names)
 	return extracted_names
 	
 
@@ -42,6 +42,5 @@ func _process(_delta):
 	extracted_names.clear()
 	tilemaps_with_tiles_in_coord.clear()
 	findTilemapsWithCoordinate()
-	pass
 
 

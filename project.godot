@@ -24,6 +24,11 @@ boot_splash/image="res://art/splash screen/pink-dark.png"
 config/icon="res://art/icons/icon.jpg"
 boot_splash/minimum_display_time=1000
 
+[autoload]
+
+StatCollectorGlobals="*res://addons/stat_printer/scene/script/globals.gd"
+Signal_Debugger="*res://addons/SignalVisualizer/Debugger/SignalDebugger.gd"
+
 [debug]
 
 multirun/number_of_windows=2
@@ -45,7 +50,7 @@ movie_writer/speaker_mode=3
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/block_code/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg")
+enabled=PackedStringArray("res://addons/Code collapse toggler/plugin.cfg", "res://addons/OpenInEditor/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/SimpleTODO/plugin.cfg", "res://addons/block_code/plugin.cfg", "res://addons/complex/plugin.cfg", "res://addons/diagnosticlist/plugin.cfg", "res://addons/dock_slot_expander/plugin.cfg", "res://addons/label_font_auto_sizer/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/net.yarvis.pixel_pen/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/spanning_table/plugin.cfg", "res://addons/super_spector/plugin.cfg", "res://addons/tileset_collision_generator_free_version/plugin.cfg")
 
 [godot_idea_board]
 
@@ -58,6 +63,10 @@ click={
 "events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":false,"double_click":false,"script":null)
 ]
 }
+
+[piforge_ai]
+
+api_key="u3X4m0Y5Y877j45206D5M6S6g794X0l6A6j1uy5jzzeA5z7gljy7XjjjY9u5Yj9D"
 
 [rendering]
 
