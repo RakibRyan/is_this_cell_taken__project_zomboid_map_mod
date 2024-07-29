@@ -26,7 +26,6 @@ boot_splash/minimum_display_time=1000
 
 [autoload]
 
-StatCollectorGlobals="*res://addons/stat_printer/scene/script/globals.gd"
 Signal_Debugger="*res://addons/SignalVisualizer/Debugger/SignalDebugger.gd"
 
 [debug]
