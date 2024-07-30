@@ -11,6 +11,7 @@ config_version=5
 [addons]
 
 instance_dock/scenes=[]
+expand-collapse-node-plugin/shortcut="res://addons/expand-collapse-node/default_shortcut.tres"
 
 [application]
 
@@ -49,7 +50,14 @@ movie_writer/speaker_mode=3
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/Code collapse toggler/plugin.cfg", "res://addons/OpenInEditor/plugin.cfg", "res://addons/RunCounter/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/SimpleTODO/plugin.cfg", "res://addons/anthonyec.camera_preview/plugin.cfg", "res://addons/block_code/plugin.cfg", "res://addons/collapse_folders/plugin.cfg", "res://addons/complex/plugin.cfg", "res://addons/correct_conventional_naming/plugin.cfg", "res://addons/diagnosticlist/plugin.cfg", "res://addons/dock_slot_expander/plugin.cfg", "res://addons/label_font_auto_sizer/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/net.yarvis.pixel_pen/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/spanning_table/plugin.cfg", "res://addons/super_spector/plugin.cfg", "res://addons/tileset_collision_generator_free_version/plugin.cfg")
+enabled=PackedStringArray("res://addons/Code collapse toggler/plugin.cfg", "res://addons/ColorPreview/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/RunCounter/plugin.cfg", "res://addons/ScreenSwitcher/plugin.cfg", "res://addons/SignalVisualizer/plugin.cfg", "res://addons/SimpleTODO/plugin.cfg", "res://addons/anthonyec.camera_preview/plugin.cfg", "res://addons/block_code/plugin.cfg", "res://addons/collapse_folders/plugin.cfg", "res://addons/complex/plugin.cfg", "res://addons/correct_conventional_naming/plugin.cfg", "res://addons/diagnosticlist/plugin.cfg", "res://addons/dock_slot_expander/plugin.cfg", "res://addons/easyAspectRatio/plugin.cfg", "res://addons/find-everywhere/plugin.cfg", "res://addons/godotsize/plugin.cfg", "res://addons/jamcountdown/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/label_font_auto_sizer/plugin.cfg", "res://addons/multirun/plugin.cfg", "res://addons/net.yarvis.pixel_pen/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg", "res://addons/script_panel_plus/plugin.cfg", "res://addons/simplelicense/plugin.cfg", "res://addons/spanning_table/plugin.cfg", "res://addons/super_spector/plugin.cfg", "res://addons/tileset_collision_generator_free_version/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://scenes/": "green",
+"res://scripts/": "teal"
+}
 
 [godot_idea_board]
 

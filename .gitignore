@@ -19,3 +19,7 @@ mono_crash.*.json
 
 # godot addons
 addons/
+
+# licenses ignore
+res://licenses/
+licenses/
