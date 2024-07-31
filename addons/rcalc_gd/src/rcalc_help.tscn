@@ -1,0 +1,93 @@
+[gd_scene load_steps=8 format=3 uid="uid://qiqqwh5g7ece"]
+
+[ext_resource type="Script" path="res://addons/rcalc_gd/src/rcalc_help.gd" id="1_ptfr0"]
+[ext_resource type="LabelSettings" uid="uid://d0a3b0xrrkl33" path="res://addons/rcalc_gd/assets/rcalc_label_small.tres" id="2_8jvwq"]
+[ext_resource type="FontFile" uid="uid://vckm67vmr30" path="res://addons/rcalc_gd/assets/B612Mono-Regular.ttf" id="3_6impg"]
+[ext_resource type="LabelSettings" uid="uid://flih5eeuqudk" path="res://addons/rcalc_gd/assets/rcalc_label_medium.tres" id="3_lohce"]
+[ext_resource type="LabelSettings" uid="uid://cp5iqjvalrtfv" path="res://addons/rcalc_gd/assets/rcalc_label_large.tres" id="4_fcxtj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0jp4y"]
+bg_color = Color(0.147, 0.168, 0.203, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_x1ygw"]
+font = ExtResource("3_6impg")
+font_size = 20
+
+[node name="RCalcHelp" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0jp4y")
+script = ExtResource("1_ptfr0")
+labels = Array[LabelSettings]([ExtResource("2_8jvwq"), ExtResource("3_lohce"), ExtResource("4_fcxtj")])
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="HelpVBox" type="VBoxContainer" parent="MarginContainer/ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ScrollContainer/HelpVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/ScrollContainer/HelpVBox/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="RCalcLabel" type="Label" parent="MarginContainer/ScrollContainer/HelpVBox/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 8
+text = "RCalc"
+label_settings = SubResource("LabelSettings_x1ygw")
+
+[node name="VersionLabel" type="Label" parent="MarginContainer/ScrollContainer/HelpVBox/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(0.8, 0.8, 0.8, 1)
+custom_minimum_size = Vector2(0, 17)
+layout_mode = 2
+size_flags_vertical = 8
+text = "v1.3.1.dev.custom_build"
+label_settings = ExtResource("2_8jvwq")
+
+[node name="VersionHashLabel" type="Label" parent="MarginContainer/ScrollContainer/HelpVBox/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(0.8, 0.8, 0.8, 1)
+custom_minimum_size = Vector2(0, 17)
+layout_mode = 2
+size_flags_vertical = 8
+tooltip_text = "Click to copy: ab49380619f02f2cb227f65a0c52fe46182d1383"
+mouse_filter = 1
+text = "(ab4938)"
+label_settings = ExtResource("2_8jvwq")
+
+[node name="ProgramInfo" type="Label" parent="MarginContainer/ScrollContainer/HelpVBox/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(1, 1)
+layout_mode = 2
+text = "RCalc is an RPN (Reverse Polish Notation) calculator that aims to be quick to open and use, and easy to extend with new types, operators, and commands.
+
+This software is developed by Patrick Gelvin, and released under the MIT license. For more information about licensing, and the licenses of the components used to make RCalc, scroll to the bottom of this window.
+"
+label_settings = ExtResource("2_8jvwq")
+autowrap_mode = 2
+
+[connection signal="gui_input" from="MarginContainer/ScrollContainer/HelpVBox/VBoxContainer/HBoxContainer/VersionHashLabel" to="." method="_on_version_hash_label_gui_input"]

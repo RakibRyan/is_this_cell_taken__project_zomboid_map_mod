@@ -1,0 +1,102 @@
+[gd_scene load_steps=8 format=3 uid="uid://laxwq4x0y2af"]
+
+[ext_resource type="Script" path="res://addons/rcalc_gd/src/rcalc_renderer.gd" id="1_bbbyx"]
+[ext_resource type="LabelSettings" uid="uid://d0a3b0xrrkl33" path="res://addons/rcalc_gd/assets/rcalc_label_small.tres" id="2_dg528"]
+[ext_resource type="FontFile" uid="uid://vckm67vmr30" path="res://addons/rcalc_gd/assets/B612Mono-Regular.ttf" id="3_5br0d"]
+[ext_resource type="LabelSettings" uid="uid://flih5eeuqudk" path="res://addons/rcalc_gd/assets/rcalc_label_medium.tres" id="3_78rq8"]
+[ext_resource type="LabelSettings" uid="uid://cp5iqjvalrtfv" path="res://addons/rcalc_gd/assets/rcalc_label_large.tres" id="4_udqyu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2p73i"]
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8j5ii"]
+draw_center = false
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[node name="RCalc" type="MarginContainer"]
+offset_right = 1152.0
+offset_bottom = 648.0
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+script = ExtResource("1_bbbyx")
+error_color = Color(1, 0.364706, 0.364706, 1)
+labels = Array[LabelSettings]([ExtResource("2_dg528"), ExtResource("3_78rq8"), ExtResource("4_udqyu")])
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 8
+alignment = 2
+
+[node name="BackgroundPanel" type="PanelContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_2p73i")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/BackgroundPanel"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/BackgroundPanel/ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 8
+
+[node name="StackItemList" type="VBoxContainer" parent="VBoxContainer/BackgroundPanel/ScrollContainer/MarginContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 16
+alignment = 2
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Message" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(80, 23)
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Welcome to RCalc! Type \\help to see what commands and operators are supported."
+label_settings = ExtResource("2_dg528")
+autowrap_mode = 2
+
+[node name="Scratchpad" type="LineEdit" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_5br0d")
+theme_override_font_sizes/font_size = 14
+theme_override_styles/focus = SubResource("StyleBoxFlat_8j5ii")
+
+[node name="HelpWindow" type="Window" parent="."]
+unique_name_in_owner = true
+disable_3d = true
+title = "RCalc Help"
+initial_position = 1
+size = Vector2i(640, 480)
+visible = false
+
+[connection signal="resized" from="VBoxContainer/BackgroundPanel/ScrollContainer/MarginContainer/StackItemList" to="." method="scroll_to_bottom"]
+[connection signal="text_changed" from="VBoxContainer/Scratchpad" to="." method="_on_scratchpad_text_changed"]
+[connection signal="text_submitted" from="VBoxContainer/Scratchpad" to="." method="_on_scratchpad_text_submitted"]
+[connection signal="close_requested" from="HelpWindow" to="." method="_on_help_window_close_requested"]

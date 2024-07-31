@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2lyxgfldf2jv"]
+
+[ext_resource type="Script" path="res://addons/rcalc_gd/src/rcalc_output_label.gd" id="1_uxr15"]
+
+[node name="RCalcOutputLabel" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+size_flags_vertical = 8
+mouse_filter = 1
+text = "Output"
+script = ExtResource("1_uxr15")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://d0a3b0xrrkl33"]
+
+[ext_resource type="FontFile" uid="uid://vckm67vmr30" path="res://addons/rcalc_gd/assets/B612Mono-Regular.ttf" id="1_xa6ts"]
+
+[resource]
+font = ExtResource("1_xa6ts")
+font_size = 12

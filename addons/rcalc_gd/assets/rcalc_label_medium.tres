@@ -1,0 +1,6 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://flih5eeuqudk"]
+
+[ext_resource type="FontFile" uid="uid://vckm67vmr30" path="res://addons/rcalc_gd/assets/B612Mono-Regular.ttf" id="1_hikvg"]
+
+[resource]
+font = ExtResource("1_hikvg")

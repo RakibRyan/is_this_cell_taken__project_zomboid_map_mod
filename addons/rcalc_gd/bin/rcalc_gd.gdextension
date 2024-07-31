@@ -1,0 +1,14 @@
+[configuration]
+
+entry_symbol = "rcalc_gd_init"
+compatibility_minimum = "4.2"
+reloadable = true
+
+[libraries]
+
+linux.debug.x86_64 = "res://addons/rcalc_gd/bin/librcalcgd.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addons/rcalc_gd/bin/librcalcgd.linux.template_release.x86_64.so"
+macos.debug = "res://addons/rcalc_gd/bin/librcalcgd.macos.template_debug.framework"
+macos.release = "res://addons/rcalc_gd/bin/librcalcgd.macos.template_release.framework"
+windows.debug.x86_64 = "res://addons/rcalc_gd/bin/librcalcgd.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://addons/rcalc_gd/bin/librcalcgd.windows.template_release.x86_64.dll"
