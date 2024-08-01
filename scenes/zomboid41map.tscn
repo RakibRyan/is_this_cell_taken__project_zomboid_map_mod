@@ -8930,6 +8930,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(458797, 65536, 0)
 
+[node name="Old Man\'s House" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(589872, 393216, 0)
+
 [node name="Hopewell, KY (English)" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9232,6 +9237,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1441807, 393216, 0)
 
+[node name="Nuke\'s Tiny Additions Small Construction" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441814, 393216, 0)
+
 [node name="PortCity KY" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9529,6 +9539,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1769509, 983040, 0)
 
+[node name="Rinky Race Track, KY" type="TileMap" parent="mod maps/Anthem, KY"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769509, 131072, 1)
+
 [node name="Bedford Falls" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9765,6 +9781,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097182, 65536, 1, 2162718, 65536, 1)
 
+[node name="Nuke\'s Tiny Additions Muldraugh Factory" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097189, 458752, 0)
+
 [node name="Muldraugh - West outskirts Shipping Company" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9776,7 +9797,13 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097184, 393216, 0)
 
-[node name="SHELTER 25 33" type="TileMap" parent="mod maps"]
+[node name="Killian Country by Jupiter" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097177, 65536, 0, 2162713, 65536, 0, 2097178, 65536, 0, 2162714, 65536, 0)
+
+[node name="SHELTER 25 33" type="TileMap" parent="mod maps/Killian Country by Jupiter"]
+visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2162713, 393216, 0)
@@ -10095,12 +10122,53 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1376287, 131072, 0, 1376288, 131072, 0, 1376289, 131072, 0, 1376290, 131072, 0, 1441822, 131072, 0, 1441823, 131072, 0, 1441824, 131072, 0, 1441825, 131072, 0, 1441826, 131072, 0, 1507358, 131072, 0, 1507359, 131072, 0, 1507360, 131072, 0, 1507361, 131072, 0, 1507362, 131072, 0, 1572896, 131072, 0, 1572897, 131072, 0)
 
-[node name="duplicate48" type="TileMap" parent="."]
+[node name="Raicon Town KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1572876, 262144, 1)
+
+[node name="Ciclo Town KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424850, 851968, 0, 2424851, 851968, 0)
+
+[node name="Berri Mall KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2031638, 458752, 0)
+
+[node name="Sant Lake City KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835048, 131072, 0)
+
+[node name="The Oilrig Military Base KY" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1114136, 851968, 0)
+
+[node name="!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!North Coast Police Station" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(196648, 786432, 0, 262184, 786432, 0)
+
+[node name="Cental Park Car Service" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(524331, 393216, 0)
+
+[node name="White forest——————白森林" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424852, 0, 1, 2424853, 0, 1, 2490388, 0, 1, 2490389, 0, 1)
+
+[node name="duplicate60" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 
-[node name="duplicate40" type="TileMap" parent="."]
+[node name="duplicate41" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
