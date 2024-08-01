@@ -1,4 +1,4 @@
-[gd_scene load_steps=98 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=99 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -12,6 +12,7 @@
 [ext_resource type="Script" path="res://scripts/map_conflicts.gd" id="11_0bbie"]
 [ext_resource type="Script" path="res://addons/label_font_auto_sizer/rich_label_auto_sizer.gd" id="12_c1e04"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
+[ext_resource type="Script" path="res://scripts/version no.gd" id="13_nutuq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_rj743")
@@ -10305,9 +10306,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -168.0
-offset_top = -45.0
+offset_top = -79.0
 offset_right = -13.0
-offset_bottom = -7.0
+offset_bottom = -41.0
 grow_horizontal = 0
 grow_vertical = 0
 tooltip_text = "Turn the map names ui on or off"
@@ -10322,10 +10323,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -168.0
-offset_top = -97.0
-offset_right = -13.0
-offset_bottom = -59.0
+offset_left = -167.0
+offset_top = -128.0
+offset_right = -12.0
+offset_bottom = -90.0
 grow_horizontal = 0
 grow_vertical = 0
 tooltip_text = "Turn the map overlays on or off"
@@ -10334,7 +10335,7 @@ action_mode = 0
 text = "Toggle overlays"
 icon_alignment = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Camera2D/Toggle map names ui"]
+[node name="Toggle Map Overlays" type="RichTextLabel" parent="Camera2D/Toggle map names ui"]
 visible = false
 anchors_preset = 3
 anchor_left = 1.0
@@ -10441,21 +10442,15 @@ script = ExtResource("11_0bbie")
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 10.0
-offset_top = -27.0
-offset_right = 160.0
-offset_bottom = -6.0
+offset_left = 987.0
+offset_top = -31.0
+offset_right = 1137.0
+offset_bottom = -10.0
 grow_vertical = 0
 theme_override_font_sizes/normal_font_size = 14
 bbcode_enabled = true
-text = "Build:2.02 Maps: 213"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 14
-_current_font_size = 14
-_last_size_state = 1
+script = ExtResource("13_nutuq")
 
 [connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]
 [connection signal="mouse_exited" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_exited"]
