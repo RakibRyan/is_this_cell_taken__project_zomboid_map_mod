@@ -1,4 +1,4 @@
-[gd_scene load_steps=100 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=99 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -13,7 +13,6 @@
 [ext_resource type="Script" path="res://addons/label_font_auto_sizer/rich_label_auto_sizer.gd" id="12_c1e04"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 [ext_resource type="Script" path="res://scripts/version no.gd" id="13_nutuq"]
-[ext_resource type="Script" path="res://scripts/map_tip.gd" id="14_a6ys8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kucya"]
 texture = ExtResource("1_rj743")
@@ -10452,20 +10451,6 @@ theme_override_font_sizes/normal_font_size = 14
 bbcode_enabled = true
 scroll_active = false
 script = ExtResource("13_nutuq")
-
-[node name="Map_tip_ui" type="CanvasLayer" parent="Camera2D"]
-
-[node name="map_tip" type="RichTextLabel" parent="Camera2D/Map_tip_ui"]
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_left = 9.0
-offset_top = -23.0
-offset_right = 899.0
-offset_bottom = -3.0
-grow_vertical = 0
-theme_override_font_sizes/normal_font_size = 12
-script = ExtResource("14_a6ys8")
 
 [connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]
 [connection signal="mouse_exited" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_exited"]

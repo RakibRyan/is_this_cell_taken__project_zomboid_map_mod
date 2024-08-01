@@ -9,9 +9,8 @@ func _process(_delta):
 		self.text = "No moddded Maps"
 	else:
 		self.text = str(world_map.extracted_names) 
-		
-		# An attempt to make color difference
-		#var first_element = world_map.extracted_names[1]
+		# line above this will go last
+		#var first_element = world_map.extracted_names[0]
 		## Get the rest of the elements and join them with "|" separator
 		#var rest_elements = "|".join(world_map.extracted_names.slice(1, world_map.extracted_names.size()))
 		## Construct the text string
@@ -19,7 +18,5 @@ func _process(_delta):
 		## If there are more elements, add the separator after the first element
 		#if rest_elements != "":
 			#text += "|[color=red]%s[/color]" % rest_elements
-			#pass
 		#self.text = text # Assign the text to self.text
-				#
 
