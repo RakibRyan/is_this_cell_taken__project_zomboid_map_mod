@@ -18,27 +18,14 @@ mono_crash.*.json
 .github/
 
 # godot addons
-addons/anthonyec.camera_preview/
-addons/Code collapse toggler/
-addons/collapse_folders/
-addons/ColorPreview/
-addons/correct_conventional_naming/
-addons/diagnosticlist/
-addons/dock_slot_expander/
-addons/easyAspectRatio/
-addons/find-everywhere/
-addons/godotsize/
 addons/jamcountdown/
 addons/multirun/
-addons/net.yarvis.pixel_pen/
 addons/nv.file_system/
-addons/OpenInEditor/
 addons/plugin_updater/
 addons/run-configs/
 addons/RunCounter/
 addons/ScreenSwitcher/
 addons/script_panel_plus/
-addons/simplelicense/
 addons/tabby_explorer/
 addons/tileset_collision_generator_free_version/
 
@@ -47,5 +34,3 @@ res://Docs/This is my death speech.txt
 
 
 # licenses ignore
-res://licenses/
-licenses/

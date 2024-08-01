@@ -1,7 +1,7 @@
 extends RichTextLabel
 
 @onready var mod_maps = $"../../../mod maps"
-var version_no = 2.03  # First no major feature upgrade, 2nd tool upgrade, 3rd iteration
+var version_no = "2.02.04"  # First no major feature upgrade, 2nd tool upgrade, 3rd iteration
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
