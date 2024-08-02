@@ -7,7 +7,6 @@ var total_no_of_maps
 
 # find all tile maps and slices them
 func _ready():
-	print("ready") #Debug
 	modded_tilemaps = find_children("*", "TileMap") #print(modded_tilemaps)
 	total_no_of_maps = modded_tilemaps.size()
 	print("Total number of maps: ", total_no_of_maps)
@@ -15,9 +14,8 @@ func _ready():
 		var temp = str(tile)
 		temp = temp.get_slice(":", 0)
 		map_list.append(temp)
-	print_tree()
-	#print(map_list)
-	#print(modded_tilemaps)
+	#print_tree()
+
 
 # Toggles button
 #  ------------------ But I have no idea why removing it breaks I need to read docs again and change this-------
