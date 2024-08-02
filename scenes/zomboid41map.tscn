@@ -9711,7 +9711,7 @@ layer_0/tile_data = PackedInt32Array(1835037, 65536, 0)
 [node name="White Forest Camp" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1835042, 393216, 0)
+layer_0/tile_data = PackedInt32Array(1835042, 458752, 1)
 
 [node name="Xonic\'s Mega Mall (New Expansion has arrived!!!)" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -10395,12 +10395,103 @@ layer_0/tile_data = PackedInt32Array(1376287, 131072, 0, 1376288, 131072, 0, 137
 
 [node name="unsorted" type="Node" parent="."]
 
-[node name="duplicate77" type="TileMap" parent="."]
+[node name="secretz checkpoint 1" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769512, 327680, 1)
+
+[node name="secretz checkpoint 2" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424868, 131072, 0)
+
+[node name="secretz checkpoint 3" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424854, 262144, 0)
+
+[node name="secretz checkpoint 4" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1638412, 0, 1)
+
+[node name="secretz checkpoint 5" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1310766, 851968, 0)
+
+[node name="secretz checkpoint 6" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245203, 851968, 0)
+
+[node name="secretz checkpoint 7" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(852017, 851968, 0, 852016, 851968, 0)
+
+[node name="secretz checkpoint 8" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245196, 131072, 0, 1310732, 131072, 0)
+
+[node name="Secretz Battlefield Louisville Airfield" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1376298, 393216, 0)
+
+[node name="Secretz Battlefield Louisville Hospital" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(786473, 131072, 0)
+
+[node name="Secretz Battlefield Louisville Stadium" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(327723, 196608, 0, 262187, 196608, 0)
+
+[node name="Secretz Camp Deerhead" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835023, 327680, 0)
+
+[node name="Secretz EVAC Louisville" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(589864, 393216, 0)
+
+[node name="Secretz EVAC Muldraugh" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2031654, 786432, 0, 2097190, 786432, 0, 2162726, 786432, 0, 2228262, 786432, 0, 2031655, 786432, 0, 2097191, 786432, 0, 2162727, 786432, 0, 2228263, 786432, 0)
+
+[node name="Secretz Westpoint Bridge out" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441833, 262144, 0)
+
+[node name="Secretz Muldraugh Blockade" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966115, 131072, 0)
+
+[node name="Secretz Muldraugh Crossing Blockade" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424867, 196608, 0)
+
+[node name="Save Our Stations!" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2555925, 393216, 0, 1179672, 393216, 0, 2490393, 393216, 0, 2228258, 393216, 0, 1835043, 458752, 0)
+
+[node name="duplicate86" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 
-[node name="duplicate78" type="TileMap" parent="."]
+[node name="duplicate87" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -10818,7 +10909,7 @@ scroll_active = false
 script = ExtResource("12_c1e04")
 _size_just_modified_by_autosizer = false
 _set_defaults = true
-_base_font_size = 16
+_base_font_size = 14
 _current_font_size = 14
 _last_size_state = 1
 
