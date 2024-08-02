@@ -1,4 +1,4 @@
-[gd_scene load_steps=100 format=3 uid="uid://dk6o4juciv3yr"]
+[gd_scene load_steps=99 format=3 uid="uid://dk6o4juciv3yr"]
 
 [ext_resource type="Texture2D" uid="uid://u55wfrerlgl3" path="res://art/sprites/project zomboid map.png" id="1_rj743"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="2_w2jkp"]
@@ -10,7 +10,6 @@
 [ext_resource type="PackedScene" uid="uid://bro1dql74mfk" path="res://scenes/coordinate.tscn" id="6_hp05k"]
 [ext_resource type="Script" path="res://scripts/RichTextLabel.gd" id="9_yneyi"]
 [ext_resource type="Script" path="res://scripts/map_conflicts.gd" id="11_0bbie"]
-[ext_resource type="Script" path="res://addons/label_font_auto_sizer/rich_label_auto_sizer.gd" id="12_c1e04"]
 [ext_resource type="Texture2D" uid="uid://7cibnbwcjuip" path="res://art/sprites/map legend.png" id="12_mrjk1"]
 [ext_resource type="Script" path="res://scripts/version no.gd" id="13_nutuq"]
 [ext_resource type="Script" path="res://scripts/Map tip.gd" id="14_1hpyh"]
@@ -10536,10 +10535,12 @@ mouse_filter = 2
 
 [node name="controls" type="RichTextLabel" parent="Camera2D/controls ui"]
 texture_filter = 1
-offset_left = 410.0
-offset_right = 747.0
-offset_bottom = 30.0
+offset_left = 399.0
+offset_top = 6.0
+offset_right = 656.0
+offset_bottom = 29.0
 theme_override_fonts/normal_font = SubResource("FontVariation_jbl20")
+theme_override_font_sizes/normal_font_size = 14
 text = "Scroll to resize &  Left Click to move"
 
 [node name="map ui" type="CanvasLayer" parent="Camera2D"]
@@ -10847,12 +10848,6 @@ offset_bottom = 28.0
 tooltip_text = "TIles shaped like this already have a reputable map mod in this cell"
 text = "Already has a map"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 16
-_current_font_size = 16
-_last_size_state = 1
 
 [node name="Map at works" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10862,12 +10857,6 @@ offset_bottom = 55.0
 tooltip_text = "A modder is already working on a map involving this cell. Therefore not adviced to use"
 text = "Map at works"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 16
-_current_font_size = 16
-_last_size_state = 1
 
 [node name="a small part used" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10877,12 +10866,6 @@ offset_bottom = 80.0
 tooltip_text = "Only a small part of the cell is used in a map therefore if you respect that part it can be safe to create a map for this cell without map conflicts"
 text = "A small part of cell used"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 16
-_current_font_size = 16
-_last_size_state = 1
 
 [node name="will be free in future" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10892,12 +10875,6 @@ offset_bottom = 108.0
 tooltip_text = "If a modder decides to move his map this cell maybe open for future maps"
 text = "Will be free in future"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 16
-_current_font_size = 16
-_last_size_state = 1
 
 [node name="multiple non conflict" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10907,28 +10884,15 @@ offset_bottom = 133.0
 tooltip_text = "This cell has multiple non conflicting maps. Check this mod's page  to see the map's order to use all."
 text = "Multiple non conflicting map"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 16
-_current_font_size = 16
-_last_size_state = 1
 
 [node name="choose from multiple options" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
-offset_left = 32.0
-offset_top = 137.0
-offset_right = 259.0
-offset_bottom = 159.0
+offset_left = 34.0
+offset_top = 135.0
+offset_right = 275.0
+offset_bottom = 158.0
 tooltip_text = "all occupy same space chose one of your choice"
-theme_override_font_sizes/normal_font_size = 14
-text = "Choose from multiple options."
+text = "Choose from multiple options"
 scroll_active = false
-script = ExtResource("12_c1e04")
-_size_just_modified_by_autosizer = false
-_set_defaults = true
-_base_font_size = 14
-_current_font_size = 14
-_last_size_state = 1
 
 [node name="Maps_conflict_ui" type="CanvasLayer" parent="Camera2D"]
 
@@ -10936,12 +10900,13 @@ _last_size_state = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 11.0
-offset_top = -59.0
+offset_left = 10.0
+offset_top = -74.0
 offset_right = 823.0
 offset_bottom = -28.0
 grow_vertical = 0
 tooltip_text = "White is active map, Red is hidden due to conflict"
+theme_override_font_sizes/normal_font_size = 14
 bbcode_enabled = true
 script = ExtResource("11_0bbie")
 
@@ -10951,12 +10916,12 @@ script = ExtResource("11_0bbie")
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 987.0
-offset_top = -31.0
-offset_right = 1137.0
-offset_bottom = -10.0
+offset_left = 985.0
+offset_top = -24.0
+offset_right = 1140.0
+offset_bottom = -5.0
 grow_vertical = 0
-theme_override_font_sizes/normal_font_size = 14
+theme_override_font_sizes/normal_font_size = 12
 bbcode_enabled = true
 scroll_active = false
 script = ExtResource("13_nutuq")
@@ -10972,7 +10937,7 @@ offset_top = -25.0
 offset_right = 627.0
 offset_bottom = -8.0
 grow_vertical = 0
-theme_override_font_sizes/normal_font_size = 12
+theme_override_font_sizes/normal_font_size = 11
 script = ExtResource("14_1hpyh")
 
 [connection signal="mouse_entered" from="Camera2D/map ui/map names" to="Camera2D" method="_on_rich_text_label_mouse_entered"]

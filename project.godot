@@ -74,7 +74,7 @@ click={
 [physics]
 
 2d/physics_engine="GodotPhysics2D"
-3d/physics_engine="JoltPhysics3D"
+3d/physics_engine="GodotPhysics3D"
 
 [piforge_ai]
 
@@ -85,5 +85,6 @@ api_key="u3X4m0Y5Y877j45206D5M6S6g794X0l6A6j1uy5jzzeA5z7gljy7XjjjY9u5Yj9D"
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
 viewport/hdr_2d=true
 anti_aliasing/quality/screen_space_aa=1

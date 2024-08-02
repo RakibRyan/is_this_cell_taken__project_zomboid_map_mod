@@ -15,6 +15,7 @@ func _ready():
 		var temp = str(tile)
 		temp = temp.get_slice(":", 0)
 		map_list.append(temp)
+	print_tree()
 	#print(map_list)
 	#print(modded_tilemaps)
 
