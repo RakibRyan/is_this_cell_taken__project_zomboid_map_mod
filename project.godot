@@ -11,6 +11,7 @@ config_version=5
 [addons]
 
 instance_dock/scenes=[]
+expand-collapse-node-plugin/shortcut="res://addons/expand-collapse-node/default_shortcut.tres"
 
 [application]
 
@@ -23,6 +24,10 @@ run/max_fps=60
 boot_splash/image="res://art/splash screen/pink-dark.png"
 config/icon="res://art/icons/icon.jpg"
 boot_splash/minimum_display_time=1000
+
+[autoload]
+
+Signal_Debugger="*res://addons/SignalVisualizer/Debugger/SignalDebugger.gd"
 
 [debug]
 
@@ -45,7 +50,14 @@ movie_writer/speaker_mode=3
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/block_code/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg")
+enabled=PackedStringArray("res://addons/Code collapse toggler/plugin.cfg", "res://addons/ColorPreview/plugin.cfg", "res://addons/OpenInEditor/plugin.cfg", "res://addons/QuickPluginManager/plugin.cfg", "res://addons/anthonyec.camera_preview/plugin.cfg", "res://addons/collapse_folders/plugin.cfg", "res://addons/diagnosticlist/plugin.cfg", "res://addons/dock_slot_expander/plugin.cfg", "res://addons/find-everywhere/plugin.cfg", "res://addons/godotsize/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/label_font_auto_sizer/plugin.cfg", "res://addons/net.yarvis.pixel_pen/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/project-time-tracker/plugin.cfg", "res://addons/script-name-on-top/plugin.cfg", "res://addons/spanning_table/plugin.cfg", "res://addons/super_spector/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://scenes/": "green",
+"res://scripts/": "teal"
+}
 
 [godot_idea_board]
 
@@ -59,10 +71,20 @@ click={
 ]
 }
 
+[physics]
+
+2d/physics_engine="GodotPhysics2D"
+3d/physics_engine="GodotPhysics3D"
+
+[piforge_ai]
+
+api_key="u3X4m0Y5Y877j45206D5M6S6g794X0l6A6j1uy5jzzeA5z7gljy7XjjjY9u5Yj9D"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
 viewport/hdr_2d=true
 anti_aliasing/quality/screen_space_aa=1

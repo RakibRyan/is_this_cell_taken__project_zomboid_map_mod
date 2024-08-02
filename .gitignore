@@ -18,4 +18,18 @@ mono_crash.*.json
 .github/
 
 # godot addons
-addons/
+addons/jamcountdown/
+addons/multirun/
+addons/plugin_updater/
+addons/run-configs/
+addons/RunCounter/
+addons/ScreenSwitcher/
+addons/script_panel_plus/
+addons/tabby_explorer/
+addons/tileset_collision_generator_free_version/
+
+# 
+
+
+
+# licenses ignore

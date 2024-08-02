@@ -72,10 +72,3 @@ func _ready():
 	pass
 	# Replace 'path/to/your/folder' with the actual path to your folder containing text files.
 
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-
-	pass
-
