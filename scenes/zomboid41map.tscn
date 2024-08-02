@@ -8949,7 +8949,7 @@ layer_0/tile_data = PackedInt32Array(524331, 393216, 0)
 [node name="Old Man\'s House" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(589872, 393216, 0)
+layer_0/tile_data = PackedInt32Array(589872, 458752, 6)
 
 [node name="Louisville Farmhouse" type="TileMap" parent="mod maps/Old Man\'s House"]
 visible = false
@@ -9078,7 +9078,7 @@ layer_0/tile_data = PackedInt32Array(1114132, 327680, 0)
 [node name="East Riverside" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1114135, 262144, 0, 1114136, 262144, 0)
+layer_0/tile_data = PackedInt32Array(1114135, 262144, 0, 1114136, 262144, 6)
 
 [node name="The Oilrig Military Base KY" type="TileMap" parent="mod maps/East Riverside"]
 visible = false
@@ -9136,7 +9136,7 @@ layer_0/tile_data = PackedInt32Array(1245196, 131072, 0)
 [node name="Cedar Hill" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1245200, 262144, 1)
+layer_0/tile_data = PackedInt32Array(1245200, 458752, 6)
 
 [node name="The Christmas Miracle" type="TileMap" parent="mod maps/Cedar Hill"]
 visible = false
@@ -9220,7 +9220,7 @@ layer_0/tile_data = PackedInt32Array(1376292, 0, 1)
 [node name="Canvasback Studios" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2228257, 393216, 0)
+layer_0/tile_data = PackedInt32Array(2228257, 393216, 6)
 
 [node name="The Hiker Trailer" type="TileMap" parent="mod maps/Canvasback Studios"]
 visible = false
@@ -9241,7 +9241,7 @@ layer_0/tile_data = PackedInt32Array(1376297, 0, 1)
 [node name="Lake Cumberland New Location" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_6oh4e")
 format = 2
-layer_0/tile_data = PackedInt32Array(1376300, 196608, 3, 1376301, 196608, 3, 1376302, 196608, 3, 1376303, 196608, 3, 1376304, 196608, 3, 1376305, 196608, 3, 1376307, 196608, 1, 1376308, 196608, 1, 1376309, 196608, 1, 1376310, 196608, 1, 1376311, 196608, 1, 1376312, 196608, 1, 1376313, 196608, 1, 1376314, 196608, 1, 1376315, 196608, 1, 1441842, 196608, 1, 1507378, 196608, 1, 1572914, 196608, 1, 1638450, 196608, 1, 1703986, 196608, 1, 1703987, 196608, 1, 1703988, 196608, 1, 1638453, 196608, 1, 1638454, 196608, 1, 1638455, 196608, 1, 1638456, 196608, 1, 1703989, 196608, 1, 1703990, 196608, 1, 1703991, 196608, 1, 1638457, 196608, 1, 1638458, 196608, 1, 1703994, 196608, 1, 1703995, 196608, 1, 1638459, 196608, 1, 1572923, 196608, 1, 1507387, 196608, 1, 1441851, 196608, 1, 1507386, 196608, 1, 1572922, 196608, 1, 1703992, 196608, 1, 1703993, 196608, 1, 1441846, 196608, 1, 1441845, 196608, 1, 1441844, 196608, 1, 1441843, 196608, 1, 1507379, 196608, 1, 1572915, 196608, 1, 1638451, 196608, 1, 1638452, 196608, 1, 1572916, 196608, 1, 1507380, 196608, 1, 1507381, 196608, 1, 1572917, 196608, 1, 1572918, 196608, 1, 1507382, 196608, 1, 1507383, 196608, 1, 1441847, 196608, 1, 1441848, 196608, 1, 1507384, 196608, 1, 1572920, 196608, 1, 1572919, 196608, 1, 1572921, 196608, 1, 1507385, 196608, 1, 1441849, 196608, 1, 1441850, 196608, 1, 1376306, 196608, 1)
+layer_0/tile_data = PackedInt32Array(1376300, 196608, 7, 1376301, 196608, 3, 1376302, 196608, 3, 1376303, 196608, 3, 1376304, 196608, 3, 1376305, 196608, 3, 1376307, 196608, 1, 1376308, 196608, 1, 1376309, 196608, 1, 1376310, 196608, 1, 1376311, 196608, 1, 1376312, 196608, 1, 1376313, 196608, 1, 1376314, 196608, 1, 1376315, 196608, 1, 1441842, 196608, 1, 1507378, 196608, 1, 1572914, 196608, 1, 1638450, 196608, 1, 1703986, 196608, 1, 1703987, 196608, 1, 1703988, 196608, 1, 1638453, 196608, 1, 1638454, 196608, 1, 1638455, 196608, 1, 1638456, 196608, 1, 1703989, 196608, 1, 1703990, 196608, 1, 1703991, 196608, 1, 1638457, 196608, 1, 1638458, 196608, 1, 1703994, 196608, 1, 1703995, 196608, 1, 1638459, 196608, 1, 1572923, 196608, 1, 1507387, 196608, 1, 1441851, 196608, 1, 1507386, 196608, 1, 1572922, 196608, 1, 1703992, 196608, 1, 1703993, 196608, 1, 1441846, 196608, 1, 1441845, 196608, 1, 1441844, 196608, 1, 1441843, 196608, 1, 1507379, 196608, 1, 1572915, 196608, 1, 1638451, 196608, 1, 1638452, 196608, 1, 1572916, 196608, 1, 1507380, 196608, 1, 1507381, 196608, 1, 1572917, 196608, 1, 1572918, 196608, 1, 1507382, 196608, 1, 1507383, 196608, 1, 1441847, 196608, 1, 1441848, 196608, 1, 1507384, 196608, 1, 1572920, 196608, 1, 1572919, 196608, 1, 1572921, 196608, 1, 1507385, 196608, 1, 1441849, 196608, 1, 1441850, 196608, 1, 1376306, 196608, 1)
 
 [node name="Bridge Crossing" type="TileMap" parent="mod maps/Lake Cumberland New Location"]
 visible = false
@@ -9622,7 +9622,7 @@ layer_0/tile_data = PackedInt32Array(1769508, 851968, 0)
 [node name="Anthem, KY" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1769509, 65536, 0)
+layer_0/tile_data = PackedInt32Array(1769509, 851968, 6)
 
 [node name="Cherokee Lake" type="TileMap" parent="mod maps/Anthem, KY"]
 visible = false
@@ -9690,7 +9690,7 @@ layer_0/tile_data = PackedInt32Array(1835033, 0, 1)
 [node name="Homestead Windy" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_0yuer")
 format = 2
-layer_0/tile_data = PackedInt32Array(1835035, 393216, 0)
+layer_0/tile_data = PackedInt32Array(1835035, 393216, 6)
 
 [node name="Little Township" type="TileMap" parent="mod maps/Homestead Windy"]
 visible = false
@@ -9808,17 +9808,16 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2097166, 393216, 0, 2162702, 393216, 0, 2097167, 393216, 0, 2162703, 393216, 0)
 
-[node name="The Ruins of Bracklewhyte" type="TileMap" parent="mod maps/St Paulo\'s Hammer"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1966097, 65536, 0)
-
 [node name="Pineville" type="TileMap" parent="mod maps/St Paulo\'s Hammer"]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1966093, 851968, 0, 2031629, 851968, 0, 2031630, 851968, 0, 2097165, 851968, 0, 2097166, 851968, 0, 2162701, 851968, 0, 2162702, 851968, 0)
+
+[node name="The Ruins of Bracklewhyte" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966097, 65536, 0)
 
 [node name="Nettle Township" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_qmyoj")
@@ -9962,7 +9961,7 @@ layer_0/tile_data = PackedInt32Array(2097189, 458752, 0)
 [node name="Muldraugh - West outskirts Shipping Company" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2097184, 786432, 0)
+layer_0/tile_data = PackedInt32Array(2097184, 851968, 6)
 
 [node name="Little Rural" type="TileMap" parent="mod maps/Muldraugh - West outskirts Shipping Company"]
 visible = false
@@ -9990,7 +9989,7 @@ layer_0/tile_data = PackedInt32Array(2162713, 393216, 0)
 [node name="Ranger\'s Homestead" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2162720, 65536, 1)
+layer_0/tile_data = PackedInt32Array(2162720, 0, 7)
 
 [node name="Forest Shelter" type="TileMap" parent="mod maps/Ranger\'s Homestead"]
 visible = false
@@ -10066,7 +10065,7 @@ layer_0/tile_data = PackedInt32Array(2359313, 0, 1)
 [node name="Redbird Ranger Station - Forest Ranger Outpost" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2359316, 262144, 0)
+layer_0/tile_data = PackedInt32Array(2359316, 262144, 0, 2293780, 393216, 6)
 
 [node name="Industry Building 20 36" type="TileMap" parent="mod maps/Redbird Ranger Station - Forest Ranger Outpost"]
 visible = false
@@ -10155,7 +10154,7 @@ layer_0/tile_data = PackedInt32Array(2424855, 131072, 1)
 [node name="Grapeseed" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_txsu7")
 format = 2
-layer_0/tile_data = PackedInt32Array(2424856, 65536, 0)
+layer_0/tile_data = PackedInt32Array(2424856, 65536, 6)
 
 [node name="Top Speed" type="TileMap" parent="mod maps/Grapeseed"]
 visible = false
@@ -10191,7 +10190,7 @@ layer_0/tile_data = PackedInt32Array(2424867, 65536, 1)
 [node name="SouthTown" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_4on23")
 format = 2
-layer_0/tile_data = PackedInt32Array(2424868, 327680, 1, 2490404, 327680, 1)
+layer_0/tile_data = PackedInt32Array(2424868, 327680, 7, 2490404, 327680, 1)
 
 [node name="Primitivist Communities" type="TileMap" parent="mod maps/SouthTown"]
 visible = false
@@ -10224,7 +10223,7 @@ layer_0/tile_data = PackedInt32Array(2424871, 393216, 0)
 [node name="Rosewood Cabins" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2490392, 0, 1, 2490393, 0, 1)
+layer_0/tile_data = PackedInt32Array(2490392, 0, 1, 2490393, 0, 7)
 
 [node name="St Johns Farm" type="TileMap" parent="mod maps/Rosewood Cabins"]
 visible = false
