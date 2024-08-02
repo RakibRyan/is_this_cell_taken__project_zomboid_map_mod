@@ -8868,6 +8868,17 @@ script = ExtResource("2_w2jkp")
 [node name="mod maps" type="Node2D" parent="."]
 script = ExtResource("3_77yy7")
 
+[node name="Dead world" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(196641, 131072, 4, 196645, 131072, 4, 196644, 131072, 4, 196643, 131072, 4, 196642, 131072, 4, 262177, 131072, 4, 262178, 131072, 4, 262179, 131072, 4, 262180, 131072, 4, 262181, 131072, 4, 327713, 131072, 4, 327714, 131072, 4, 327715, 131072, 4, 327716, 131072, 4, 327717, 131072, 4, 393251, 131072, 4, 393252, 131072, 4, 393253, 131072, 4, 458785, 131072, 4, 458786, 131072, 4, 458787, 131072, 4, 458788, 131072, 4, 458789, 131072, 4, 524321, 131072, 4, 524323, 131072, 4, 524324, 131072, 4, 524325, 131072, 4, 589857, 131072, 4, 589859, 131072, 4, 589860, 131072, 4, 589861, 131072, 4, 655393, 131072, 4, 655394, 131072, 4, 655395, 131072, 4, 655396, 131072, 4, 655397, 131072, 4, 655398, 131072, 4, 720929, 131072, 4, 720930, 131072, 4, 720931, 131072, 4, 720932, 131072, 4, 720933, 131072, 4, 720934, 131072, 4, 196646, 131072, 4, 262182, 131072, 4, 327718, 131072, 4, 393254, 131072, 4, 458790, 131072, 4, 524326, 131072, 4, 589862, 131072, 4, 393249, 131072, 4, 393250, 131072, 4, 589858, 131072, 4, 524322, 131072, 4)
+
+[node name="Elquin" type="TileMap" parent="mod maps/Dead world"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(720929, 131072, 0, 786465, 131072, 0, 720930, 131072, 0, 786466, 131072, 0)
+
 [node name="Louisville River Marina" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -8916,6 +8927,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(262183, 0, 1)
 
+[node name="Secretz Battlefield Louisville Stadium" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(327723, 196608, 0, 262187, 196608, 0)
+
 [node name="Louisville Mall Base" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -8945,6 +8961,11 @@ layer_0/tile_data = PackedInt32Array(524329, 65536, 0)
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(524331, 393216, 0)
+
+[node name="Secretz EVAC Louisville" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(589864, 393216, 0)
 
 [node name="Old Man\'s House" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9001,6 +9022,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1048592, 0, 1, 1048593, 0, 1, 1048594, 0, 1, 1048595, 0, 1, 1048596, 0, 1, 1048597, 0, 1, 1048598, 0, 1, 1048599, 0, 1, 1048600, 0, 1, 983064, 0, 1, 917528, 0, 1, 851992, 0, 1, 786456, 0, 1, 720920, 0, 1, 720919, 0, 1, 720918, 0, 1, 720917, 0, 1, 720916, 0, 1, 720915, 0, 1, 720914, 0, 1, 720913, 0, 1, 720912, 0, 1, 786448, 0, 1, 851984, 0, 1, 917520, 0, 1, 983056, 0, 1, 983057, 0, 1, 917521, 0, 1, 917522, 0, 1, 917523, 0, 1, 851987, 0, 1, 851988, 0, 1, 786452, 0, 1, 786451, 0, 1, 786450, 0, 1, 786449, 0, 1, 851985, 0, 1, 851986, 0, 1, 786453, 0, 1, 786454, 0, 1, 786455, 0, 1, 851991, 0, 1, 917527, 0, 1, 983063, 0, 1, 983062, 0, 1, 983061, 0, 1, 983060, 0, 1, 983059, 0, 1, 983058, 0, 1, 917524, 0, 1, 917525, 0, 1, 851989, 0, 1, 851990, 0, 1, 917526, 0, 1)
 
+[node name="Secretz Battlefield Louisville Hospital" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(786473, 131072, 0)
+
 [node name="Bunker Last Minute Prepper" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9015,6 +9041,11 @@ layer_0/tile_data = PackedInt32Array(786481, 327680, 1)
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(852012, 196608, 0, 852013, 196608, 0, 852014, 196608, 0)
+
+[node name="secretz checkpoint 7" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(852017, 851968, 0, 852016, 851968, 0)
 
 [node name="ValuTech Amusement Park" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9133,6 +9164,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1245196, 131072, 0)
 
+[node name="secretz checkpoint 8" type="TileMap" parent="mod maps/Southwood 2,KY"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245196, 131072, 0, 1310732, 131072, 0)
+
 [node name="Cedar Hill" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9143,6 +9180,11 @@ visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1245200, 65536, 0)
+
+[node name="secretz checkpoint 6" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1245203, 851968, 0)
 
 [node name="Hunter\'s Base" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9202,6 +9244,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1310760, 327680, 0, 1310761, 327680, 0)
 
+[node name="secretz checkpoint 5" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1310766, 851968, 0)
+
 [node name="Overlook Hotel" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9237,6 +9284,11 @@ layer_0/tile_data = PackedInt32Array(1376296, 851968, 0)
 tile_set = SubResource("TileSet_rjvf7")
 format = 2
 layer_0/tile_data = PackedInt32Array(1376297, 0, 1)
+
+[node name="Secretz Battlefield Louisville Airfield" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1376298, 393216, 0)
 
 [node name="Lake Cumberland New Location" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_6oh4e")
@@ -9302,6 +9354,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1441806, 196608, 1, 1507340, 196608, 1, 1507341, 196608, 1, 1507342, 196608, 1, 1572876, 196608, 1, 1572877, 196608, 1, 1638412, 196608, 1, 1638413, 196608, 1)
 
+[node name="secretz checkpoint 4" type="TileMap" parent="mod maps/Winchester, KY"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1638412, 0, 1)
+
 [node name="Pigeon Town" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9354,6 +9412,11 @@ layer_0/tile_data = PackedInt32Array(1441831, 851968, 1)
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1441832, 0, 1)
+
+[node name="Secretz Westpoint Bridge out" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441833, 262144, 0)
 
 [node name="Shortrest (Mapjam Version)" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9583,6 +9646,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1835048, 393216, 0)
 
+[node name="secretz checkpoint 1" type="TileMap" parent="mod maps/Monmouth County"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769512, 327680, 1)
+
 [node name="Camp Warsaw" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -9676,6 +9745,11 @@ layer_0/tile_data = PackedInt32Array(1769509, 196608, 0)
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(1769510, 196608, 1)
+
+[node name="Secretz Camp Deerhead" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835023, 327680, 0)
 
 [node name="SHELTER 22 28" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9848,7 +9922,13 @@ layer_0/tile_data = PackedInt32Array(1966111, 0, 0)
 [node name="Checkpoint North Muldraugh" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(1966115, 262144, 0)
+layer_0/tile_data = PackedInt32Array(1966115, 262144, 6)
+
+[node name="Secretz Muldraugh Blockade" type="TileMap" parent="mod maps/Checkpoint North Muldraugh"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966115, 131072, 0)
 
 [node name="Train Base near MD" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9880,6 +9960,11 @@ layer_0/tile_data = PackedInt32Array(2031646, 458752, 0)
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2031653, 196608, 0)
+
+[node name="Secretz EVAC Muldraugh" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2031654, 786432, 0, 2097190, 786432, 0, 2162726, 786432, 0, 2228262, 786432, 0, 2031655, 786432, 0, 2097191, 786432, 0, 2162727, 786432, 0, 2228263, 786432, 0)
 
 [node name="Ztardew Valley" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -10146,6 +10231,11 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2424853, 131072, 0, 2490389, 131072, 0)
 
+[node name="secretz checkpoint 3" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424854, 262144, 0)
+
 [node name="Exotics Rest Area" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -10185,7 +10275,13 @@ layer_0/tile_data = PackedInt32Array(2424866, 65536, 0)
 [node name="Crossroads Checkpoint" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2424867, 65536, 1)
+layer_0/tile_data = PackedInt32Array(2424867, 0, 7)
+
+[node name="Secretz Muldraugh Crossing Blockade" type="TileMap" parent="mod maps/Crossroads Checkpoint"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424867, 196608, 0)
 
 [node name="SouthTown" type="TileMap" parent="mod maps"]
 tile_set = SubResource("TileSet_4on23")
@@ -10210,6 +10306,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2424868, 196608, 0)
 
+[node name="secretz checkpoint 2" type="TileMap" parent="mod maps/SouthTown"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424868, 131072, 0)
+
 [node name="Ashenwood" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -10223,7 +10325,7 @@ layer_0/tile_data = PackedInt32Array(2424871, 393216, 0)
 [node name="Rosewood Cabins" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2490392, 0, 1, 2490393, 0, 7)
+layer_0/tile_data = PackedInt32Array(2490392, 458752, 0, 2490393, 458752, 0)
 
 [node name="St Johns Farm" type="TileMap" parent="mod maps/Rosewood Cabins"]
 visible = false
@@ -10381,6 +10483,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2949155, 0, 1)
 
+[node name="Save Our Stations!" type="TileMap" parent="mod maps"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2555925, 393216, 0, 1179672, 393216, 0, 2490393, 393216, 0, 2228258, 393216, 0, 1835043, 458752, 0)
+
 [node name="Dirkerdam Alpha" type="TileMap" parent="mod maps"]
 visible = false
 tile_set = ExtResource("3_vwjdp")
@@ -10395,103 +10503,12 @@ layer_0/tile_data = PackedInt32Array(1376287, 131072, 0, 1376288, 131072, 0, 137
 
 [node name="unsorted" type="Node" parent="."]
 
-[node name="secretz checkpoint 1" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1769512, 327680, 1)
-
-[node name="secretz checkpoint 2" type="TileMap" parent="."]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2424868, 131072, 0)
-
-[node name="secretz checkpoint 3" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2424854, 262144, 0)
-
-[node name="secretz checkpoint 4" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1638412, 0, 1)
-
-[node name="secretz checkpoint 5" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1310766, 851968, 0)
-
-[node name="secretz checkpoint 6" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1245203, 851968, 0)
-
-[node name="secretz checkpoint 7" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(852017, 851968, 0, 852016, 851968, 0)
-
-[node name="secretz checkpoint 8" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1245196, 131072, 0, 1310732, 131072, 0)
-
-[node name="Secretz Battlefield Louisville Airfield" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1376298, 393216, 0)
-
-[node name="Secretz Battlefield Louisville Hospital" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(786473, 131072, 0)
-
-[node name="Secretz Battlefield Louisville Stadium" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(327723, 196608, 0, 262187, 196608, 0)
-
-[node name="Secretz Camp Deerhead" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1835023, 327680, 0)
-
-[node name="Secretz EVAC Louisville" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(589864, 393216, 0)
-
-[node name="Secretz EVAC Muldraugh" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2031654, 786432, 0, 2097190, 786432, 0, 2162726, 786432, 0, 2228262, 786432, 0, 2031655, 786432, 0, 2097191, 786432, 0, 2162727, 786432, 0, 2228263, 786432, 0)
-
-[node name="Secretz Westpoint Bridge out" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1441833, 262144, 0)
-
-[node name="Secretz Muldraugh Blockade" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(1966115, 131072, 0)
-
-[node name="Secretz Muldraugh Crossing Blockade" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2424867, 196608, 0)
-
-[node name="Save Our Stations!" type="TileMap" parent="."]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(2555925, 393216, 0, 1179672, 393216, 0, 2490393, 393216, 0, 2228258, 393216, 0, 1835043, 458752, 0)
-
-[node name="duplicate86" type="TileMap" parent="."]
+[node name="duplicate88" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 
-[node name="duplicate87" type="TileMap" parent="."]
+[node name="duplicate89" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2

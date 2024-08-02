@@ -20,7 +20,6 @@ mono_crash.*.json
 # godot addons
 addons/jamcountdown/
 addons/multirun/
-addons/nv.file_system/
 addons/plugin_updater/
 addons/run-configs/
 addons/RunCounter/

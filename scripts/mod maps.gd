@@ -15,7 +15,8 @@ func _ready():
 		var temp = str(tile)
 		temp = temp.get_slice(":", 0)
 		map_list.append(temp)
-	print(map_list)
+	#print(map_list)
+	#print(modded_tilemaps)
 
 # Toggles button
 #  ------------------ But I have no idea why removing it breaks I need to read docs again and change this-------
