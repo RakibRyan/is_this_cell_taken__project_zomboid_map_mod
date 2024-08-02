@@ -10163,12 +10163,168 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2424852, 0, 1, 2424853, 0, 1, 2490388, 0, 1, 2490389, 0, 1)
 
-[node name="duplicate60" type="TileMap" parent="."]
+[node name="Águas Claras (beta)" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424875, 393216, 0)
+
+[node name="The Prepper\'s Home" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835048, 393216, 0)
+
+[node name="Lakeside House" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2097184, 327680, 0)
+
+[node name="Fort Loid" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769509, 196608, 0)
+
+[node name="Mapa brasil" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2687003, 196608, 0, 2687002, 196608, 0, 2687001, 196608, 0, 2687000, 196608, 0, 2752539, 196608, 0, 2752538, 196608, 0, 2752537, 196608, 0, 2752536, 196608, 0, 2818075, 196608, 0, 2818074, 196608, 0, 2818073, 196608, 0, 2818072, 196608, 0, 2883611, 196608, 0, 2883610, 196608, 0, 2883609, 196608, 0, 2883608, 196608, 0)
+
+[node name="Industry Building 20 36" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359316, 851968, 0)
+
+[node name="Muldraugh Mansion" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2162721, 196608, 0)
+
+[node name="White Forest Camp" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1835042, 393216, 0)
+
+[node name="Empty Garage Base" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1900567, 393216, 0)
+
+[node name="Brazil Farm" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359320, 262144, 0)
+
+[node name="Top Speed" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424856, 393216, 0)
+
+[node name="Al\'s Hardware Store" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769510, 196608, 1)
+
+[node name="Entrada de Salinas Rosewood" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424858, 262144, 0)
+
+[node name="Recanto" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2490393, 786432, 0)
+
+[node name="Salinas" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424857, 0, 1)
+
+[node name="Nova zona de Salinas , Nova Rosewood" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2359321, 131072, 0)
+
+[node name="The Hiker Trailer" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2228257, 851968, 0)
+
+[node name="ARRC Forward Operating Base" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(720945, 851968, 0)
+
+[node name="Bobby Mackeys Music World" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2424871, 65536, 0)
+
+[node name="Forest Shelter" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2162720, 131072, 0)
+
+[node name="ValuTech Amusement Park" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(917549, 851968, 0, 983085, 851968, 0)
+
+[node name="ohm\'s Bunker" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1769509, 851968, 0)
+
+[node name="Guston, KY" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1441806, 196608, 1, 1507340, 196608, 1, 1507341, 196608, 1, 1507342, 196608, 1, 1572876, 196608, 1, 1572877, 196608, 1, 1638412, 196608, 1, 1638413, 196608, 1)
+
+[node name="Pineville" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966093, 851968, 0, 2031629, 851968, 0, 2031630, 851968, 0, 2097165, 851968, 0, 2097166, 851968, 0, 2162701, 851968, 0, 2162702, 851968, 0)
+
+[node name="Louisville Farmhouse" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(589872, 851968, 0)
+
+[node name="Mobster\'s Compound" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(589872, 0, 1)
+
+[node name="Stadium" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2949155, 0, 1)
+
+[node name="Vault-001" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(2686999, 0, 1)
+
+[node name="The Ruins of Bracklewhyte" type="TileMap" parent="."]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(1966097, 65536, 0)
+
+[node name="duplicate62" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 
-[node name="duplicate41" type="TileMap" parent="."]
+[node name="duplicate63" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+
+[node name="duplicate64" type="TileMap" parent="."]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+
+[node name="duplicate65" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
