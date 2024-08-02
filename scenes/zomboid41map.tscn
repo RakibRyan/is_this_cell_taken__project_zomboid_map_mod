@@ -8617,6 +8617,44 @@ texture = ExtResource("4_oop71")
 [sub_resource type="TileSet" id="TileSet_r2ek7"]
 sources/0 = SubResource("TileSetAtlasSource_4elvn")
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wlk3v"]
+texture = ExtResource("4_oop71")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_6njeb"]
+sources/0 = SubResource("TileSetAtlasSource_wlk3v")
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sjyid"]
 texture = ExtResource("4_oop71")
 0:0/0 = 0
@@ -8815,44 +8853,6 @@ texture = ExtResource("4_oop71")
 [sub_resource type="TileSet" id="TileSet_kklgw"]
 sources/0 = SubResource("TileSetAtlasSource_sjyid")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wlk3v"]
-texture = ExtResource("4_oop71")
-0:0/0 = 0
-1:0/0 = 0
-2:0/0 = 0
-3:0/0 = 0
-4:0/0 = 0
-5:0/0 = 0
-6:0/0 = 0
-7:0/0 = 0
-8:0/0 = 0
-9:0/0 = 0
-10:0/0 = 0
-11:0/0 = 0
-12:0/0 = 0
-13:0/0 = 0
-14:0/0 = 0
-15:0/0 = 0
-0:1/0 = 0
-1:1/0 = 0
-2:1/0 = 0
-3:1/0 = 0
-4:1/0 = 0
-5:1/0 = 0
-6:1/0 = 0
-7:1/0 = 0
-8:1/0 = 0
-9:1/0 = 0
-10:1/0 = 0
-11:1/0 = 0
-12:1/0 = 0
-13:1/0 = 0
-14:1/0 = 0
-15:1/0 = 0
-
-[sub_resource type="TileSet" id="TileSet_6njeb"]
-sources/0 = SubResource("TileSetAtlasSource_wlk3v")
-
 [sub_resource type="FontVariation" id="FontVariation_jbl20"]
 
 [node name="world_map" type="TileMap"]
@@ -8867,6 +8867,17 @@ script = ExtResource("2_w2jkp")
 
 [node name="mod maps" type="Node2D" parent="."]
 script = ExtResource("3_77yy7")
+
+[node name="Louisville River Marina" type="TileMap" parent="mod maps"]
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(196649, 393216, 0, 196648, 393216, 0)
+
+[node name="North Coast Police Station" type="TileMap" parent="mod maps/Louisville River Marina"]
+visible = false
+tile_set = ExtResource("3_vwjdp")
+format = 2
+layer_0/tile_data = PackedInt32Array(196648, 786432, 0, 262184, 786432, 0)
 
 [node name="Jeffersonville, Mansion" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -8884,17 +8895,6 @@ visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(65576, 393216, 0, 65577, 393216, 0, 65578, 393216, 0, 131112, 393216, 0, 131113, 393216, 0, 131114, 393216, 0, 196648, 393216, 0, 196649, 393216, 0, 196650, 393216, 0)
-
-[node name="Louisville River Marina" type="TileMap" parent="mod maps"]
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(196649, 393216, 0, 196648, 393216, 0)
-
-[node name="North Coast Police Station" type="TileMap" parent="mod maps/Louisville River Marina"]
-visible = false
-tile_set = ExtResource("3_vwjdp")
-format = 2
-layer_0/tile_data = PackedInt32Array(196648, 786432, 0, 262184, 786432, 0)
 
 [node name="Louisville Docks" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
@@ -9859,7 +9859,7 @@ layer_0/tile_data = PackedInt32Array(1966118, 0, 1)
 [node name="Weyhausen, KY" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
-layer_0/tile_data = PackedInt32Array(2031633, 393216, 1)
+layer_0/tile_data = PackedInt32Array(2031633, 393216, 6)
 
 [node name="Tropical Town" type="TileMap" parent="mod maps/Weyhausen, KY"]
 visible = false
@@ -10313,6 +10313,12 @@ tile_set = ExtResource("3_vwjdp")
 format = 2
 layer_0/tile_data = PackedInt32Array(2687003, 196608, 0, 2687002, 196608, 0, 2687001, 196608, 0, 2687000, 196608, 0, 2752539, 196608, 0, 2752538, 196608, 0, 2752537, 196608, 0, 2752536, 196608, 0, 2818075, 196608, 0, 2818074, 196608, 0, 2818073, 196608, 0, 2818072, 196608, 0, 2883611, 196608, 0, 2883610, 196608, 0, 2883609, 196608, 0, 2883608, 196608, 0)
 
+[node name="Research facility access road" type="TileMap" parent="mod maps/Mapa brasil"]
+visible = false
+tile_set = SubResource("TileSet_6njeb")
+format = 2
+layer_0/tile_data = PackedInt32Array(2686996, 262144, 0, 2686997, 262144, 0, 2686998, 262144, 0, 2686999, 262144, 0, 2687000, 262144, 0)
+
 [node name="Speck" type="TileMap" parent="mod maps"]
 tile_set = ExtResource("3_vwjdp")
 format = 2
@@ -10389,12 +10395,6 @@ format = 2
 layer_0/tile_data = PackedInt32Array(1376287, 131072, 0, 1376288, 131072, 0, 1376289, 131072, 0, 1376290, 131072, 0, 1441822, 131072, 0, 1441823, 131072, 0, 1441824, 131072, 0, 1441825, 131072, 0, 1441826, 131072, 0, 1507358, 131072, 0, 1507359, 131072, 0, 1507360, 131072, 0, 1507361, 131072, 0, 1507362, 131072, 0, 1572896, 131072, 0, 1572897, 131072, 0)
 
 [node name="unsorted" type="Node" parent="."]
-
-[node name="Research facility access road" type="TileMap" parent="unsorted"]
-visible = false
-tile_set = SubResource("TileSet_6njeb")
-format = 2
-layer_0/tile_data = PackedInt32Array(2686996, 262144, 0, 2686997, 262144, 0, 2686998, 262144, 0, 2686999, 262144, 0, 2687000, 262144, 0)
 
 [node name="duplicate77" type="TileMap" parent="."]
 visible = false
@@ -10739,6 +10739,13 @@ offset_right = 195.0
 offset_bottom = 28.0
 tooltip_text = "TIles shaped like this already have a reputable map mod in this cell"
 text = "Already has a map"
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 16
+_current_font_size = 16
+_last_size_state = 1
 
 [node name="Map at works" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10747,6 +10754,13 @@ offset_right = 186.0
 offset_bottom = 55.0
 tooltip_text = "A modder is already working on a map involving this cell. Therefore not adviced to use"
 text = "Map at works"
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 16
+_current_font_size = 16
+_last_size_state = 1
 
 [node name="a small part used" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10755,6 +10769,13 @@ offset_right = 225.0
 offset_bottom = 80.0
 tooltip_text = "Only a small part of the cell is used in a map therefore if you respect that part it can be safe to create a map for this cell without map conflicts"
 text = "A small part of cell used"
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 16
+_current_font_size = 16
+_last_size_state = 1
 
 [node name="will be free in future" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10763,6 +10784,13 @@ offset_right = 218.0
 offset_bottom = 108.0
 tooltip_text = "If a modder decides to move his map this cell maybe open for future maps"
 text = "Will be free in future"
+scroll_active = false
+script = ExtResource("12_c1e04")
+_size_just_modified_by_autosizer = false
+_set_defaults = true
+_base_font_size = 16
+_current_font_size = 16
+_last_size_state = 1
 
 [node name="multiple non conflict" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 33.0
@@ -10779,19 +10807,20 @@ _base_font_size = 16
 _current_font_size = 16
 _last_size_state = 1
 
-[node name="reserved symbol" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
+[node name="choose from multiple options" type="RichTextLabel" parent="Camera2D/MapLegendUI"]
 offset_left = 32.0
-offset_top = 133.0
+offset_top = 137.0
 offset_right = 259.0
 offset_bottom = 159.0
-tooltip_text = "for unforseen things"
-text = "( Symbol for futureproofing )"
+tooltip_text = "all occupy same space chose one of your choice"
+theme_override_font_sizes/normal_font_size = 14
+text = "Choose from multiple options."
 scroll_active = false
 script = ExtResource("12_c1e04")
 _size_just_modified_by_autosizer = false
 _set_defaults = true
 _base_font_size = 16
-_current_font_size = 16
+_current_font_size = 14
 _last_size_state = 1
 
 [node name="Maps_conflict_ui" type="CanvasLayer" parent="Camera2D"]
