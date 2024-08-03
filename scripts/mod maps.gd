@@ -9,7 +9,7 @@ var total_no_of_maps
 func _ready():
 	modded_tilemaps = find_children("*", "TileMap") #print(modded_tilemaps)
 	total_no_of_maps = modded_tilemaps.size()
-	print("Total number of maps: ", total_no_of_maps)
+	#print("Total number of maps: ", total_no_of_maps)
 	for tile in modded_tilemaps:
 		var temp = str(tile)
 		temp = temp.get_slice(":", 0)
