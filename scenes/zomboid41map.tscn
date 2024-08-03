@@ -10502,12 +10502,12 @@ layer_0/tile_data = PackedInt32Array(1376287, 131072, 0, 1376288, 131072, 0, 137
 
 [node name="unsorted" type="Node" parent="."]
 
-[node name="duplicate88" type="TileMap" parent="."]
+[node name="duplicate89" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
 
-[node name="duplicate89" type="TileMap" parent="."]
+[node name="duplicate304" type="TileMap" parent="."]
 visible = false
 tile_set = ExtResource("3_vwjdp")
 format = 2
